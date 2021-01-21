@@ -1,0 +1,790 @@
+---
+title: "Phylogenetic Tree"
+output: 
+  html_notebook:
+    css: style.css
+    theme: paper
+---
+
+Load packages
+
+```{r, message=FALSE}
+stringsAsFactors <- TRUE
+library(tidyverse)
+library(gridExtra)
+library(cowplot)
+library(viridis)
+library(ggridges)
+library(ggstance)
+library(treeio)
+library(ggtree)
+library(tidytree)
+# library(ggtreeExtra)
+```
+
+Load and combine data
+
+```{r, message=FALSE}
+studies <- read_csv("data/Tooling_Table_V5.csv") %>%
+  filter(group == "great apes" | group == "prosimians" | group == "ow_monkeys" | group == "nw_monkeys" | group == "lesser apes") %>%
+  mutate(tooling = ifelse(tooling_or_IOU == "tooling", 1, ifelse(tooling_or_IOU == "IOU", 0, NA))) %>%
+  mutate(latin_name = fct_recode(latin_name, "Cebus spp." = "Cebus [Sapajus] apella", "Cebus spp." = "Cebus [Sapajus] spp.", "Cebus spp." = "Cebinae (unspecified)", "Cebus spp." = "Cebus apella", "Cebus spp." = "Cebus capucinus imitator", "Cercocebus spp." = "Cercocebus agilis", "Cercocebus spp." = "Cercocebus atys", "Cercopithecus spp." = "Cercopithecus ascanius", "Cercopithecus spp." = "Ceropithecus campbelli", "Hylobates spp." = "Hylobates lar", "Hylobates spp." = "Hylobates symphalangus", "Hylobates spp." = "Hylobates agilis", "Hylobates spp." = "Hylobates spp", "Ateles spp." = "Ateles geoffroyi", "Macaca spp." = "Macaca (unspecified)", "Macaca spp." = "Macaca cyclopis", "Macaca spp." = "Macaca fascicularis", "Macaca spp." = "Macaca fuscata", "Macaca spp." = "Macaca mulatta", "Macaca spp." = "Macaca nemestrina", "Macaca spp." = "Macaca nigra", "Macaca spp." = "Macaca radiata", "Macaca spp." = "Macaca silenus", "Macaca spp." = "Macaca speciosa", "Macaca spp." = "Macaca sylvanus", "Macaca spp." = "Macaca tonkeana", "Papio spp." = "Papio anubis", "Papio spp." = "Papio cynocephalus", "Papio spp." = "Papio hamadryas", "Papio spp." = "Papio papio", "Papio spp." = "Papio ursinus", "Piliocolobus spp." = "Piliocolobus badius", "Saimiri spp." = "Saimiri sciureus", "Cebus spp." = "Sapajus cay [Cebus paraguayanus]", "Cebus spp." = "Cebinae spp.",  "Alouatta spp." = "Alouatta seniculus", "Eulemur macaco" = "Eulemur fulvus", "Chlorocebus sabaeus" = "Chlorocebus aethiops", "Mandrillus_sphinx" = "Mandrillus_leucophaeus", "gorilla spp" = "Gorilla spp")) %>%
+  droplevels() %>% #
+  group_by(latin_name) %>%
+  summarise(tooling.sum = sum(tooling, na.rm = TRUE), Nstudies = sum(total_references, na.rm = TRUE), tool_use_complete = length(tooling), no.tooling.sum = sum(tooling == 0, na.rm = TRUE)) %>%
+  rename(species = latin_name)
+
+levels(as.factor(studies$group))
+levels(as.factor(studies$latin_name))
+
+
+species <- read_csv("data/species_gsheet.csv")
+fulltree <- read.nexus("data/consensusTree_10kTrees_298Primates_V3.nex")
+refs <- read_csv("data/ref_nodes.csv")
+```
+
+```{r}
+data <- studies %>%
+  left_join(species, by = c("species" = "species_file")) %>%
+  rename(label = species_tree, label2 = updated_nomenclature, num = tool_use_complete) %>%
+  mutate(
+    label2 = ifelse(is.na(label2), label, label2),
+    label2 = fct_recode(label2,
+      "Cebus_spp." = "Sapajus_apella",
+      "Ateles_spp." = "Ateles_geoffroyi",
+      "Alouatta spp." = "Alouatta_seniculus",
+      "Colobus_spp." = "Colobus_angolensis_angolensis",
+      "Aotus_spp." = "Aotus_azarae_azarae",
+      "Cercocebus_spp." = "Cercocebus_agilis",
+      "Cercopithecus_spp." = "Cercopithecus_ascanius",
+      "Galago_spp." = "Galago_alleni",
+      "Gorilla_spp." = "Gorilla_gorilla",
+      "Hylobates_spp." = "Hylobates agilis",
+      "Lophocebus_spp." = "Lophocebus_albigena",
+      "Loris_spp." = "Loris_lydekkerianus",
+      "Macaca_spp." = "Macaca_arctoides",
+      "Piliocolobus_spp." = "Piliocolobus badius",
+      "Pithecia_spp." = "Pithecia_irrorata",
+      "Saimiri_spp." = "Saimiri_sciureus"
+    )
+  ) %>%
+  select(label, label2, species, num, tooling.sum, no.tooling.sum, Nstudies)
+```
+
+```{r}
+# data2 <- data %>%
+#  group_by(label, label2, species) %>%
+# summarise(Nsites = n_distinct(site), Nstudies = n_distinct(studyID)) %>%
+# mutate(div_score = Nsites/Nstudies)
+```
+
+```{r}
+species <- species %>%
+  mutate(updated_nomenclature = fct_recode(updated_nomenclature,
+    "Cebus_spp." = "Sapajus_apella",
+    "Ateles_spp." = "Ateles_geoffroyi",
+    "Alouatta spp." = "Alouatta_seniculus",
+    "Colobus_spp." = "Colobus_angolensis_angolensis",
+    "Aotus_spp." = "Aotus_azarae_azarae",
+    "Cercocebus_spp." = "Cercocebus_agilis",
+    "Cercopithecus_spp." = "Cercopithecus_ascanius",
+    "Galago_spp." = "Galago_alleni",
+    "Gorilla_spp." = "Gorilla_gorilla",
+    "Hylobates_spp." = "Hylobates agilis",
+    "Lophocebus_spp." = "Lophocebus_albigena",
+    "Loris_spp." = "Loris_lydekkerianus",
+    "Macaca_spp." = "Macaca_arctoides",
+    "Piliocolobus_spp." = "Piliocolobus badius",
+    "Pithecia_spp." = "Pithecia_irrorata",
+    "Saimiri_spp." = "Saimiri_sciureus"
+  ))
+```
+
+
+
+```{r}
+# turn tree into tidy dataframe
+tree2 <- fulltree %>%
+  drop.tip(c(
+    "Pan_troglodytes_schweinfurthii", "Pan_troglodytes_troglodytes",
+    "Pan_troglodytes_vellerosus", "Pongo_pygmaeus", "Cercopithecus_cephus_cephus",
+    "Cercopithecus_erythrogaster_erythrogaster", "Eulemur_fulvus_mayottensis",
+    "Hapalemur_griseus_griseus", "Microcebus_lokobensis", "Lepilemur_mitsinjoensis",
+    "Gorilla_gorilla_graueri", "Gorilla_beringei", "Cebus_xanthosternos",
+    "Aotus_azarae_boliviensis", "Aotus_lemurinus_brumbacki",
+    "Aotus_azarae_infulatus",
+    "Aotus_lemurinus_lemurinus",
+    "Aotus_lemurinus_griseimembra",
+    "Aotus_nancymaae",
+    "Aotus_nigriceps",
+    "Aotus_trivirgatus",
+    "Aotus_vociferans",
+    "Ateles_belzebuth",
+    "Ateles_fusciceps",
+    "Ateles_paniscus",
+    "Cebus_albifrons",
+    "Cebus_capucinus",
+    "Cebus_olivaceus",
+    "Cercocebus_galeritus",
+    "Cercocebus_torquatus",
+    "Cercocebus_torquatus_atys",
+    "Cercopithecus_albogularis",
+    "Cercopithecus_campbelli",
+    "Cercopithecus_lowei",
+    "Cercopithecus_cephus_cephus",
+    "Cercopithecus_cephus_ngottoensis",
+    "Cercopithecus_diana",
+    "Cercopithecus_erythrogaster",
+    "Cercopithecus_erythrotis",
+    "Cercopithecus_hamlyni",
+    "Cercopithecus_campbelli_lowei",
+    "Cercopithecus_cephus",
+    "Cercopithecus_hamlyni.",
+    "Cercopithecus_lhoesti",
+    "Cercopithecus_preussi",
+    "Cercopithecus_solatus",
+    "Allochrocebus_lhoesti",
+    "Cercopithecus_mitis",
+    "Cercopithecus_mona",
+    "Cercopithecus_neglectus",
+    "Cercopithecus_nictitans",
+    "Cercopithecus_petaurista",
+    "Cercopithecus_pogonias",
+    "Allochrocebus_preussi",
+    "Allochrocebus_solatus",
+    "Cercopithecus_wolfi",
+    "Colobus_angolensis_palliatus",
+    "Colobus_guereza",
+    "Colobus_polykomos",
+    "Colobus_satanas",
+    "Colobus_vellerosus",
+    "Galago_alleni",
+    "Galago_gallarum",
+    "Galago_granti",
+    "Galago_matschiei",
+    "Galago_moholi",
+    "Galago_senegalensis",
+    "Galago_demidoff",
+    "Galago_zanzibaricus",
+    "Hylobates_klossii",
+    "Hylobates_lar",
+    "Hylobates_moloch",
+    "Hylobates_muelleri",
+    "Hylobates_pileatus",
+    "Lophocebus_aterrimus",
+    "Macaca_assamensis",
+    "Macaca_ochreata_brunnescens",
+    "Macaca_cyclopis",
+    "Macaca_fascicularis",
+    "Macaca_fuscata",
+    "Macaca_hecki",
+    "Macaca_leonina",
+    "Macaca_maura",
+    "Macaca_mulatta",
+    "Macaca_munzala",
+    "Macaca_nemestrina",
+    "Macaca_leonina",
+    "Macaca_pagensis_siberu",
+    "Macaca_nigra",
+    "Macaca_nigrescens",
+    "Macaca_ochreata_ochreata",
+    "Macaca_pagensis_pagensis",
+    "Macaca_radiata",
+    "Macaca_silenus",
+    "Macaca_sinica",
+    "Macaca_sylvanus",
+    "Macaca_thibetana",
+    "Macaca_tonkeana",
+    "Macaca_brunnescens",
+    "Macaca_nemestrina_leonina",
+    "Macaca_nemestrina_siberu",
+    "Macaca_ochreata",
+    "Macaca_pagensis",
+    "Papio_cynocephalus",
+    "Papio_hamadryas",
+    "Papio_papio",
+    "Papio_ursinus",
+    "Piliocolobus_foai",
+    "Piliocolobus_gordonorum",
+    "Piliocolobus_kirkii",
+    "Piliocolobus_pennantii",
+    "Piliocolobus_preussi",
+    "Piliocolobus_rufomitratus",
+    "Piliocolobus_tephrosceles",
+    "Piliocolobus_tholloni",
+    "Pithecia_pithecia",
+    "Saimiri_boliviensis",
+    "Saimiri_oerstedii",
+    "Saimiri_ustus",
+    "Alouatta_belzebul",
+    "Alouatta_caraya",
+    "Alouatta_guariba",
+    "Alouatta_palliata",
+    "Alouatta_pigra",
+    "Alouatta_sara",
+    "Aotus_azarai_boliviensis",
+    "Aotus_brumbacki",
+    "Aotus_infulatus",
+    "Aotus_lemurinus",
+    "Microcebus_berthae",
+    "Microcebus_bongolavensis",
+    "Microcebus_danfossi",
+    "Microcebus_griseorufus",
+    "Microcebus_jollyae",
+    "Microcebus_lehilahytsara",
+    "Microcebus_macarthurii",
+    "Microcebus_mamiratra",
+    "Microcebus_mittermeieri",
+    "Microcebus_myoxinus",
+    "Microcebus_ravelobensis",
+    "Microcebus_rufus",
+    "Microcebus_sambiranensis",
+    "Microcebus_simmonsi",
+    "Microcebus_tavaratra",
+    "Trachypithecus_auratus",
+    "Trachypithecus_delacouri",
+    "Trachypithecus_francoisi",
+    "Trachypithecus_geei",
+    "Trachypithecus_germaini",
+    "Trachypithecus_johnii",
+    "Trachypithecus_laotum",
+    "Trachypithecus_obscurus",
+    "Trachypithecus_phayrei",
+    "Trachypithecus_pileatus",
+    "Trachypithecus_poliocephalus",
+    "Trachypithecus_vetulus",
+    "Eulemur_coronatus",
+    "Eulemur_fulvus_albifrons",
+    "Eulemur_fulvus_albocollaris",
+    "Eulemur_fulvus_collaris",
+    "Eulemur_fulvus_rufus",
+    "Eulemur_fulvus_sanfordi",
+    "Eulemur_macaco_flavifrons",
+    "Eulemur_mongoz",
+    "Eulemur_rubriventer",
+    "Hapalemur_griseus",
+    "Hapalemur_griseus_alaotrensis",
+    "Hapalemur_griseus_meridionalis",
+    "Hapalemur_griseus_occidentalis",
+    "Hapalemur_simus",
+    "Lepilemur_ankaranensis",
+    "Lepilemur_dorsalis",
+    "Lepilemur_edwardsi",
+    "Lepilemur_hubbardorum",
+    "Lepilemur_leucopus",
+    "Lepilemur_manasamody",
+    "Lepilemur_microdon",
+    "Lepilemur_mustelinus",
+    "Lepilemur_otto",
+    "Lepilemur_randrianasoli",
+    "Lepilemur_ruficaudatus",
+    "Lepilemur_sahamalazensis",
+    "Lepilemur_seali",
+    "Lepilemur_septentrionalis",
+    "Callithrix_aurita",
+    "Callithrix_emiliae",
+    "Callithrix_geoffroyi",
+    "Callithrix_humeralifera",
+    "Callithrix_jacchus",
+    "Callithrix_kuhli",
+    "Callithrix_mauesi",
+    "Callithrix_penicillata",
+    "Callithrix_pygmaea",
+    "Leontopithecus_chrysopygus",
+    "Leontopithecus_rosalia",
+    "Saguinus_fuscicollis",
+    "Saguinus_fuscicollis_melanoleucus",
+    "Saguinus_geoffroyi",
+    "Saguinus_imperator",
+    "Saguinus_leucopus",
+    "Saguinus_midas",
+    "Saguinus_mystax",
+    "Saguinus_niger",
+    "Saguinus_oedipus",
+    "Saguinus_tripartitus",
+    "Nycticebus_coucang",
+    "Nycticebus_javanicus",
+    "Nycticebus_menagensis",
+    "Nycticebus_pygmaeus",
+    "Nomascus_gabriellae",
+    "Nomascus_leucogenys",
+    "Nomascus_nasutus",
+    "Nomascus_siki",
+    "Callicebus_hoffmannsi",
+    "Callicebus_moloch",
+    "Callicebus_personatus",
+    "Callicebus_torquatus",
+    "Cacajao_melanocephalus",
+    "Presbytis_melalophos",
+    "Pygathrix_nemaeus",
+    "Rhinopithecus_bieti",
+    "Rhinopithecus_brelichi",
+    "Rhinopithecus_roxellana",
+    "Galagoides_zanzibaricus",
+    "Otolemur_garnettii",
+    "Tarsius_dentatus",
+    "Tarsius_lariang",
+    "Tarsius_syrichta",
+    "Propithecus_deckenii",
+    "Propithecus_diadema",
+    "Propithecus_edwardsi",
+    "Propithecus_tattersalli",
+    "Propithecus_verreauxi",
+    "Avahi_laniger",
+    "Avahi_occidentalis",
+    "Avahi_unicolor",
+    "Cheirogaleus_major",
+    "Cheirogaleus_medius",
+    "Mirza_zaza",
+    "Loris_tardigradus",
+    "Arctocebus_calabarensis",
+    "Chlorocebus_pygerythrus",
+    "Chlorocebus_pygerythrus_cynosurus",
+    "Chlorocebus_tantalus",
+    "Eulemur_fulvus_fulvus",
+    "Chlorocebus_aethiops",
+    "Mandrillus_leucophaeus",
+    "Phaner_furcifer_pallescens"
+    
+  )) %>%
+  as_tibble()
+```
+
+
+```{r}
+inner_nodes <- c(69, 131, 113:115, 114:120, 124:129, 70:78, 79:84, 85:92, 93:99, 100:105, 110:111)
+
+tree3 <- tree2 %>%
+  # mutate(label = fct_recode(label,
+  #                          "Pongo_spp." = "Pongo_abelii",
+  #                         "Pan_troglodytes" = "Pan_troglodytes_verus")) %>%
+  left_join(data) %>%
+  left_join(species, by = c("label" = "species_tree")) %>%
+  select(-label, -label2, -species_file) %>%
+  rename(label = updated_nomenclature) %>%
+  mutate(
+    hasN = ifelse(is.na(Nstudies), .1, .5), # used to size branches + color the tip labels
+    hasN2 = ifelse(is.na(Nstudies) & !(node %in% inner_nodes), 0, .5), # used to color branches
+
+    label = fct_recode(label,
+      "Hapalemur_spp." = "Hapalemur_aureus",
+      "Lepilemur_spp." = "Lepilemur_aeeclis",
+      "Callithrix_spp." = "Callithrix_argentata",
+      "Leontopithecus_spp." = "Leontopithecus_chrysomelas",
+      "Saguinus_spp." = "Saguinus_bicolor",
+      "Nycticebus_spp." = "Nycticebus_bengalensis",
+      "Nomascus_spp." = "Nomascus_concolor",
+      "Callicebus_spp." = "Callicebus_donacophilus",
+      "Cacajao_spp." = "Cacajao_calvus",
+      "Presbytis_spp." = "Presbytis_comata",
+      "Pygathrix_spp." = "Pygathrix_cinerea",
+      "Rhinopithecus_spp." = "Rhinopithecus_avunculus",
+      "Galagoides_spp." = "Galagoides_demidoff",
+      "Otolemur_spp." = "Otolemur_crassicaudatus",
+      "Tarsius_spp." = "Tarsius_bancanus",
+      "Propithecus_spp." = "Propithecus_coquereli",
+      "Avahi_spp." = "Avahi_cleesei",
+      "Cheirogaleus_spp." = "Cheirogaleus_crossleyi",
+      "Mirza_spp." = "Mirza_coquereli",
+      "Pongo_spp." = "Pongo_abelii",
+      "Hylobates_spp." = "Hylobates_agilis",
+      "Arctocebus_spp." = "Arctocebus_aureus",
+      "Trachypithecus_spp." = "Trachypithecus_cristatus",
+      "Papio_spp." = "Papio_anubis",
+      "Eulemur_spp." = "Eulemur_macaco",
+      "Chlorocebus_spp." = "Chlorocebus_sabaeus",
+      "Mandrillus_spp." = "Mandrillus_sphinx",
+      "Plecturocebus_spp." = "Plecturocebus_donacophilus",
+      "Cebinae spp." = "Cebus_spp.",
+      "Phaner spp." = "Phaner_furcifer"
+    ),
+    label = str_replace_all(label, "_", " ")
+    #  label = ifelse(is.na(label) & species == "orangutan", "Pongo spp.",
+    #             ifelse(is.na(label) & species == "chimpanzee", "Pan #troglodytes", label))
+  ) %>%
+  left_join(refs) %>%
+  groupClade(refs$node[-1]) %>%
+  mutate(group = fct_recode(group, "2" = "1"), prop = tooling.sum / num, tooling.sum = ifelse(tooling.sum == 0, NA, tooling.sum))
+
+# turn back into tree
+tree4 <- as.treedata(tree3)
+```
+
+# Circular tree of the 10ktree primates
+
+```{r}
+cols <- viridis(4, end = .9)
+```
+
+```{r}
+p <- ggtree(tree4, aes(alpha = hasN2), layout = "circular") + # size = hasN, alpha = hasN2
+  # highlight clades with background colors
+  geom_hilight(node = 113, fill = cols[1], alpha = .3) +
+  geom_hilight(node = 67, fill = cols[1], alpha = .3) +
+  geom_hilight(node = 99, fill = cols[2], alpha = .3) +
+  geom_hilight(node = 72, fill = cols[3], alpha = .3) +
+  geom_hilight(node = 92, fill = cols[4], alpha = .3) + # apes
+  # plot tree again to be on top of the highlights
+  geom_tree() +
+  # root
+  geom_rootpoint(size = 1) +
+  # tips
+  geom_tippoint(aes(size = num), alpha = 0.7) +
+  geom_tippoint(aes(size = tooling.sum), alpha = 0.7, color = "red") +
+  geom_tiplab2(aes(alpha = hasN), offset = 3, size = 2.5) +
+  # tweak scales
+  scale_alpha_continuous(range = c(.2, 1)) +
+  scale_size_area(max_size = 8) +
+  # widen plotting area
+  xlim(NA, 100) +
+  theme(legend.position = "none")
+
+# p <- rotate(p, 72)
+
+p
+```
+
+
+```{r}
+# pies <- nodepie(tree3, cols=6:7, alpha=.6)
+
+# bars <- nodebar(tree3, cols=6:7, alpha=.6)
+```
+
+
+
+```{r}
+pcol <- ggplot(tibble(cols = cols, x = 1:4), aes(x, y = 1, col = cols)) +
+  geom_point(size = 6, alpha = .3) +
+  scale_color_identity("Clade",
+    guide = "legend", breaks = cols[4:1],
+    labels = c(
+      "Hominoidea", "Cercopithecoidea", "Platyrrhini",
+      "Tarsiiformes & Strepsirrhini"
+    )
+  ) +
+  theme_cowplot() +
+  theme(legend.text = element_text(size = 10))
+
+l1 <- get_legend(pcol)
+```
+
+```{r}
+cols2 <- c("#ff0000", "#000000")
+
+pcol2 <- ggplot(tibble(col = cols2, x = 1:2), aes(x, y = 1, col = cols2)) +
+  geom_point(size = 6, alpha = .7) +
+  scale_color_identity(
+    guide = "legend", breaks = cols2[1:2],
+    labels = c("Tooling", "Tool-use")
+  ) +
+  theme_cowplot() +
+  theme(legend.title = element_blank())
+
+l2 <- get_legend(pcol2)
+```
+
+
+```{r}
+psize <- ggplot(data, aes(size = num, x = 1, y = 1)) +
+  geom_point(alpha = .7, color = "black") +
+  scale_size_area("Number cases", max_size = 8, breaks = c(1, 5, 10, 25, 50, 100)) +
+  theme_cowplot()
+
+l3 <- get_legend(psize)
+```
+
+```{r, fig.width=7.5, fig.height=5.5, cache=TRUE}
+px <- plot_grid(p, plot_grid(NA, l1, l2, l3, NA, ncol = 1, rel_heights = c(.1, .2, .2, .2, .1)), NA,
+  nrow = 1, rel_widths = c(1, .38, .1)
+)
+
+px
+```
+
+```{r, cache=TRUE}
+ggsave("graphs/phylo_full.pdf", width = 9.5, height = 6.5, scale = 0.8)
+ggsave("graphs/phylo_full.png", width = 9.5, height = 6.5, scale = 0.8)
+# ggsave("../graphs/phylo_full.tiff", width = 7.5, height = 5.5, scale = 2, type = "cairo",       compression = "lzw")
+```
+
+```{r}
+p <- ggtree(tree4, aes(alpha = 0.2)) + # size = hasN, alpha = hasN2
+  # highlight clades with background colors
+  geom_hilight(node = 114, fill = cols[1], alpha = .3) +
+  geom_hilight(node = 68, fill = cols[1], alpha = .3) +
+  geom_hilight(node = 100, fill = cols[2], alpha = .3) +
+  geom_hilight(node = 73, fill = cols[3], alpha = .3) +
+  geom_hilight(node = 93, fill = cols[4], alpha = .3) + # apes
+  # plot tree again to be on top of the highlights
+  geom_tree() +
+  # root
+  geom_rootpoint(size = 1) +
+  # tips
+  # geom_tippoint(aes(size = num), alpha = 0.7) +
+  #  geom_tippoint( aes(size = tooling.sum), alpha = 0.7, color="red") +
+  # geom_tiplab2(aes(alpha = hasN), offset = 3, size = 2.5) +
+  # tweak scales
+  scale_alpha_continuous(range = c(.2, 1)) +
+  scale_size_area(max_size = 8) +
+  # widen plotting area
+  xlim(NA, 100) +
+  theme(legend.position = "none") +
+  geom_inset(pies, width = .1, height = .1)
+
+# p <- rotate(p, 72)
+
+
+p
+```
+
+
+
+
+
+
+
+
+
+```{r, fig.width=8, fig.height=8, cache=TRUE, eval=FALSE}
+# to figure out node numbers
+n1 <- p + geom_text(aes(label = node, x = branch), size = 2, col = "blue", vjust = -.5)
+ggsave("graphs/full_tree_nodes_circular.pdf", n1, width = 8, height = 8, scale = 2)
+```
+
+```{r, fig.width=8, fig.height=20, cache=TRUE, eval=FALSE}
+n2 <- ggtree(tree4, aes(size = hasN, alpha = hasN2)) +
+  # highlight clades with background colors
+  geom_hilight(node = 474, fill = cols[1], alpha = .3) +
+  geom_hilight(node = 477, fill = cols[1], alpha = .3) +
+  geom_hilight(node = 411, fill = cols[2], alpha = .3) +
+  geom_hilight(node = 291, fill = cols[3], alpha = .3) +
+  geom_hilight(node = 395, fill = cols[4], alpha = .3) +
+  # plot tree again to be on top of the highlights
+  geom_tree() +
+  # root
+  geom_rootedge(rootedge = 2) +
+  geom_rootpoint(size = 1) +
+  # node labels
+  geom_text(aes(label = node, x = branch), size = 2, col = "blue", vjust = -.5) +
+  # tips
+  geom_tippoint(aes(size = Nstudies), alpha = .7) +
+  geom_tiplab(aes(alpha = hasN), offset = 1.8, size = 3) +
+  # tweak scales
+  scale_alpha_continuous(range = c(.2, 1)) +
+  scale_size_continuous(range = c(.5, 8)) +
+  # widen plotting area
+  expand_limits(x = 90) +
+  theme_tree2()
+
+ggsave("../graphs/full_tree_nodes.pdf", n2, width = 8, height = 20, scale = 2)
+```
+
+
+# Sample size in detail
+
+```{r}
+studies
+```
+
+```{r}
+# subset tree to just those species who have sample sizes reported, i.e. those who were tested
+to_drop <- tree3 %>%
+  filter(is.na(Nstudies)) %>%
+  pull(label)
+to_drop2 <- data %>%
+  group_by(label2) %>%
+  filter(all(is.na(num))) %>%
+  pull(label2) %>%
+  str_replace_all("_", " ")
+tree5 <- drop.tip(tree4, c(to_drop, to_drop2))
+d3 <- data %>%
+  mutate(label = str_replace_all(label2, "_", " ")) %>%
+  group_by(label, species, studyID) %>%
+  summarise(num = sum(num))
+```
+
+```{r}
+d3 %>% arrange(desc(num))
+```
+
+```{r}
+# filter super large samples out for visualization? note in caption
+# species with more than X studies can get a density
+d3a <- d3 %>%
+  group_by(species) %>%
+  filter(n_distinct(studyID) >= 4, num <= 200)
+d3b <- d3 %>% # setdiff(d3, d3a) %>% ## <- to NOT show points for densities
+  group_by(species) %>%
+  # create variable num2 is NA if there's only one data point for a species
+  # --> those species will only get the vertical crossbar
+  mutate(flag = n_distinct(studyID) == 1) %>%
+  ungroup() %>%
+  mutate(num2 = ifelse(flag, NA, num)) %>%
+  filter(num <= 200)
+
+# for vertical crossbar = median
+d4 <- d3 %>%
+  group_by(label, species) %>%
+  summarise(Mdn = median(num, na.rm = T)) # totalN = sum(num), sitesN = n_distinct(site)
+
+# for vertical line in ridge plot (grand median)
+# + hacky way to make horizontal grid lines for right panel only
+v <- tibble(reference = c(NA, median(d3$num, na.rm = T)), .panel = c("Tree", "xSample size"))
+h <- tibble(reference = c(NA, 1:Ntip(tree5)), .panel = c("Tree", rep("xSample size", Ntip(tree5))))
+
+# for axis labels
+ax <- tibble(
+  lab = c("Distance (Millions of years)", "Sample size"),
+  x = c(60, 100), y = -4, .panel = c("Tree", "xSample size")
+)
+
+# Nsites/studies labels
+Nlab <- tibble(
+  lab = c("# Sites", "# Studies"), x = c(125, 136), y = Ntip(tree5) + 1,
+  .panel = "Tree"
+)
+```
+
+```{r, cache=TRUE}
+# LEFT FACET
+q <- ggtree(tree5, aes(col = group)) +
+  # root
+  geom_rootedge(rootedge = 5) +
+  # tip labels
+  geom_tippoint(aes(size = Nstudies), shape = 21, fill = "white") +
+  geom_tippoint(aes(size = Nsites), stroke = 0, alpha = .8) +
+  # geom_tiplab(aes(label = str_c(label, " (", Nsites, "/", Nstudies, ")")), offset = 4, size = 3) +
+  geom_tiplab(offset = 4, size = 3) +
+  geom_text(aes(label = Nsites), x = 135, hjust = 1, size = 3) +
+  geom_text(aes(label = Nstudies), x = 142, hjust = 1, size = 3) +
+  # tweak scales
+  scale_color_manual(values = c("grey30", cols)) +
+  scale_fill_manual(values = cols) +
+  scale_size_area(max_size = 8) +
+  # display timescale at the bottom
+  theme_tree2() +
+  xlim_tree(142) +
+  xlim_expand(c(0, 175), "xSample size") +
+  # # node labels if needed for reference
+  # geom_text(aes(label = node, x = branch), size = 2, col = "blue", vjust = -.5) +
+  # add axis + Nstudies/sites labels
+  geom_text(data = ax, aes(label = lab), col = "black") +
+  geom_text(data = Nlab, aes(label = lab), col = "black", size = 2.5) +
+  scale_x_continuous(expand = expand_scale(mult = c(0, .01))) +
+  scale_y_continuous(limits = c(2, Ntip(tree5) - 1), oob = function(x, ...) x) +
+  coord_cartesian(clip = "off") +
+  # add reference lines (these will show up on right panel of facet_plot only)
+  geom_hline(data = h, aes(yintercept = reference), lwd = .2, col = "grey", alpha = .5) +
+  geom_vline(data = v, aes(xintercept = reference), lwd = 1.5, col = "grey", alpha = .3) +
+  # remove facet strips, expand bottom margin (to make space for x axis labels)
+  theme(
+    strip.text = element_blank(), strip.background = element_blank(),
+    plot.margin = unit(c(1, 1, 2, 1.5), "cm"), panel.spacing = unit(1, "cm")
+  )
+
+q <- rotate(q, 71)
+```
+
+```{r, fig.width=6, fig.height=8, cache=TRUE}
+# right-side viz depends on the number of sites per species:
+# 1 site = vertical crossbar only
+# 2+ sites = points + crossbar at median
+# X+ sites = densities (currently, X = 4 just to illustrate)
+
+# dirty hack: x in front of "Sample size" is to have that panel sort to the right (alphabetically) until I figure out why it doesn't just go by order. This cropped up as an issue when I added the dummy point for the x-axis expansion...
+
+# ADD RIGHT FACET
+qx <- q %>%
+  # densities for species with enough sites
+  facet_plot("xSample size", d3a, geom_density_ridges,
+    aes(x = num, group = label, fill = group, height = ..density..),
+    alpha = .5, lwd = .3, scale = .3
+  ) %>%
+  # vertical crossbar for Mdn
+  facet_plot("xSample size", d4, geom_crossbarh, aes(
+    x = Mdn, xmin = Mdn, xmax = Mdn, group = label,
+    col = group
+  ), alpha = .5, width = .6, fatten = 1.5) %>%
+  # vertical mark for individual sites
+  facet_plot("xSample size", d3b, geom_jitter, aes(x = num2, group = label),
+    shape = "|", size = 2.5,
+    width = .5, height = 0, alpha = .5
+  )
+```
+
+```{r}
+# add legends
+psize <-
+  ggplot(data2, aes(x = 1, y = 1)) +
+  geom_point(aes(size = Nstudies), col = NA) +
+  geom_point(aes(size = Nsites), stroke = 0, alpha = .8) +
+  scale_size_area("Number of Sites", max_size = 8, breaks = c(1, 5, 10, 25, 50)) +
+  theme_cowplot()
+
+psize2 <-
+  ggplot(data2, aes(x = 1, y = 1)) +
+  geom_point(aes(size = Nstudies), shape = 21, fill = "white") +
+  scale_size_area("\nNumber of Studies", max_size = 8, breaks = c(1, 5, 10, 25, 50, 100)) +
+  theme_cowplot()
+
+l2 <- get_legend(psize)
+l3 <- get_legend(psize2)
+```
+
+```{r, fig.width=8, fig.height=8, cache=TRUE}
+qx2 <- plot_grid(qx, plot_grid(NA, l1, l2, l3, NA, ncol = 1, rel_heights = c(.3, .1, .1, .1, .3)), NA,
+  nrow = 1, rel_widths = c(1, .2, .1)
+)
+
+qx2
+```
+
+```{r}
+ggsave("../graphs/phylo_ridge_site.pdf", width = 8, height = 8, scale = 2)
+ggsave("../graphs/phylo_ridge_site.png", width = 8, height = 8, scale = 2)
+#("../graphs/phylo_ridge_site.tiff",
+#  width = 8, height = 8, scale = 2, type = "cairo",
+ # compression = "lzw"
+#)
+```
+
+# Diversity score
+
+```{r, eval=FALSE}
+# subset tree to just those species who have sample sizes reported, i.e. those who were tested
+to_drop <- tree3 %>%
+  filter(is.na(Nstudies) | Nstudies < 2) %>%
+  pull(label)
+tree6 <- drop.tip(tree4, to_drop)
+```
+
+```{r, fig.width=4, fig.height=5, cache=TRUE, eval=FALSE}
+ggtree(tree6, aes(col = group)) +
+  # root
+  geom_rootedge(rootedge = 5) +
+  # tip labels
+  geom_tippoint(aes(size = Nstudies), shape = 21, fill = "white") +
+  geom_tippoint(aes(size = Nsites), stroke = 0, alpha = .8) +
+  geom_tiplab(offset = 4, size = 3) +
+  geom_text(aes(label = Nsites), x = 113, hjust = 1, size = 3) +
+  geom_text(aes(label = Nstudies), x = 120, hjust = 1, size = 3) +
+  # tweak scales
+  scale_color_manual(values = c("grey30", cols)) +
+  scale_fill_manual(values = cols) +
+  scale_size_area(max_size = 8) +
+  # display timescale at the bottom
+  theme_tree2() +
+  xlim_tree(120) +
+  xlab("Distance (Millions of years)")
+```
+
+```{r}
+# ggsave("../graphs/phylo_div_score.pdf", width = 4, height = 4.5, scale = 2)
+```
+
+# Session info
+
+```{r}
+sessionInfo()
+```

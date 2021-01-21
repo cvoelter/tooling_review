@@ -1,0 +1,938 @@
+group,latin_name,species,support,mode,description,tooling_or_IOU,frame_of_reference,number_relations,temporal_order,1_dynamic_relation,2_dynamic_relation,manufacture,steps_manufacture,associative,type_associative,reference,total_references,page,comments
+lesser apes,Hylobates lar,white-handed gibbon,observational,drop,drop dead branches,IOU,,,,,,,,,,Carpenter 1940; Baldwin & Teleki 1976; Geissmann 2009,3,108,
+lesser apes,Hylobates lar,white-handed gibbon,anecdotal,throw,throw banana peel at conspecific,IOU,,,,,,,,,,Judge pers. Communication; Kortlandt & Kooji 1963,2,108,
+lesser apes,Hylobates spp,gibbon,observational,brandish,shake branches during display,IOU,,,,,,,,,,"Chivers 1974; Geissmann 2000, 2009",4,109,
+lesser apes,Hylobates lar,white-handed gibbon,observational,brandish,sliding open door during display,IOU,,,,,,,,,,Geissmann 2009,1,109,
+lesser apes,Hylobates spp,gibbon,experimental,reach,reach toward food with prepositioned rake,tooling,allocentric,1,rake to food,dynamic,,no,,no,,"Boulenger 1936; Cunningham 2006; Cunningham 2004a; Cunningham 2004b; Cunningham, Anderson, and Mootnick 2006; Drescher and Trendlenburg 1927; Inoue & Inoue 2002",7,109,"""However, in all of these cases, the food reward was placed between the rake and the ape by the experimenter; since the subjects did not establish the proper and effective orientation of the tool, the behavior does not qualify as tool use."""
+lesser apes,Hylobates spp,gibbon,experimental,reach,reach toward food with rake (not prepositioned),tooling,allocentric,1,rake to food,dynamic,,no,,no,,Cunningham 2006,1,109,
+lesser apes,Hylobates spp,Gibbon,experimental,insert,insert and probe into sticky reward,tooling,allocentric,1,probe to food,dynamic,,no,,no,,Cunningham 2006,1,109,"""The only successful insertion by a gibbon was attributed to a chance manipulation."""
+lesser apes,Hylobates agilis,black-handed gibbon,anecdotal,scratch,rubbing and touching genitals with branch,tooling,egocentric,1,branch to body,dynamic,,no,,no,,"Wich & Geurts, personal communication",1,110,
+lesser apes,Hylobates lar,White-handed gibbon,anecdotal,hang,hanging rope and hose on mesh to construct swing,IOU,,,,,,,,,,"Rumbaugh 1970, 2006",2,110,
+lesser apes,Hylobates symphalangus,Siamang,anecdotal,hang,use pieces of rope or a blanket to construct a swing,IOU,,,,,,,,,,Anonymous,1,110,
+lesser apes,Hylobates lar,White-handed gibbon,anecdotal,absorb,absorb water with a piece of cloth,IOU,,,,,,,,,,"Rumbaugh 1970, 2006",2,110,
+lesser apes,Hylobates lar,White-handed gibbon,anecdotal,absorb,drop leaf into pool to extract water,IOU,,,,,,,,,,Baldwin & Teleki 1976,1,110,
+great apes,Pongo spp,orangutan,observational,drop,drop branches at humans or monkeys,IOU,,,,,,,,,,"Wallace 1869; Yerkes and Yerkes 1929; Harrisson 1962; 1963; Kortlandt and Kooij 1963; de Silva 1970; Galdikas 1978a, 1978b, 1982a; Galdikas-Brindamour 1975; Horr 1975, 1977; Rijksen 1974, 1978; P. rodman
+ pers. comm.; Schultz 1961; Davenport
+ 1967; MacKinnon 1971, 1974a, 1974b; Schaller 1961",21,111,
+great apes,Pongo spp,orangutan,observational,drop,modify specific vocalizations by holding leaves against mounth,IOU,,,,,,,,,,van Schaik et al. 2003; Peters 2001,2,111,
+great apes,Pongo spp,orangutan,anecdotal,drop,drop stone at humans,IOU,,,,,,,,,,Roberts Hastings pers. Comm.,1,111,
+great apes,Pongo spp,orangutan,experimental,drop,spit water inside tube to extract peanut,IOU,,,,,,,,,,Mendes et al. 2007,1,111,
+great apes,Pongo spp,orangutan,experimental,drop,drop stone inside tube to push food of a platform,IOU,,,,,,,,,,Walkup 2009,1,112,
+great apes,Pongo spp,orangutan,observational,throw,breaking off and throwing branches and other objects (aimed and unaimed) at humans or monkeys,IOU,,,,,,,,,,"Davenport 1967; MacKinnon 1971, 1974a, 1974b; Peters 2001; Schaller 1961; Galdikas 1982a; Harrison 1962a; Rijksen 1978; Bard 1995; Schmidt 1878; Koehler 1993",12,112,
+great apes,Pongo spp,orangutan,observational,drag,dragging branches on the ground,IOU,,,,,,,,,,van Schaik et al. 2009; Rijksen 1978,2,112,
+great apes,Pongo spp,orangutan,observational,drag,splash water to draw the attention of conspecifics,IOU,,,,,,,,,,Russon et al. 2010,1,112,
+great apes,Pongo spp,orangutan,observational,drag,roll plastic drum on the floor,IOU,,,,,,,,,,Shumaker et al 2011,1,112,
+great apes,Pongo spp,orangutan,observational,drag,push over large dead trees,IOU,,,,,,,,,,"Galdikas 1983; van Schaik, van noordwijk, and Wich 2006",2,112,
+great apes,Pongo spp,orangutan,observational,brandish,"shake, brandish, or Wave branches and other object as part of agonistic displays",IOU,,,,,,,,,,Galdikas 1982a; Koehler 1993; Kortlandt 1972; Peters 2001; Schmidt 1878,5,113,
+great apes,Pongo spp,orangutan,observational,brandish,brandishing sticks at dogs,tooling,allocentric,1,stick to dog,dynamic,,,,no,,Galdikas-Brindamour 1975; Rijksen 1978,2,113,
+great apes,Pongo spp,orangutan,observational,brandish,wave twigs to ward off stinging insects,tooling,allocentric,1,twig to insects,dynamic,,yes,1,no,,Rijksen 1978; van Schaik et al. 2003,2,113,
+great apes,Pongo spp,orangutan,observational,brandish,fan oneself with branch for cooling,IOU,,,,,,,,,,Kaplan and Rogers 1994; Rogers and Kaplan 1993,2,113,
+great apes,Pongo spp,orangutan,observational,brandish,carrying and hiding behind Detached branches to conceal oneself,IOU,,,,,,,,,,"van Schaik et al. 2003, 2009",2,113,
+great apes,Pongo spp,orangutan,anecdotal,brandish,used cup to dip kerosene from a container and plunging a smoldering stick into kerosene,tooling,allocentric,2,cup to kerosene; stick to kerosene,dynamic,dynamic,no,,yes,sequential,Russon 2000,1,113,
+great apes,Pongo spp,orangutan,observational, bait,proffer empty cup to entice human to fill beverage into cup,IOU,,,,,,,,,,Russon 2000,1,113,
+great apes,Pongo spp,orangutan,observational, bait,trade token for food,IOU,,,,,,,,,,"Bräuer, Call, and Tomasello 2009; Dufour et al. 2009",2,113,
+great apes,Pongo spp,orangutan,observational,club,hitting conspecific and other animals during agonistic interactions,tooling,allocentric,1,stick to target,dynamic,,yes,>1,no,,"Galdikas 1978a, 1978b, 1982a; Lethmate 1982; Harrison 1963; Rijksen 1978; Rousson 2000; G. Rabb, pers. comm.; Ellis 1975, 1977",10,113,"orangutans pulled twigs from branches, bit or split off splinters from sticks, and stripped bark from sticks"
+great apes,Pongo spp,orangutan,anecdotal,club,tie a double knot in a rubber hose to make it more rigid and used it to hit a conspecific,tooling,allocentric,1,hose to target,dynamic,,yes,1,no,,Herzfeld and Lestel 2005,1,114,
+great apes,Pongo spp,orangutan,anecdotal,club,use block to hit bee,tooling,allocentric,1,block to target,dynamic,,no,,no,,Dewsbury 2009,1,114,
+great apes,Pongo spp,orangutan,observational,pound,"hammer open invertebrate nests, fruits, and solid objects",tooling,allocentric,1,hammer to target,dynamic,,yes,>1,no,,"E. Fox, Sitompul, and van Schaik 1999; van Schaik and Fox 1994; van Schaik, Fox, and Sitompul 1996; van Schaik et al. 2009; Kaplan and Rogers 1994; Galdikas 1982a; Rijksen 1978; Russon 2000; L. Miller and Quiatt 1983",9,114,
+great apes,Pongo spp,orangutan,observational,pound,"pounding locks and other parts of the enclosure with stones, pipes and other human artefacts",tooling,allocentric,1,hammer to target,dynamic,,yes,1,yes,concurrent,"Rijksen 1974; C. Parker 1969a; B. Beck, pers. obs.; K. Walkup; pers. Obs; J. Ellis 1977; Boulenger 1936; Jantschke 1972; Koehler 1993",8,"114, 197","One captive removed two faucets from wall and used as hammer and chisel (tool composite, concurrent)"
+great apes,Pongo spp,orangutan,observational,pry,use sticks to pry out individual Neesia seeds,tooling,allocentric,1,stick to seed,dynamic,,no,,no,,"E. Fox, pers. comm.",1,114,
+great apes,Pongo spp,orangutan,observational,pry,use sticks as levers to excavate termite mound,tooling,allocentric,1,stick to termite mound,dynamic,,no,,no,,Rijksen 1978,1,114,
+great apes,Pongo spp,orangutan,observational,pry,use sticks to pry objects loose,tooling,allocentric,1,stick to object,dynamic,,no,,no,,Galdikas 1982a,1,114,
+great apes,Pongo spp,orangutan,anecdotal,pry,"use sticks to propel oneself in dugout
+ canoes by paddling",tooling,allocentric,1,stick to substrate,dynamic,,no,,no,,Galdikas 1982a,1,114,Shumaker (p. 196) considers this composite tool use (it is not by our definition) 
+great apes,Pongo spp,orangutan,observational,pry,use sticks to pry up objects,tooling,allocentric,1,stick to object,dynamic,,yes,1,no,,"Lethmate 1982; Vosmaer 1778; Camacho 1907, Hornaday 1922, Bradford and Blume 1992; Benchley 1940; C. Darwin 1871; J. Ellis 1975; Yerkes and Yerkes 1929; and Yerkes 1916; C. Parker 1969a",11,114,
+great apes,Pongo spp,orangutan,experimental,pry,use sticks to pry up apparatus,tooling,allocentric,1,stick to object,dynamic,,no,,no,,"Walkup, Shumaker, and Pruetz 2009, 2010; Döhl and Podolczak 1973; Miles 1994",4,114,
+great apes,Pongo spp,orangutan,observational,dig,dig with stick,tooling,allocentric,1,stick to ground,dynamic,,no,,no,,"Russon 2000; Galdikas 1982a; Galdikas-Brindamour 1975; Harrison 1962a, 1963; Lethmate 1982; Rogers and Kaplan 1993; Ellis 1977",8,115,
+great apes,Pongo spp,orangutan,anecdotal,dig,dig with paper cup,tooling,allocentric,1,cup to sand,dynamic,,no,,no,,Harper 2001,1,115,
+great apes,Pongo spp,orangutan,observational,jab,“poke and prompt” ants or bees with probing tools,tooling,allocentric,1,stick to ant / bee,dynamic,,no,,no,,"van Schaik, Fox, and Sitompul 1996",1,116,
+great apes,Pongo spp,orangutan,observational,jab,"jabbing leopard, humans and other orangutans with long stick",tooling,allocentric,1,stick to animal,dynamic,,no,,no,,Rijksen 1978; Galdikas (1982a),2,116,
+great apes,Pongo spp,orangutan,anecdotal,jab,jabbing tough-skinned fruit with a stick,tooling,allocentric,1,stick to fruit,dynamic,,no,,no,,Rijksen 1978,1,116,
+great apes,Pongo spp,orangutan,anecdotal,jab,removed embedded raisins by penetrating them from an enrichment device,tooling,allocentric,1,stick to fruit,dynamic,,yes,1,no,,O’Malley and McGrew 2006,1,116,
+great apes,Pongo spp,orangutan,experimental,jab,penetrating apple with stick,tooling,allocentric,1,stick to fruit,dynamic,,no,,no,,Walkup 2009,1,116,
+great apes,Pongo spp,orangutan,observational,reach,hook nearby tree with branch,tooling,allocentric,1,branch to tree,dynamic,,yes,1,no,,"Fox and bin’Muhammad 2002; van Schaik, van Noordwijk and
+ Wich 2006; van Schaik et al. 2009; Lethmate 1982",4,116,Shumaker (p. 196) considers some of these cases composite tool use (it is not by our definition) 
+great apes,Pongo spp,orangutan,observational_experimental,reach,use stick and other materials to rake in food and other desired materials,tooling,allocentric,1,stick to fruit,dynamic,,yes,4,yes,,"Kortlandt and Kooij 1963; Rijksen 1978; Drescher and Trendelenburg 1927; J. Ellis 1975, 1977; Galdikas 1982a; Galdikas-Brindamour 1975; Haggerty 1910, 1913; Herrmann et al. 2007; Jantschke 1972; Koehler 1993; Lethmate 1976a, 1976b, 1976d, 1977a, 1977b, 1977d, 1977e, 1979; Martin-Ordas, Call, and Colmenares 2008; Mulcahy and Call 2006a, 2006b; C. Parker 1968, 1969a; Reuvens in Yerkes and Yerkes 1929; Rijksen 1974, 1978; Sheak 1922; Walkup 2009; Yerkes 1916; Schuster, Smits, and Ullal 2008; G. Rabb pers. comm; Döhl and Lethmate 1986; Call and Tomasello 1994; Mulcahy, Call, and Dunbar 2005",36,"116, 196-197","it is just mentioned that the evidence is both observational and experimental here. sequential tool use: successively larger stick used until stick that was long enough (up to 5). In one case a female orangutan used her hair as a rope to reach food, and added a banana, improving its efficiency, making it a metatool (if intentional)"
+great apes,Pongo spp,orangutan,anecdotal,reach,"using stick to to rake in and acquire floating items, to assess water depth,
+ and as a hook to reach and pull in leafy branches",tooling,allocentric,1,stick to object,dynamic,,no,,no,,Russon 2010,1,116,
+great apes,Pongo spp,orangutan,anecdotal,reach,using stick to stir hot beverage,tooling,allocentric,1,stick to beverage,dynamic,,no,,no,,Galdikas 1982a,1,116,
+great apes,Pongo spp,orangutan,anecdotal,reach,using stick to pull burning pieces of wood from a fire,tooling,allocentric,1,stick to object,dynamic,,no,,no,,Galdikas-Brindamour 1975; Rijksen 1978,2,116,
+great apes,Pongo spp,orangutan,anecdotal,reach,using stick to touch dead animal,tooling,allocentric,1,stick to animal,dynamic,,no,,no,,Rijksen 1978,1,116,
+great apes,Pongo spp,orangutan,anecdotal,reach,used two sacks as a tool Composite to reach an orange,tooling,allocentric,1,sack to fruit,dynamic,,no,,yes,concurrent,Yerkes and Yerkes 1929,1,116,check
+great apes,Pongo spp,orangutan,anecdotal,reach,"using lit cigarettes to set bags on fire, and then moved the burning bags with a stick to set other bags on fire",tooling,allocentric,1,cigarette to bag; stick to bag,dynamic,dynamic,no,,yes,sequential,Wilkie and Osborn 1912,1,116,
+great apes,Pongo spp,orangutan,anecdotal,reach,"collecting straw, twisting it into a rope, and
+ using it as a reaching tool",tooling,allocentric,1,rope to food,dynamic,,yes,1,no,,Sanyal 1902,1,117,
+great apes,Pongo spp,orangutan,experimental,reach,using rubber hose as a straw,tooling,allocentric,1,hose to juice,dynamic,,no,,no,,Osvath and Osvath 2008,1,117,
+great apes,Pongo spp,orangutan,,,holding a conspecific in place until the latter grabbed food,IOU,,,,,,,,,,,,117,
+great apes,Pongo spp,orangutan,experimental,reach,using wooden styluses to reach through enclosure mesh to operate experimental device,tooling,allocentric,1,stick to device,dynamic,,no,,no,,"Swartz, Himmanen, and Shumaker 2007",1,118,
+great apes,Pongo spp,orangutan,observational_experimental,insert,insert and probe into sticky rewards / insect nests,tooling,allocentric,1,probe to food,dynamic,,yes,>1,no,,"E. Fox, Sitompul, and van Schaik 1999; Sitompul, Fox, and van Schaik 1998; van Schaik, Fox and Sitompul 1996; Van Noordwijk and van Schaik 2005; Harrisson 1963; Rijksen 1978; Ellis 1975; Russon 2000, 2003; Hirata and Ohashi 2003",10,"118, 197","tool crafting (multiple steps: 1) detach, 2) remove leaves and/or 3) bark, 4) reshaping of the end by fraying/splitting)"
+great apes,Pongo spp,orangutan,observational,insert, scooping out seeds from Neesia fruit with stick,tooling,allocentric,1,probe to food,dynamic,,no,>1,no,,"E. Fox, Sitompul, and van Schaik 1999; Sitompul, Fox, and van Schaik 1998; van Schaik, Fox, and Sitompul 1996; van Schaik and Knott 2001; an Schaik et al. 2009",5,118,
+great apes,Pongo spp,orangutan,observational_experimental,insert,using sticks / keys / screw drivers in attempt to open locks,tooling,allocentric,1,key to lock,dynamic,,no,,no,,"Furness 1916; Galdikas 1982a; Russon 2000; Yerkes and Yerkes 1929; Döhl and Podolczak 1973; Lethmate 1977a, 1977d, 1978; Rensch and Dücker 1966; Linden 1999",10,119,
+great apes,Pongo spp,orangutan,oberservational,insert,using sticks for autogrooming,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Lethmate 1982,1,120,
+great apes,Pongo spp,orangutan,oberservational,insert,using sticks for allogrooming,tooling,allocentric,1,stick to body,dynamic,,no,,no,,Lethmate 1982,1,120,
+great apes,Pongo spp,orangutan,oberservational,insert,pick teeth and clean fingernails,tooling,egocentric,1,stick to teeth,dynamic,,no,,no,,Nogge 1984; Kaplan and Rogers 1994; Shumaker pers observation; van Schaik et al. 2009,4,120,
+great apes,Pongo spp,orangutan,experimental,insert,pushing or raking food out of tube with a stick,tooling,allocentric,1,stick to food,dynamic,,yes,>1,yes,no,"Haggerty 1910, 1913; Bourne 1971; Lethmate 1977a, 1977b, 1977d, Martin-Ordas, Call, and Colmenares 2008; Mulcahy and Call 2006a; 2006b; Visalberghi, Fragaszy, and Savage-Rumbaugh 1995, Walkup 2009; Yerkes 1916",12,"120, 197",In one task subjects use two short tools together to reach reward in tube task (toool composite).
+great apes,Pongo spp,orangutan,experimental,insert,combining up to 5 sticks to construct tool for tube task,tooling,allocentric,1,stick to food,dynamic,,yes,4,no,,"Lethmate 1977a, 1977b, 1977d",3,120,
+great apes,Pongo spp,orangutan,observational,insert,inserting sticks in various enrichment devices,tooling,allocentric,1,stick to food,dynamic,,yes,>1,no,,"C. Becker 1984; C. Buckley 2003; Harper 1992; B. King 1986; Nakamichi 2004; Nogge 1984, 1989; O’Malley and McGrew 2000, 2006; B. Wright 1994",10,120,
+great apes,Pongo spp,orangutan,observational,scratch,scratching oneself with stick,tooling,egocentric,1,stick to body,dynamic,,yes,1,no,,"Galdikas 1978b, 1982a, 1982b; Jantschke 1972; R. Shumaker, pers. obs.; van Schaik, van Noordwijk and Wich 2006; van Schaik et al. 2003",7,121,
+great apes,Pongo spp,orangutan,observational,scratch,utilize sticks for masturbation,IOU,,,,,,,,,,,,121,
+great apes,Pongo spp,orangutan,anecdotal,scratch,brushing teeth / the own body,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Russon 2000; R. Shumaker pers. obs.,2,121,
+great apes,Pongo spp,orangutan,anecdotal,cut,using a saw to cut wood,tooling,allocentric,1,saw to substrate,dynamic,,no,,no,,Russon 2000,1,121,
+great apes,Pongo spp,orangutan,experimental,pound / cut,hammer stone against another stone to make flakes then use stone flakes to cut,tooling,allocentric,1,1) hammer stone to stone 2) flake to substrate,dynamic,,yes,1,yes,sequential,"Wright 1972; R. Shumaker, pers. obs.",2,"121, 197",Only seen in one captive. Taught. used a tool to make tool.
+great apes,Pongo spp,orangutan,anecdotal,block,holding tree to block path of conspecific,IOU,,,,,,,,,,,,121,
+great apes,Pongo spp,orangutan,anecdotal,block,using objects to block flow of water,IOU,,,,,,,,,,,,121,
+great apes,Pongo spp,orangutan,anecdotal,block,using object to block sliding door,IOU,,,,,,,,,,,,121,
+great apes,Pongo spp,orangutan,observational,prop,bite through vine to use it for locomotion,IOU,,,,,,,,,,,,122,
+great apes,Pongo spp,orangutan,observational,prop,bending trees during travel,IOU,,,,,,,,,,,,122,
+great apes,Pongo spp,orangutan,observational,prop,bending branches to form a chair or screen,IOU,,,,,,,,,,,,122,
+great apes,Pongo spp,orangutan,anecdotal,prop,propping stick against house,IOU,,,,,,,,,,,,122,
+great apes,Pongo spp,orangutan,observational,prop,placing logs in river as bridges,IOU,,,,,,,,,,,,122,
+great apes,Pongo spp,orangutan,observational,prop,using floating objects to cross body of water,IOU,,,,,,,,,,,,123,
+great apes,Pongo spp,orangutan,observational,prop,propping and climbing sticks to access food,IOU,,,,,,,,,,,,123,
+great apes,Pongo spp,orangutan,observational,prop,repositioning objects or animals for climbing,IOU,,,,,,,,,,,,123,
+great apes,Pongo spp,orangutan,observational,prop,stacking objects on top of each other for climbing,IOU,,,,,,,,,,,,123,
+great apes,Pongo spp,orangutan,observational,hang,fixing a sack or hammock to a tree / mesh,IOU,,,,,,,,,,,,124,
+great apes,Pongo spp,orangutan,anecdotal,contain,using utensils to eat in particular hot food,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Galdikas 1982a; Russon 2000,2,125,
+great apes,Pongo spp,orangutan,observational,contain,using containers to  scoop water,tooling,allocentric,1,container to water,dynamic,,no,,no,,Galdikas 1982a; Russon 2000; Knott 1999,3,125,
+great apes,Pongo spp,orangutan,anecdotal,contain,using leaves to contain food,IOU,,,,,,,,,,,,125,
+great apes,Pongo spp,orangutan,observational,contain,using containers to transport food or nest materials,IOU,,,,,,,,,,,,125,
+great apes,Pongo spp,orangutan,observational,absorb,absorbing water inside tree holes with leafy branch,tooling,allocentric,1,branch to water,dynamic,,no,,no,,"van Schaik, van Noordwijk,and Wich 2006; van Schaik et al. 2003, 2009",3,125,
+great apes,Pongo spp,orangutan,observational,absorb,"use crumpled leaves, sponges and other objects to absorb water",IOU,,,,,,,,,,,,125,
+great apes,Pongo spp,orangutan,anecdotal,absorb,use stick to dip paper towl into juice and retrieve it,tooling,allocentric,2,stick to towel; towel to juice,dynamic,static,no,,no,,"Walkup 2009; B. Beck and R. Shumaker, pers. obs.",2,"125, 197",Composite tool use. Seen in two captive animals in two different facilities. Paper towel a metatool (it improves the effiency of juice collection)
+great apes,Pongo spp,orangutan,observational,wipe,wiping own body with inanimate and animate objects,IOU,,,,,,,,,,,,126,
+great apes,Pongo spp,orangutan,anecdotal,wipe,wiping feces with leaves from pelage,IOU,,,,,,,,,,,,126,
+great apes,Pongo spp,orangutan,anecdotal,wipe,chewing leaves and spitting them out to clean teeth,IOU,,,,,,,,,,,,126,
+great apes,Pongo spp,orangutan,anecdotal,wipe,wiping of cage floor with sacks,IOU,,,,,,,,,,,,126,
+great apes,Pongo spp,orangutan,observational,affix,place objects on head or body,IOU,,,,,,,,,,,,126,
+great apes,Pongo spp,orangutan,observational,affix,draping vegetation on their head or around neck,IOU,,,,,,,,,,,,126,
+great apes,Pongo spp,orangutan,observational,affix,draping leaves over own body as protection against sun or rain,IOU,,,,,,,,,,,,126,
+great apes,Pongo spp,orangutan,anecdotal,affix,piling twigs on own body to escape bees,IOU,,,,,,,,,,,,127,
+great apes,Pongo spp,orangutan,observational,affix,drape leaves and other materials in nest,IOU,,,,,,,,,,,,127,
+great apes,Pongo spp,orangutan,observational,affix,"draping leaves and branches as a ""branch cushion""",IOU,,,,,,,,,,,,127,
+great apes,Pongo spp,orangutan,anecdotal,affix,applying poultices of chewed leaves to wounds on own body,IOU,,,,,,,,,,,,127,
+great apes,Pongo spp,orangutan,observational,affix,"using leaves as ""leaf gloves"" to touch spiny fruits and to climb thorny trees",IOU,,,,,,,,,,,,127,
+great apes,Pongo spp,orangutan,anecdotal,affix,holding clumps of grass to climb over electrical wire,IOU,,,,,,,,,,,,127,
+great apes,Pongo spp,orangutan,observational,affix,applying leaves to mouth to modify vovalisations,IOU,,,,,,,,,,,,127,
+great apes,Pongo spp,orangutan,anecdotal,symbolize,"using stick to imitate cutting, chopping and scraping motions",tooling,allocentric,1,stick to stick,dynamic,,no,,no,,Russon 2000; 2003,2,127,
+great apes,Pongo spp,orangutan,observational,symbolize,"constructing leaf bundles (""dolls"")",IOU,,,,,,,,,,,,128,
+great apes,Pongo spp,orangutan,anecdotal,symbolize,using metal washers as tokens for food,IOU,,,,,,,,,,,,128,
+great apes,gorilla spp,gorilla,anecdotal,drop,dropping branches on humans,IOU,,,,,,,,,,,,129,
+great apes,gorilla spp,gorilla,observational,throw,unaimed throwing of objects during display or play,IOU,,,,,,,,,,,,130,
+great apes,gorilla spp,gorilla,observational,throw,aimed underhand throwing during aggression,IOU,,,,,,,,,,,,130,
+great apes,gorilla spp,gorilla,observational,throw,throwing sticks into trees to dislodge leaves and seeds,IOU,,,,,,,,,,,,130,
+great apes,gorilla spp,gorilla,anecdotal,throw,"throwing cardboard, bundes of straw and other objects to reach desired objects outside enclosure",IOU,,,,,,,,,,,,130,
+great apes,gorilla spp,gorilla,observational,drag,augmenting display by slapping water,IOU,,,,,,,,,,,,130,
+great apes,gorilla spp,gorilla,observational,brandish,brandish or Wave objects during display,IOU,,,,,,,,,,,,130,
+great apes,gorilla spp,gorilla,anecdotal, bait,use branches as lures for infant,IOU,,,,,,,,,,,,131,
+great apes,gorilla spp,gorilla,experimental, bait,token exchange,IOU,,,,,,,,,,,,131,
+great apes,gorilla spp,gorilla,observational,club,trying to hit animal with stick,tooling,allocentric,1,stick to animal,dynamic,,no,,no,,"B. Blaine, unpub. Data; S. Parker et al. 1999; Fontaine, Moisson, and Wickings 1995; Woods 1992",4,131,
+great apes,gorilla spp,gorilla,anecdotal,pound,hitting the floor or windows with sticks,IOU,,,,,,,,,,,,131,
+great apes,gorilla spp,gorilla,observational,pound,pounding inaccessible food resource with object,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Cunningham 1921; Patterson 1985; Owen 2005,3,"131, 197",One captive used hammer and anvil (considered tool Composite by Shumaker p. 197)
+great apes,gorilla spp,gorilla,anecdotal,pound,hammer wooden “nails” into the ground,tooling,allocentric,1,hammer to nail,dynamic,,no,,no,,Pettit 1997,1,131,
+great apes,gorilla spp,gorilla,observational,pound,pounding objects during display,IOU,,,,,,,,,,,,131,
+great apes,gorilla spp,gorilla,experimental,pound,hit the testing apparatus with a stick to release food,tooling,allocentric,1,stick to apparatus,dynamic,,no,,no,,Natale 1989,1,131,
+great apes,gorilla spp,gorilla,anecdotal,pound,hit an overhead branch with a tool to knock down leaves,tooling,allocentric,1,stick to leaves,dynamic,,no,,no,,Nakamichi 1999,1,131,
+great apes,gorilla spp,gorilla,anecdotal,pry,using sticks and other objects as prying tools to open windows,tooling,allocentric,1,stick to window,dynamic,,no,,no,,Pettit 1997,1,131,
+great apes,gorilla spp,gorilla,observational,dig,digging in soil with stick,tooling,allocentric,1,stick to soil,dynamic,,no,,no,,Pettit 1997; Woods 1995,2,131,
+great apes,gorilla spp,gorilla,anecdotal,jab,"jab at screens, windows, and other vulnerable parts of the enclosure with chopsticks and other objects",tooling,allocentric,1,stick to surface,dynamic,,no,,no,,Patterson and Linden 1981; Pettit 1997,2,131,
+great apes,gorilla spp,gorilla,anecdotal,jab,attemptint to stab human with stick,tooling,allocentric,1,stick to human,dynamic,,no,,no,,B. Blaine unpub. data,1,131,
+great apes,gorilla spp,gorilla,observational_experimental,reach,use stick and other objects to reach food and other desired items,tooling,allocentric,1,stick to food,dynamic,,yes,>1,yes,sequential,"PhillIps 1950; Schaller 1963; Wood 1984; Gómez 1999; Böer 1990; B. Blaine, unpub. data; Fontaine, Moisson, and Wickings 1995; J. E. Gould and Snyder 1990; Nakamichi 1999; Pettit 1997; Prince-Hughes 2001; Vancatova 2008; Woods 1984, 1991, 1995; Oliver 1996; Chevalier-Skolnikoff 1977; Martin-Ordas, Call, and Colmenares 2008; Mulcahy and Call 2006b; C. Parker 1968, 1969b; Redshaw 1975; Yerkes 1927a; 1927b, 1928–1929; Redshaw 1978; Natale, Potì, and Spinozzi 1988; Mulcahy, Call, and Dunbar 2005",28,"132, 197",use tools to obtain other tools. 
+great apes,gorilla spp,gorilla,anecdotal,reach,using branch as walking stick in water,IOU,,,,,,,,,,,,132,
+great apes,gorilla spp,gorilla,anecdotal,reach,using stick to touch caretaker to get their attention,tooling,allocentric,1,stick to caretaker,dynamic,,no,,no,,D. deGraffenreid pers. Comm,1,132,
+great apes,gorilla spp,gorilla,anecdotal,reach,using stick to touch feces / urine,tooling,allocentric,1,stick to feces,dynamic,,no,,no,,Gómez 1999; van Lawick– Goodall 1970,2,133,
+great apes,gorilla spp,gorilla,anecdotal,reach,used small sticks to investigate scabs or irregularities on his skin.,IOU,,,,,,,,,,,,133,
+great apes,gorilla spp,gorilla,anecdotal,reach,using straw to drink water,IOU,,,,,,,,,,,,,
+great apes,gorilla spp,gorilla,observational,reach,using stick to  scoop up porridge,tooling,allocentric,1,stick to porridge,dynamic,,yes,1,no,,"Fontaine, Moisson, and Wickings 1995",1,133,
+great apes,gorilla spp,gorilla,observational,insert,probing with thin tool to extract food from enrichment device (e.g. maze apparatuses),tooling,allocentric,1,stick to device,dynamic,,yes,>1,no,,"B. Blaine, unpub. data; Böer 1990; Boysen and Frisch 1987; Boysen et al. 1999; M. Cole 1987; Downman 2000; J. E. Gould and Snyder 1990; Jarvis and Gould 2007; Lonsdorf et al. 2009; Mentz and Perret 1999; Oliver 1996; Patterson 1985; Pouydebat et al. 2005; Prince-Hughes 2001; S. woods 1991, 1992; B. Wright 1994, 1995",18,134,
+great apes,gorilla spp,gorilla,anecdotal,insert,using stick for grooming (to clean the nostrils and navel of offspring),tooling,allocentric / egocentric,1,stick to body,dynamic,,yes,1,no,,"Fontaine, Moisson, and Wickings 1995; J. Gómez 1999; B. Blaine, unpub. Data",3,134,
+great apes,gorilla spp,gorilla,anecdotal,scratch,using stick to rub teeth,tooling,egocentric,1,stick to teeth,dynamic,,no,,no,,J. E. Gould and Snyder 1990; Patterson and Linden 1981,2,134,
+great apes,gorilla spp,gorilla,anecdotal,scratch,using flower or straw for tickling,tooling,allocentric / egocentric,1,stick to body,dynamic,,no,,no,,Fossey 1981; B. Blaine unpub. data,2,134,
+great apes,gorilla spp,gorilla,anecdotal,block,using sticks as wedges in water dispensers to cause the water to run continuously,tooling,allocentric,1,stick to dispenser,dynamic,,no,,no,,S. woods 1992,1,134,
+great apes,gorilla spp,gorilla,anecdotal,prop,picking up and pushing a dead and detached trunk into the wet ground to stabilize oneself,IOU,,,,,,,,,,,,134,
+great apes,gorilla spp,gorilla,observational,prop,using object or conspecific as ladder or bridge,IOU,,,,,,,,,,,,135,
+great apes,gorilla spp,gorilla,anecdotal,prop,using a stick to prop up a sore limb,IOU,,,,,,,,,,,,136,
+great apes,gorilla spp,gorilla,observational_experimental,prop,stacking objects on top of each other for climbing,IOU,,,,,,,,,,,,136,
+great apes,gorilla spp,gorilla,observational,contain,using container for water or regurgitated food,IOU,,,,,,,,,,,,136,
+great apes,gorilla spp,gorilla,anecdotal,contain,using a box or chair as a table or tray for food,IOU,,,,,,,,,,,,136,
+great apes,gorilla spp,gorilla,observational,absorb,"using rope, coconut fibers or tower to liquid for drinking",IOU,,,,,,,,,,,,136,
+great apes,gorilla spp,gorilla,anecdotal,absorb,"using leaves, grass, and straw to form a sponge for dipping into water",IOU,,,,,,,,,,,,136,
+great apes,gorilla spp,gorilla,observational,wipe,"wiping surfaces and own body with towel, straw and other materials",IOU,,,,,,,,,,,,136,
+great apes,gorilla spp,gorilla,anecdotal,wipe,using water to wash loose stool from a rock,IOU,,,,,,,,,,,,136,
+great apes,gorilla spp,gorilla,anecdotal,wipe,soaking coconut fibers in water and using them to clean an infant's body,IOU,,,,,,,,,,,,136,
+great apes,gorilla spp,gorilla,observational,affix,"draping various materials on the body for warmth, durng play or display and in other contexts",IOU,,,,,,,,,,,,137,
+great apes,gorilla spp,gorilla,observational,affix,collecting and placing straw and other materials to provide a cushion on which to sit,IOU,,,,,,,,,,,,137,
+great apes,gorilla spp,gorilla,anecdotal,affix,collecting water in cupped hands to increase intensity of chest beating during display,IOU,,,,,,,,,,,,137,
+great apes,gorilla spp,gorilla,anecdotal,affix,holding straw in hands and feet when walking on snow,IOU,,,,,,,,,,,,137,
+great apes,gorilla spp,gorilla,observational,symbolize,using objects as dolls and providing maternal behaviors to these dolls,IOU,,,,,,,,,,,,137,
+great apes,Pan paniscus,bonobo,,drop,drop vegetation as courtship,IOU,,,,,,,,,,,,137-138,
+great apes,Pan paniscus,bonobo,,drop,drop leaves (in play),IOU,,,,,,,,,,,,138,
+great apes,Pan paniscus,bonobo,,throw,throw vegetation/objects at conspecifics/humans (in play/ agonistic display),IOU,,,,,,,,,,,,138,
+great apes,Pan paniscus,bonobo,,throw,throw stone to make stone flakes,IOU,,,,,,,,,,,,138,
+great apes,Pan paniscus,bonobo,,drag,drag small trees/objects (as agonistic dIOUlay/ excitement),IOU,,,,,,,,,,,,138-139,
+great apes,Pan paniscus,bonobo,,drag,drag small trees while traveling (to communicate direction /encourage traveling together),IOU,,,,,,,,,,,,138,
+great apes,Pan paniscus,bonobo,,drag,roll/drag objects (in play),IOU,,,,,,,,,,,,139,
+great apes,Pan paniscus,bonobo,,brandish,use vegetation to swat away flies,IOU,,,,,,,,,,,,139,
+great apes,Pan paniscus,bonobo,,brandish,wave branches (in play/ display),IOU,,,,,,,,,,,,139,
+great apes,Pan paniscus,bonobo,,brandish,wave towel (to extinguish candle),IOU,,,,,,,,,,,,139,
+great apes,Pan paniscus,bonobo,, bait,try to snatch small branch from each other (in play),IOU,,,,,,,,,,,,139,
+great apes,Pan paniscus,bonobo,, bait,rip leaves (as social/play/copulation sig l),IOU,,,,,,,,,,,,139,
+great apes,Pan paniscus,bonobo,, bait,trade tokens with humans for rewards,IOU,,,,,,,,,,,,139,
+great apes,Pan paniscus,bonobo,, bait,lay branches on trail (as directio l markers),IOU,,,,,,,,,,,,139,
+great apes,Pan paniscus,bonobo,observational,club,club animals/conspecifics with branches (in aggression/play),tooling,allocentric,1,branch to animal,dynamic,,no,,no,,"Kano 1979; Gold 2002; Walraven, vanElsacker & Verheyen 1993",3,139-140,Kano reports secondhand observation.
+great apes,Pan paniscus,bonobo,anecdotal,pound,hammer food open with hammer on anvil,tooling,allocentric,1,stone to food,dynamic,,no,,no,,Andre et al pers comm,1,140,Pers comm.
+great apes,Pan paniscus,bonobo,anecdotal,pound,hit xylophone with xylophone hammer,tooling,allocentric,1,hammer to xylophone,dynamic,,no,,no,,Niio 2000,1,140,Seen in only one experimental animal (Kanzi)
+great apes,Pan paniscus,bonobo,anecdotal,pry,use sticks as levers to break mesh of enclosure,tooling,allocentric,1,stick to mesh,dynamic,,no,,no,,Ingmanson 1988; Jordan 1982,2,140,
+great apes,Pan paniscus,bonobo,,pry,put bent branch in mouth forcing jaws open,IOU,,,,,,,,,,,,140,
+great apes,Pan paniscus,bonobo,anecdotal,dig,dig with stick,tooling,allocentric,1,stick to dirt,dynamic,,no,,no,,Andre et al pers comm,1,140,Pers comm.
+great apes,Pan paniscus,bonobo,anecdotal,jab,jab conspecific with stick (in play),tooling,allocentric,1,stick to conspecific,static,,no,,no,,"Walraven, van Elsacker & Verheyen 1993",1,140,
+great apes,Pan paniscus,bonobo,anecdotal,jab,jab canister with stick (to try and open),tooling,allocentric,1,stick to canister,dynamic,,no,,no,,"Walraven, van Elsacker & Verheyen 1993",1,140,
+great apes,Pan paniscus,bonobo,observational_experimental,reach,reach objects with sticks/tools,tooling,allocentric,1,stick to object,dynamic,,no,,no,,"Jordan 1982; Walraven, van Elsacker & Verheyen 1993; Andre et al pers comm; Mulcahy & Call 2006",4,140-141,
+great apes,Pan paniscus,bonobo,anecdotal,reach,Touch frightening objects at distance,tooling,allocentric,1,stick to object,static,,no,,no,,Jordan 1982,1,140,Borderline.
+great apes,Pan paniscus,bonobo,anecdotal,reach,stir hot liquid with spoon,tooling,allocentric,1,spoon to liquid,dynamic,,no,,no,,Ikeo 1993,1,140,Seen in only one experimental animal (Panbanisha)
+great apes,Pan paniscus,bonobo,anecdotal,reach,use stick with papaya as eating utensil,tooling,allocentric,1,stick to papaya,dynamic,,no,,no,,Andre et al pers comm,1,140,Seen in only one captive animal. Pers comm
+great apes,Pan paniscus,bonobo,,reach,Pick up ants with grass pieces,IOU,,,,,,,,,,,,140,
+great apes,Pan paniscus,bonobo,anecdotal,reach,brush a human's hair,tooling,allocentric,1,brush to hair,dynamic,,no,,no,,Niio 2000,1,140,Seen in only one experimental animal (Kanzi)
+great apes,Pan paniscus,bonobo,anecdotal,reach,extinguish candle with knife tip,tooling,allocentric,1,knife to flame,static,,no,,no,,Niio 2000,1,140,Seen in only one experimental animal (Kanzi)
+great apes,Pan paniscus,bonobo,experimental,insert,probe for termites in mounds with sticks,tooling,allocentric,1,stick to mound,dynamic,,yes,1-2,no,,"Badrian, Badrian & Susman 1981; Parish 1994; White et al. 2008; BilaIsa 2003",4,"141, 188","Seen in zoo bonobos given artificial mounds, only the evidence of stick tools have been found to indiciate wild use. Zoo bonobos removed leaves/barks and modified size."
+great apes,Pan paniscus,bonobo,anecdotal,insert,use small twig to clean between teeth,tooling,egocentric,1,stick to mouth,dynamic,,yes,1,no,,"Ingmanson 1992, 1996",2,"141, 188",Seen in only one wild (provisioned) male. Reshaped by biting the end of the stick before use.
+great apes,Pan paniscus,bonobo,,insert,insert straw/objects to probe environment,IOU,,,,,,,,,,,,141,
+great apes,Pan paniscus,bonobo,anecdotal,insert,extract food from small spaces with objects,tooling,allocentric,1,object to foofd,dynamic,,no,,no,,Ingmanson 1988; Jordan 1982,2,141,
+great apes,Pan paniscus,bonobo,,insert,insert objects to probe nose/ears,IOU,,,,,,,,,,,,141,
+great apes,Pan paniscus,bonobo,anecdotal,insert,use key to open lock,tooling,allocentric,1,key to lock,static,,no,,no,,Niio 2000; Segerdahl et al 2005,2,141,
+great apes,Pan paniscus,bonobo,anecdotal,insert,use twig to clean human's finger ils,tooling,allocentric,1,twig to finger il,dynamic,,yes,1,no,,Ikeo 1993,1,"141, 187",Seen in only one experimental animal (Kanzi). Detached twig.
+great apes,Pan paniscus,bonobo,experimental,insert,insert stick to get reward from tube,tooling,allocentric,1,stick to tube,dynamic,,yes,1,no,,Martin-Ordas et al. 2008; Mulcahy & Call 2006; Visalberghi et al. 1995,3,"141, 187-188",Modified an H-shaped stick to fit in tube (but also many errors made)
+great apes,Pan paniscus,bonobo,experimental,insert,insert tube to break support for hanging fruit,tooling,allocentric,1,tube to support,static,,no,,no,,Mulcahy & Call 2006,1,141,"Correctly selected tool from array, and saved/transported up to 14h for future use"
+great apes,Pan paniscus,bonobo,,scratch,masturbate with leaves/objects,IOU,,,,,,,,,,,,141,
+great apes,Pan paniscus,bonobo,,scratch,rub bodies with objects,IOU,,,,,,,,,,,,141,
+great apes,Pan paniscus,bonobo,observational,scratch,scratch body parts with sticks,tooling,egocentric,1,stick to body,dynamic,,yes,1,no,,Hohmann & Fruth 2003; Ingmanson 1996; Walraven et al 1993,3,"141, 187",One wild female detached a twig from a tree before using it to scratch.
+great apes,Pan paniscus,bonobo,anecdotal,scratch,brush own teeth with toothbrush,tooling,egocentric,1,brush to teeth,dynamic,,no,,no,,Savage-Rumbaugh et al 1993,1,141,Seen in only one experimental animal (Kanzi)
+great apes,Pan paniscus,bonobo,anecdotal,scratch,brush human/toy teeth with toothbrush,tooling,allocentric,1,brush to teeth,dynamic,,no,,no,,Savage-Rumbaugh et al 1993,1,141,Seen in only one experimental animal (Kanzi)
+great apes,Pan paniscus,bonobo,anecdotal,cut,cut hair with scissors,tooling,allocentric,1,scissors to hair,dynamic,,no,,no,,Niio 2000,1,141,Seen in only one experimental animal (Panbanisha)
+great apes,Pan paniscus,bonobo,,prop,Reposition conspecifics to climb on them,IOU,,,,,,,,,,,,142,
+great apes,Pan paniscus,bonobo,,prop,place tree trunks on water (to use as bridge),IOU,,,,,,,,,,,,142,
+great apes,Pan paniscus,bonobo,,prop,balance poles to climb/jump,IOU,,,,,,,,,,,,142,
+great apes,Pan paniscus,bonobo,,prop,prop logs/ladders to climb,IOU,,,,,,,,,,,,142,
+great apes,Pan paniscus,bonobo,,prop,use blocks/objects as a seat,IOU,,,,,,,,,,,,142,
+great apes,Pan paniscus,bonobo,,prop,place object under copulation partner to factiliate intromission,IOU,,,,,,,,,,,,142,
+great apes,Pan paniscus,bonobo,,hang,place branches/rope on bars as swings,IOU,,,,,,,,,,,,142,
+great apes,Pan paniscus,bonobo,,contain,use containers for urine/saliva/water,IOU,,,,,,,,,,,,142,
+great apes,Pan paniscus,bonobo,,contain,fill container and transport water,IOU,,,,,,,,,,,,142,
+great apes,Pan paniscus,bonobo,anecdotal,contain,scoop juice with rind (to drink),tooling,allocentric,1,rind to juice,dynamic,,no,,no,,Andre et al pers comm,1,142,Pers comm. Borderline tool manufacture.
+great apes,Pan paniscus,bonobo,,contain,scoop juice water with bucket,IOU,,,,,,,,,,,,142,Borderline case (aim is unclear)
+great apes,Pan paniscus,bonobo,,contain,scoop water with leaf (to drink),tooling,allocentric,1,leaf to water,dynamic,,yes,1,no,,Andre et al pers comm,1,"142, 188",Pers comm. rolled large leaf into cup
+great apes,Pan paniscus,bonobo,,contain,place objects/food in container to move,IOU,,,,,,,,,,,,142-143,
+great apes,Pan paniscus,bonobo,observational,absorb,reach and absorb water with moss/leafy branches,tooling,allocentric,1,moss to water,dynamic,,no,,,no,Hohmann & Fruth 2003; Jordan 1982,2,143,Collect moss from trees for this purpose.
+great apes,Pan paniscus,bonobo,,absorb,use leaves/objects to absorb water,IOU,,,,,,,,,,,,143,
+great apes,Pan paniscus,bonobo,observational,wipe,use leaves/objects to wipe off faeces/urine/other off of body,IOU,egocentric,,leaf to body,dynamic,,no,,no,,"Andre et al pers comm; Ingmanson 1996; Jordan 1982; Walraven, van Elsacker, and Verheyen 1993",4,143,
+great apes,Pan paniscus,bonobo,,wipe,wipe window with towel,IOU,,,,,,,,,,,,143,Borderline case (aim is unclear). Believed to be imitation of caretakers.
+great apes,Pan paniscus,bonobo,,affix,wear leafy branches during rain,IOU,,,,,,,,,,,,143,
+great apes,Pan paniscus,bonobo,,affix,hold leaf over head in rain,IOU,,,,,,,,,,,,143,
+great apes,Pan paniscus,bonobo,,affix,cover bodies/faces with items (in play),IOU,,,,,,,,,,,,143,
+great apes,Pan paniscus,bonobo,,affix,protect hands with wood-wool when opening coconuts/unscrewing jars,IOU,,,,,,,,,,,,143,
+great apes,Pan paniscus,bonobo,,affix,sprinkle body with water (when hot),IOU,,,,,,,,,,,,143,
+great apes,Pan paniscus,bonobo,,symbolize,use vegetation along trail to convey information,IOU,,,,,,,,,,,,143-144,
+great apes,Pan paniscus,bonobo,experimental,pound / cut,hammer stone against another stone to make flake tool then used it for cutting,tooling,allocentric,1,stone to stone,dynamic,stone to object,yes,1,yes,no,Savage-Rumbaugh et al 2007; Schick et al 1999; Toth et al 1993,3,"140, 187, 198",Seen in only one experimental animal (Kanzi). Rare case of using a tool to make a tool.
+great apes,Pan troglodytes,chimpanzee,,drop,drop branches/objects on intruders/predators,IOU,,,,,,,,,,,,144,
+great apes,Pan troglodytes,chimpanzee,,drop,drop branches/leaves on conspecifics (in play),IOU,,,,,,,,,,,,144,
+great apes,Pan troglodytes,chimpanzee,,drop,"drop heavy logs to produce sound (""thumping"")",IOU,,,,,,,,,,,,144,
+great apes,Pan troglodytes,chimpanzee,,throw,throw branches/objects as display (in agonistic encounters/frustration),IOU,,,,,,,,,,,,145-147,
+great apes,Pan troglodytes,chimpanzee,,throw,throw objects in play (including catching/fetching),IOU,,,,,,,,,,,,146,
+great apes,Pan troglodytes,chimpanzee,,throw,throw sticks/stones/objects at conspecifics (in agression/teasing/play),IOU,,,,,,,,,,,,146-147,
+great apes,Pan troglodytes,chimpanzee,,throw,"throw stones into water in display (""throw splash"")",IOU,,,,,,,,,,,,146,
+great apes,Pan troglodytes,chimpanzee,,throw,throw objects to make sound,IOU,,,,,,,,,,,,146-147,
+great apes,Pan troglodytes,chimpanzee,,throw,throw objects at other animals (predators/humans/prey),IOU,,,,,,,,,,,,146-147,
+great apes,Pan troglodytes,chimpanzee,,throw,spit water at conspecifics/others,IOU,,,,,,,,,,,,147,
+great apes,Pan troglodytes,chimpanzee,,throw,spit water into cup of hot coffee (to cool it down),IOU,,,,,,,,,,,,147,
+great apes,Pan troglodytes,chimpanzee,,throw,throw sticks into tree to break foliage to consume,IOU,,,,,,,,,,,,147,
+great apes,Pan troglodytes,chimpanzee,,throw,"throw cigarettes out of cage (if burning, onto wet areas)",IOU,,,,,,,,,,,,147,
+great apes,Pan troglodytes,chimpanzee,,throw,throw ball to knock down food lure,IOU,,,,,,,,,,,,147,
+great apes,Pan troglodytes,chimpanzee,,drag,drag/roll trees/ objects (agonistic display),IOU,,,,,,,,,,,,147-148,
+great apes,Pan troglodytes,chimpanzee,,drag,roll boulders at human observers,IOU,,,,,,,,,,,,148,
+great apes,Pan troglodytes,chimpanzee,,throw,"throw branches/objects as thunderstorm display (""raicvndance"")",IOU,,,,,,,,,,,,145,
+great apes,Pan troglodytes,chimpanzee,,drag,"drag branches as thunderstorm display (""rain dance"")",IOU,,,,,,,,,,,,148,
+great apes,Pan troglodytes,chimpanzee,,drag,"slap branch (""branch-slap"") (to attract attention/courtship)",IOU,,,,,,,,,,,,148,
+great apes,Pan troglodytes,chimpanzee,,drag,"bend shrub underfoot (""shrub-bend"") (to attract attention/courtship)",IOU,,,,,,,,,,,,148,
+great apes,Pan troglodytes,chimpanzee,,drag,drag/kick/slap/bend objects (in play),IOU,,,,,,,,,,,,148,
+great apes,Pan troglodytes,chimpanzee,,drag,"drag leaves down slope making sound (""leaf-pile pushing"") (in play/intimidation)",IOU,,,,,,,,,,,,148,
+great apes,Pan troglodytes,chimpanzee,,brandish,"wave/shake branches at conspecifics/other animals (""branching""/""branch-shake"") (intimidation)",IOU,,,,,,,,,,,,148-149,
+great apes,Pan troglodytes,chimpanzee,,brandish,"wave/shake branches at females (""branching""/""branch-shake"") (as courtship)",IOU,,,,,,,,,,,,148-149,
+great apes,Pan troglodytes,chimpanzee,,brandish,brandish sticks in play,IOU,,,,,,,,,,,,149,
+great apes,Pan troglodytes,chimpanzee,,brandish,wave objects to disperse insects,IOU,,,,,,,,,,,,150,
+great apes,Pan troglodytes,chimpanzee,, bait,"display an object (to initiate play behaviour) (""play-start"")",IOU,,,,,,,,,,,,150,
+great apes,Pan troglodytes,chimpanzee,, bait,lure animals with food (to attack),IOU,,,,,,,,,,,,150,
+great apes,Pan troglodytes,chimpanzee,, bait,"pull a leaf through lIOU/teeth/fingers to produce noise (""leaf-clipping"" / ""billet-doux"" / ""leaf-strip"" / ""stem pull-through"") (as communicative sig l? Courtship? Frustration?)",IOU,,,,,,,,,,,,149-150,
+great apes,Pan troglodytes,chimpanzee,, bait,"groom leaves (""leaf-grooming"") (to get attention or perk up grooming bouts?)",IOU,,,,,,,,,,,,150,
+great apes,Pan troglodytes,chimpanzee,, bait,carry off infant sibling to get mother to follow,IOU,,,,,,,,,,,,150,
+great apes,Pan troglodytes,chimpanzee,, bait,take an infant to halt an agonistic interaction,IOU,,,,,,,,,,,,150,
+great apes,Pan troglodytes,chimpanzee,, bait,share meat between individuals (for sex or alliances?),IOU,,,,,,,,,,,,150-151,
+great apes,Pan troglodytes,chimpanzee,, bait,exchange objects with humans,IOU,,,,,,,,,,,,151,
+great apes,Pan troglodytes,chimpanzee,observational_experimental,club,club conspecifics/animals with sticks (in agonism/play),tooling,allocentric,1,stick to conspecific,dynamic,,no,,no,,"Albrecht & Dunnett 1971; Boesch 1991; Boesch & Boesch 1990; Fletcher & Weghorst 2005; Goodall 1986; Hirata et al. 2001; Köhler 1925; Kollar 1972; Itani & Suzuki 1967; Kortlandt 1965, 1967a, 1967b; Kortlandt & Kooij 1963; Kummer & Goodall 1985; van Lawick–Goodall 1968, 1970, 1971; Linden 2002; Matsusaka 2007; McGrew pers comm; Nishida 1970; Nishida 2003; Nishida et al. 1999; Savage 1976; Sheak 1924; Takeshita & van Hooff 1996, 2001; van Hooff 1973; Vancatova 2008; Watts 2008; Whiten et al 2001; Wilson & Wilson 1968",32,151-152,
+great apes,Pan troglodytes,chimpanzee,observational,club,"kill bees with sticks to eat/access nest (""bee-probe"")",tooling,allocentric,1,stick to bee,dynamic,,no,,no,,Boesch & Boesch 1990; Whiten et al 1999,2,151-152,
+great apes,Pan troglodytes,chimpanzee,observational_experimental,pound,hammer open nuts/fruits with stone/wood hammers on stone/wood anvils; sometimes nut meat picked out with stick,tooling,allocentric,1,1) nut to anvil 2) hammer to nut 3) stick to nut,dynamic,,yes,1,yes,sequential,"Anderson, Williamson & Carter 1983; Beatty 1951; Biro et al. 2003; Boesch 1978, 1991b, 1991c; Boesch & Boesch 1981, 1983, 1984a, 1984b, 1990, 1993a, 1993b, 1994; Boesch & Boesch-Achermann 1991a, 1991b, 1994, 2000; Boesch et al. 1994; Boesch-Acherman & Boesch 1993; Brewer 1976, 1978; Bril et al 2009; Carvalho, Sousa & Matsuzawa 2007; Carvalho et al. 2008; Foucart et al 2005; Funk in Boesch 1996; Fushimi et al. 1991; Günther & Boesch 1993; Hannah & McGrew 1987; Hayashi, Mizuno & Matsuzawa 2005; Hirata, Morimura & Houki 2009; Humle & Matsuzawa 2001, 2004; Inoue-Nakamura & Matsuzawa 1997; Inoue-Nakamura, Tonooka & Matsuzawa 1996; Itani & Suzuki 1967; Joulian 1995, 1996, 2000; Kortlandt 1986; Kortlandt & Holzhaus 1987; Marshall-Pescini & Whiten 2004; Matsuzawa 1994, 1996, 1999; Matsuzawa et al. 1999, 2001; Matsuzawa & Yamakoshi 1996; Mercader, Panger & Boesch 2002; Mercader et al. 2007; Morgan & Abwe 2006; Rahm 1971; Sakura & Matsuzawa 1991; Savage & Wyman 1843-1844; Sept & Brooks 1994; Struhsaker & Hunkeler 1971; Sugiyama 1981, 1989, 1993; Sugiyama & Kawai 1990; Sugiyama & Koman 1979, 1987; Sugiyama et al. 1993; Sumita, Kitahara- Frisch & Norikoshi 1985; Whitesides 1985; Yamakoshi 1998; Yoshihara 1985",68,"152-154, 156, 179, 189-191, 200, 202","Detach wooden branches to use as hammers; break stones into pieces / remove materials. sequential use/tool set: after hammering open nut, sometimes small stick used to extract nut meat. Almost concurrent - sometimes holding the nut in place with one hand while hammering with the other. Meta-tool use: place stones as wedges to prop up uneven anvils. Composite tool when anvil used. Sometimes stones may be used as hammer, and other times anvil, making it a multi-functio l tool."
+great apes,Pan troglodytes,chimpanzee,anecdotal,pound,"use stone/wood (""cleavers"") to reduce the size of fruit",tooling,allocentric,1,cleaver to fruit,dynamic,,no,,no,,"Koops, McGrew n & Matsuzawa 2010",1,154,Only fruit and tools found; chimps not observed actually engaging in tool use.
+great apes,Pan troglodytes,chimpanzee,observational,pound,"pound leaf shoot base with hard leaf petiole to extract i ccessible edible parts of the palm (""pestle-pounding""); sometimes dip stick inside to reach juice",tooling,allocentric,1,1) petiole to hole 2) stick to juice,dynamic,,no,,yes,no,"Humle & Matsuzawa 2004, 2009; Ohashi 2006; Sugiyama 1994; Yamakoshi 1998; Yamakoshi & Sugiyama 1995",6,"154, 193, 200",Thought to be recently invented and spread among group. sequential/tool set: use smaller stick tool to reach and absorb juice in hole (once by breaking in half the pounding pestle).
+great apes,Pan troglodytes,chimpanzee,anecdotal,pound,pound stick into tree hole to consume termites,tooling,allocentric,1,stick to hole,dynamic,,yes,1,no,,Sugiyama & Koman 1979,1,"154, 191, 200",Seen in two wild adults. Subtracted side branches/leaves before use of tool.
+great apes,Pan troglodytes,chimpanzee,anecdotal,pound,"pound stick into ant nest (""ant club"")",tooling,allocentric,1,stick to nest,dynamic,,no,,no,,"Hicks, Fouts & Fouts 2005",1,"154, 156, 189",Indirect evidence. Only tools and holes found; chimps not observed actually engaging in tool use or manufacturing the tool.
+great apes,Pan troglodytes,chimpanzee,observational,pound,"pound thick stick to break beehives open to access honey (""honey pound,"" ""honey hammer,"" ""hive pound"")",tooling,allocentric,1,1) thick stick to hive 2) stick to hive to widen hole 3) smaller stick to hive,dynamic,,yes,1-2,yes,sequential,"Bermejo & Illera 1999; Boesch, Head & Robbins 2009; Brewer & McGrew 1990; Fay & Carroll 1994; Goodall 1986; Hicks, Fouts, & Fouts 2005; van Lewick-Goodall 1970; McGrew 1992; Sanz & Morgan 2009; Sanz, Morgan & Gulick 2004",10,"156, 189, 199-200","no description of tool manufacture, but assumed to detach stick and strip vegetation. sequential use seen with three to five different tools (tool set); steps may include puncture (pound), widen (lever) then sometimes a finer puncture (pound), dip for honey (insert) and swab for honey (insert)"
+great apes,Pan troglodytes,chimpanzee,,pound,pound on trees with sticks (as agonistic display),IOU,,,,,,,,,,,,156,Borderline case (aim is unclear).
+great apes,Pan troglodytes,chimpanzee,anecdotal,pound,hit locked banana boxes with sticks,tooling,allocentric,1,stick to box,dynamic,,no,,no,,Wrangham 1974,1,156,
+great apes,Pan troglodytes,chimpanzee,observational,pound,"pound stick into tree hollow for resin (""Resin-pound""",tooling,allocentric,1,stick to tree,dynamic,,yes,1,no,,Sugiyama & Koman 1979; Whiten et al. 1999,2,"156, 191",Subtract leaves/twigs from branches before use.
+great apes,Pan troglodytes,chimpanzee,,pound,hit sticks/objects against things (in frustration or play?),IOU,,,,,,,,,,,,156,Borderline case.
+great apes,Pan troglodytes,chimpanzee,anecdotal,pound,pound soft foods with object before consumption,tooling,allocentric,1,object to food,dynamic,,no,,no,,Gaspar 1993,1,156,Seen in only one captive animal.
+great apes,Pan troglodytes,chimpanzee,anecdotal,pound,hammer stake/nails with rocks/hammer,tooling,allocentric,1,hammer to il,dynamic,,no,,no,,"Hayes 1951; Hayes & Nissen, 1971",2,156,Seen in only one experimental animal (Viki).
+great apes,Pan troglodytes,chimpanzee,experimental,pound,hammer open bones with stone,tooling,allocentric,1,stone to bone,dynamic,,no,,no,,"Kitahara-Frisch, Norikoshi & Hara 1987",1,156,Learned by observation of humans by three captive chimps.
+great apes,Pan troglodytes,chimpanzee,observational,pry,"open/widen spaces with sticks to access nests (""lever open"")",tooling,allocentric,1,stick to opening,dynamic,,yes,1,no,,"Bermejo & Illera 1999; Boesch & Boesch 1990; Boesch, Head & Robbins 2009; Brewer & McGrew 1990; Fay & Carroll 1994; Goodall 1986; Sanz & Morgan 2007; Teleki 1974; Tutin, Ham & Wrogemann 1995; van Lawick–Goodall 1968, 1970, 1971, 1973; Watts 2008; Whiten et al. 1999",15,"156-157, 189","Often used/made after pounding something open, sometimes same tool as used for pounding. See pound for associative tool use involving pounding open hive then widening the hole."
+great apes,Pan troglodytes,chimpanzee,observational,pry,pry open boxes/feeders/doors with tools,tooling,allocentric,1,tool to box,dynamic,,yes,2,no,,"Goodall 1964, 1986; Hobhouse 1926; Köhler 1925; Kollar 1972; Kummer & Goodall 1985; van Lawick–Goodall 1968, 1970, 1971; McGrew, Tutin & Midgett 1975; Wrangham 1974",11,"157, 191, 193","Boxes were provisioning for wild animals. Detached sticks and removed leaves, or reshaped splinters to make sharp edge."
+great apes,Pan troglodytes,chimpanzee,,pry,pry in crevices with sticks (in exploration? Frustration?),IOU,,,,,,,,,,,,157,Borderline case (aim is unclear).
+great apes,Pan troglodytes,chimpanzee,anecdotal,pry,lever a tree out of the way by placing stick in crack between two trees,tooling,allocentric,1,stick to tree,dynamic,,no,,no,,"Takeshita & van Hooff 1996, 2001",2,157,Seen in two captive animals.
+great apes,Pan troglodytes,chimpanzee,anecdotal,pry,use a knife to remove plaster from walls,tooling,allocentric,1,knife to wall,dynamic,,no,,no,,Ladygina-Kohts 2002,1,157,Aim unclear. Seen in one captive animal.
+great apes,Pan troglodytes,chimpanzee,observational,dig,dig soil/nest with stick to access insects,tooling,allocentric,1,stick to soil,dynamic,,no,,no,,"Fay & Carroll 1994; Fowler & Sommer 2007; Goodall 1979; McGrew, Tutin & Baldwin 1979; Mwanza et al 1992; Suzuki, Kuroda & Nishihara 1995; Sugiyama 1985, 1995; Sugiyama & Koman 1979; Sugiyama, Koman & Sow 1988; Takenoshita 1996; Teleki 1974; Whiten & McGrew 2001a, 2001b (controversial - interpretation of a stamp); Yamagiwa et al 1988",15,"157-158, 200","Several of these cases were inferences from found tools. Possible sequential tool use/tool set (digging then probing) but only secondary evidence. Shumaker acknowldges the conflation issue between ""prying"" and ""digging."""
+great apes,Pan troglodytes,chimpanzee,observational,dig,dig water wells in the ground with stick,tooling,allocentric,1,stick to ground,dynamic,,no,,no,,"Galat-Luong & Galat 2000; Hunt and McGrew 2002; McGrew et al. 2003; Nishida, Matsusaka & McGrew 2009",4,158,
+great apes,Pan troglodytes,chimpanzee,anecdotal,dig,dig in ground for tubers with sticks,tooling,allocentric,1,stick to ground,dynamic,,no,,no,,"Heranndez-Aguilar, Moore & Pickerings 2007",1,158,Indirect evidence. Only tools found.
+great apes,Pan troglodytes,chimpanzee,anecdotal,dig,dig in ground with sticks/objects for objects,tooling,allocentric,1,stick to ground,dynamic,,no,,no,,"Cowper 1971; Hayes & Hayes, 1954; Köhler 1925; King, Stevens & Mellen 1980; Kollar 1972; Ladygina-Kohts 2002; Menzel 1972, 1973; Menzel, Davenport & Rogers 1970; van Hooff 1973",10,158-159,All accounts of captive chimpanzees. Intention not always evident.
+great apes,Pan troglodytes,chimpanzee,observational,jab,puncture access holes in insect holes with stick (for hands/tools),tooling,allocentric,1,1) stick to nest 2) Fishing stick to nest,static,,yes,1-3,yes,sequential,"Abwe & Morgan 2008; Bermejo & Illera 1999; Boesch, Head & Robbins 2009; Deblauwe et al. 2006; Fay & Carroll 1994; Gonzalez-Kirchner & Sainz de la Maza 1992; Jones & Sabater-Pi 1969; Kuroda 1992; McGrew & Rogers 1983; Muroyama 1991; Sabater-Pi 1972, 1974; Sanz & Morgan 2007, 2009; Sanz, Morgan & Gulick 2004; Sanz, Schöning & Morgan 2009; Sugiyama 1985; Struhsaker & Hunkeler 1971; Suzuki, Kuroda & Nishihara 1995",19,"159-160, 189, 191, 200","sequential tool use/tool set: first make access hole with stout stick, then fish with another stick (ants/termites). May also be multi-function tool. Several cases were indirect evidence (only tools found). Detached/trimmed tools for use; some also removed leaves/branches, peeled bark and sharpened the ends."
+great apes,Pan troglodytes,chimpanzee,observational,jab,forcefully and repeatedly insert stick into hole to expel animals/insects,tooling,allocentric,1,stick to hole,dynamic,,no,,no,,Goodall 1986; Nishida pers comm in kamura & Itoh 2008; Nishida 1973; Ohashi 2006,4,160-161,
+great apes,Pan troglodytes,chimpanzee,observational,jab,stab animal with stick (predator/prey),tooling,allocentric,1,stick to animal,static,,yes,1-3,no,,"Boesch 1991; Huffman & Kalunde 1993, 1994; King, Stevens & Mellen 1980; Köhler 1925; Kohts 1935; Ladygina-Kohts 2002; Nakamura & Itoh 2008; Pruetz & Bertolani 2007; Sheak 1924",10,"161, 189, 191, 194, 203","Detached tools and/or chewed end to make pointed tip. Fongoli chimps that hunt bushbabies detach branch, subtract leaves/branches, trim ends/remove bark, and sometimes also trim tool tip to sharpen (50% of cases), considered tool crafting"
+great apes,Pan troglodytes,chimpanzee,observational,jab,jab conspecific/human with stick,tooling,allocentric,1,stick to conspecific,static,,no,,no,,Birch 1945; Jones 1986; Köhler 1925; Kollar 1972; Sheak 1924,5,161,
+great apes,Pan troglodytes,chimpanzee,anecdotal,reach,knock fruit with a stick out of a human's hands,tooling,allocentric,1,stick to fruit,dynamic,,yes,3,no,,van Lawick-Goodall 1968,1,"161, 189, 191","Seen in only one wild individual. Did not succeed. Detached stick, removed thorny bark and side branches for use."
+great apes,Pan troglodytes,chimpanzee,anecdotal,reach,"pull in an out of reach fruiting branch using a stick (""branch hauling""/""branch-hook"")",tooling,allocentric,1,stick to branch,dynamic,,yes,1,no,,Sugiyama & Koman 1979; Whiten et al. 1999,2,161,Seen in only one wild individual. Detached stick for use.
+great apes,Pan troglodytes,chimpanzee,observational_experimental,reach,pull in algae/vegetation/objects from the water using a stem/other objects,tooling,allocentric,1,stem to algae,dynamic,,yes,1-2,no,,"Devos, Gatti & Levréro 2002; Fletcher & Weghorst 2005; Goustard 1986; Kollar 1972; Matsuzawa 1999; Matsuzawa, Yamakoshi & Humle 1996; Ohashi 2006; van Hooff 1973; Whiten et al. 1999; Yamakoshi 1998",10,"161, 189, 191","Wild chimps detach, strip stems/trim off head and/or remove leaves before use. carry tool between pools."
+great apes,Pan troglodytes,chimpanzee,observational,reach,rake in ants with stick/stalk,tooling,allocentric,1,stick to ant,dynamic,,no,,no,,"Köhler 1925; McGrew et al. 2003; Sugiyama, Koman & Sow 1988",3,161-162,
+great apes,Pan troglodytes,chimpanzee,observational_experimental,reach,reach/rake in objects/food with stick/rakes/poles/other objects,tooling,allocentric,1,stick to object,dynamic,,yes,1-2,yes,sequential,"Bania et al. 2009; Birch 1945; Bourne 1971; Brent, Bloomsmith & Fisher 1995; Chamove 1989; de Waal 2007; Denisov 1958 in Windholz 1984; Do?hl 1966, 1969; Dufour & Sterck 2008; Firsov 1972, 1982; Fletcher & Weghorst 2005; Girndt, Meier & Call 2008; Goustard 1986; Guillaume & Meyerson 1930, 1934; Hayes 1951; Hayes & Hayes 1952; Hobhouse 1926; Hrubesch, Preuschoft & van Schaik 2009; Jackson 1942; Jacobsen, Wolfe & Jackson 1935; Jennison 1927; Jones 1986; Kats 1972; King, Stevens & Mellen 1980; Ko?hler 1925; Kollar 1972; Ladygina-Kohts 2002; Levyki 1959 in Ladygina- Kohts & Dembovskii 1969; Mathieu et al. 1980; Menzel, Davenport & Rogers 1970; Nagell, Olguin & Tomasello 1993; Nissen 1956; Novoselova 1959 in Ladygina-Kohts & Dembovskii 1969; Okano et al. 1973; Poulsen 1974–1975; Povinelli et al. 2000; Prince et al. 2009; Roginskii 1945 in Ladygina-Kohts & Dembovskii 1969; Rothmann & Teuber in Bierens de Haan 1931; Savage-Rumbaugh 1986; Schiller 1952, 1957; Takeshita & van Hooff 1996, 2001; Temerlin 1975; Tomasello et al. 1987; van Hooff 1973",50,"162-163, 189, 191-194, 198, 201","Varying levels of difficulty (e.g. detours, functio l/nonfunctio l tool choice). Does not count tasks in which rake is pre-positioned as tool use (incl many trap tube tasks). sequential studies of getting progressively longer tools (up to four). Sometimes detach tools for use. Some studies joined sticks together to make longer sticks (in one bit pieces from boards to insert into hollow sitcks). Some chimps bent straw clumps to make firm reaching tools, and uncoiled wire. One study modified an H-shaped stick to fit in tube (but also many errors made). One study required substraction to make a hook tool. Composite tool: place sponge into hole of water, then pull out with stick. There are a number of studies in which chimpanzees failed in reaching tasks (CF Birch 1945, Haggerty 1910, Mathieu & Bergeron 1977, Parker 1968, 1969, Povinelli et al. 2000, Schiller 1957; Shepherd 1923 - age, social history and rearing enviro history considered factors in failure)"
+great apes,Pan troglodytes,chimpanzee,,reach,spray birds with a water hose,IOU,,,,,,,,,,,,162,
+great apes,Pan troglodytes,chimpanzee,anecdotal,reach,use a stick to flip an out of reach light switch on and off,tooling,allocentric,1,,static,,no,,no,,Nissen 1956,1,162,Seen in only one captive animal.
+great apes,Pan troglodytes,chimpanzee,experimental,reach,extract screws using screwdriver,tooling,allocentric,1,screwdriver to screw,dynamic,,no,,no,,Fernberger in Dewsbury 2009; Fouts 1997; Rensch 1973; Rensch & Do?hl 1967; Temerlin 1975,5,162,
+great apes,Pan troglodytes,chimpanzee,observational_experimental,reach,touch frightening objects with stick/stem at distance,tooling,allocentric,1,stick to object,static,,no,,no,,"Boesch & Boesch 1990; Brewer & Brewer in van Lawick–Goodall 1973; Brink 1957; Dunnett & Albrecht 1971; Goodall 1986; Köhler 1925; Kortlandt & Kooij 1963; Menzel 1971; Mottershead 1959, 1963; Ohashi 2006; van Lawick–Goodall 1968, 1970, 1971, 1973; Wilson & Wilson in McGrew, Tutin, and Midgett 1975",16,"163-164, 189",Borderline. Often smell the end of the stick after probing. Detached tools for use.
+great apes,Pan troglodytes,chimpanzee,,reach,stir water wth leaf sponge,IOU,,,,,,,,,,,,163,Borderline case (aim is unclear)
+great apes,Pan troglodytes,chimpanzee,anecdotal,reach,extinguish flame with object,tooling,allocentric,1,object to flame,static,,no,,no,,Denisov 1958 / Orbeli 1949 in Windholz 1984,2,164,Seen in only one captive animal.
+great apes,Pan troglodytes,chimpanzee,observational,reach,use twig/straw/object to reach body parts for grooming,tooling,egocentric,1,stick to self,dynamic,,no,,no,,"van Lawick-Goodall 1970, 1971; Merfield 1956; Sanz & Morgan 2007; Reynolds and Assersohn in Whiten et al 1999; Temerlin 1975",6,164,
+great apes,Pan troglodytes,chimpanzee,observational,reach,use twig to probe conspecific/human body,tooling,allocentric,1,stick to mother,dynamic,,yes,1,no,,Fouts 1983; Kummer & Goodal 1985; Merfield 1956,3,164,tool manufacture of probe by one experimental chimp (Loulis).
+great apes,Pan troglodytes,chimpanzee,anecdotal,reach,use twig to probe under toe il for flea,tooling,egocentric,1,stick to self,dynamic,,yes,1,no,,Nishida 2002; Nishida et al. 2009,2,164,Seen in two wild females. One detached tool for use.
+great apes,Pan troglodytes,chimpanzee,anecdotal,reach,use pliers to extract molar from own mouth,tooling,egocentric,1,pliers to molar,static,,no,,no,,Hayes & Hayes 1954,1,164,Seen in only one experimental animal (Viki)
+great apes,Pan troglodytes,chimpanzee,anecdotal,reach,brush a doll's hair with a hairbrush,tooling,allocentric,1,brush to hair,dynamic,,no,,no,,Mignault 1985,1,164,Seen in only one human-reared animal. Likely from observing humans.
+great apes,Pan troglodytes,chimpanzee,anecdotal,reach,brush own hair with a comb,tooling,egocentric,1,brush to hair,dynamic,,no,,no,,Vancatova pers comm,1,164,Pers comm.
+great apes,Pan troglodytes,chimpanzee,observational,insert,"probe for termites using stalks/twigs/other items in mounds/nests (""termite fishing"")",tooling,allocentric,1,stalk to mound,dynamic,,yes,1-4,no,,"Abwe & Morgan 2008; Baldwin 1979; Bermejo & Illera 1999; Bermejo, Illera & Sabater-Pi 1989; Bertolani et al. 2007; Bogart 2009, Bogart & Pruetz 2008; Bogart, Pruetz & McGrew 2005; Brewer 1976, 1978, 1982; Collins & McGrew 1985, 1987; Deblauwe et al 2006; Goodall 1963a, 1963b, 1964, 1965, 1986; Greenfield et al 2000; Humle 1999; Lonsdorf 2005, 2006; Lonsdorf, Eberly & Pusey 2004; Lonsdorf & Hopkins 2005; McBeath & McGrew 1982; McGrew 1992, 1977, 1979; McGrew et al 2003; McGrew & Marchant 1992, 1999; McGrew, Tutin & Baldwin 1979; McGrew & Collins 1985; McGrew & Rogers 1983; McGrew, Pruetz & Fulton 2005; Nishida & Uehara 1982; Norikoshi 1994; Pandolfi, van Schaik & Pusey 2003; Pruetz 2006; Muroyama 1991; Sanz, Call & Morgan 2009; Sanz, Morgan & Gulick 2004; Sugiyama 1985; Suzuki 1966, 1969; Suzuki, Kuroda & Nishihara 1995; Takahata 1982; Takemoto 2004; Teleki 1974; Uehara 1982; van Lawick-Goodall 1968, 1970, 1971, 1973; Watts 2008",56,"164-166, 189, 191-192, 194-195, 202-203","See jab for associative tool use involving termite fishing after having punctured a hole. Detach branches/objects, clip shorter/remove worn ends, strip off fibers/bark and/or remove leaves, create brush on one end by chewing (""brush-tipped fishing tools"") (refine and repair brushes during use), considered tool crafting. One end of brush tool sometimes used for digging, and the other for fishing, making it a multi-function tool."
+great apes,Pan troglodytes,chimpanzee,observational,insert,"extract ants from nest with stick/stem/object (""ant dipping"")",tooling,allocentric,1,stick to nest,dynamic,,yes,1-3,no,,"Alp 1993; Baldwin 1979; Boehm 1992; Boesch & Boesch 1990, 1993; Brewer 1976; Fay & Carroll 1994; Fowler & Sommer 2007; Goodall 1963, 1964, 1965, 1986; Grasse in Hladik & Viroben 1974; Hashimoto 1998; Hashimoto, Furuichi & Tashiro 2000; Hicks, Fouts & Fouts 2005; Hicks in Schöning et al 2008; Hladik 1973, 1975, 1977; Hladik & Viroben 1974; Humle 2003, 2006; Humle & Matsuzawa 2001, 2002; Ingmanson 1997; Kade in McGrew 1974; Kawanaka 1990; Marchant & McGrew 2007; McGrew 1974, 1977, 1979, 1983; McGrew, Pruetz & Fulton 2005; McGrew et al. 2003; Möbius et al 2008; Nishida 1973; Nishida & Hiraiwa 1982; Nishida & Uehara 1980; Nishie, Itoh & Nishida 2006; Ohashi, 2006; Pruetz pers comm; Sanz & Morgan 2007; Sanz, Schöning & Morgan 2009; Schöning et al 2007, 2008; Shimada 2000; Sugiyama 1989, 1995; Sugiyama, Koman & Sow 1988; Takasaki 1992; Teleki 1974; Tutin & Fernandez 1992; Tutin, Ham & Wrogemann 1995; van Lawick-Goodall 1968, 1970, 1971, 1973; Whiten et al. 1999; Yamakoshi 1998, 2001; Yamakoshi & Myowa-Yamakoshi in Humle and Matsuzawa 2002; Yamakoshi & Myowa-Yamakoshi 2004; Yamamoto et al 2008",64,"166-168, 190, 192, 195, 203","Make ant-dipping tools sometimes up to 17 min before use; re use and carry. Detach and/or remove branches and/or strip bark, shorten/remove broken ends. May create brush on one end by chewing (secondary evidence only). Considered tool crafting. See jab for associative tool use involving ant dipping after having punctured a hole."
+great apes,Pan troglodytes,chimpanzee,observational,insert,probe for insects/larvae in logs/nests with sticks,tooling,allocentric,1,stick to log,dynamic,,yes,1-2,no,,Boesch 1995; Nishimura et al 2003; Ohashi 2006; Sherrow 2005,4,"168, 192",Detach twigs and remove bark. One chimp created a brush end to stick.
+great apes,Pan troglodytes,chimpanzee,anecdotal,insert,extract mushrooms from inside a mound with a stick,tooling,allocentric,1,stick to mound,dynamic,,no,,no,,Boesch 1995,1,168,
+great apes,Pan troglodytes,chimpanzee,observational,insert,extract honey from beehives with stick/bark strIOU/other tools (“fluid-dip / “honey fish”),tooling,allocentric,1,stick to hive,dynamic,,yes,1-3,no,,"Bermejo & Illera 1999; Bermejo, Illera & Sabater-Pi 1989; Boesch & Boesch 1990; Boesch, Head & Robbins 2009; Brewer & McGrew 1990; Fowler & Sommer 2007; Hicks, Fouts & Fouts 2005; Iwaza & Itani 1966; Kuroda 1991; Merfield 1956; Nishida & Hiraiwa 1982; Ohashi 2006; Pruetz pers comm; Reynolds 2005; Sanz & Morgan 2007, 2009; Stanford et al 2000; Takenoshita 2002; Tutin & Fernandez 1992; Tutin, Ham & Wrogemann 1995; Tutin et al 1991; Watts 2008; Whiten et al 1999; Wrangham in McGrew 1992",24,"168-169, 190, 192, 195","use different size sticks depending on type of bee. Detach sticks, strip off bark and/or remove leaves/side branches, sometimes s p in half to shorten. May create brush on one end by chewing (secondary evidence only). See pound for associative tool use involving probing for honey after pounding a hole and widening it."
+great apes,Pan troglodytes,chimpanzee,observational,insert, scoop out water from cavities with leaves/grass blades/sticks/other objects,tooling,allocentric,1,leaf to cavity,dynamic,,yes,1,no,,Goodall 1964; Kummer & Goodall 1985; Matsuzawa 1991; McGrew 1977; Ohashi 2006; Sugiyama 1995; Sugiyama & Koman 1979; Tonooka 2001; van Lawick–Goodall 1968,9,"169, 190, 196",Sometimes detach tools for use or chew leaf/ends of sticks into sponges.
+great apes,Pan troglodytes,chimpanzee,,insert,dip stick/twigs/straw into water/other fluids and suck,IOU,,,,,,,,,,,,169,Borderline case.
+great apes,Pan troglodytes,chimpanzee,,insert,insert sticks/stalks/other tools into cavities for olfactory information,IOU,,,,,,,,,,,,169,Borderline case.
+great apes,Pan troglodytes,chimpanzee,observational,insert,extract marrow from bones/meat from nuts using sticks/stems,tooling,allocentric,1,stick to bone,dynamic,,yes,1-3,no,,"Boesch & Boesch 1989, 1990; Sanz & Morgan 2007",3,"169, 195","Detach twigs/shorten, remove side branches/leaves, sharpen end to make ""marrow-picks."" See pound for associative use/tool set for extracting nut after cracking."
+great apes,Pan troglodytes,chimpanzee,anecdotal,insert,probe nostril will stick to clear mucous,tooling,egocentric,1,stick to nostril,dynamic,,yes,1,no,,Marchant & McGrew 1999; Nishida & Nakamura 1993,2,"169, 192",Seen in two wild animals. One removed leaves from twig/ leaf blade from leaf.
+great apes,Pan troglodytes,chimpanzee,observational,insert,clean/remove own teeth with sticks/cloth,tooling,egocentric,1,stick to teeth,dynamic,,yes,1-2,no,,"Brewer 1978; King, Stevens & Mellen 1980; McGrew & Tutin 1972, 1973; Vancatova pers comm",5,170,Strip leaves/shorten twigs.
+great apes,Pan troglodytes,chimpanzee,observational,insert,clean/remove others teeth with sticks/cloth,tooling,allocentric,1,stick to teeth,dynamic,,yes,1-2,no,,"McGrew & Tutin 1972, 1973; King, Stevens & Mellen 1980; Vancatova pers comm",4,170,Strip leaves/shorten twigs.
+great apes,Pan troglodytes,chimpanzee,observational_experimental,insert,use sticks/rods/objects to get foods from containers/artificial mounds,tooling,allocentric,1,stick to container,dynamic,,yes,1-2,no,,"Boesch 1981; Bettinger & Carter 1991; Bodamer 1990; Brandibas, Chalmeau & Gallo 1995; Cantalupo et al. 2008; Celli, Hirata & Tomonaga 1999, 2004; Celli et al. 2001; Fletcher & Weghorst 2005; Gaspar & Reis 1993; Harvey 1998; Hirata 2006; Hirata & Celli 2003; Hirata & Morimura 2000; Hopkins & Rabinowitz 1997; Hopkins, Russell & Cantalupo 2007; Köhler 1925; Ladygina- Kohts 1959, 2002; Lonsdorf et al 2009; Maki et al 1989; Morimura 2003; Morimura et al. 2002; Ochiai & Matsuzawa 1998; Murphy 1976; Nash 1981, 1982; Paquette 1992, 1994; Perret, Buechner & Adler 1998; Pfeiffer & Koebner 1978; Poulson 1974-1975; Terdal 2005; Tonooka 1994; Vancatova 2008; Wehnelt, Bird & Lenihan 2006",36,"170, 190, 192",Sometimes detach tools for use and/or remove leaves/side branches.
+great apes,Pan troglodytes,chimpanzee,anecdotal,insert,clean ears with stick,tooling,egocentric,1,stick to ear,dynamic,,no,,no,,Nissen 1956,,170,Seen in only one captive animal.
+great apes,Pan troglodytes,chimpanzee,,insert,probe crevices with sticks/other objects,IOU,,,,,,,,,,,,170,Borderline case (aim is unclear).
+great apes,Pan troglodytes,chimpanzee,observational_experimental,insert,open/attempt to open locks with keys/sticks/other objects,tooling,allocentric,1,key to lock,dynamic,,yes,1,yes,no,"Bingham 1929; Döhl 1968; Fletcher & Weghorst 2005; Furness 1916; Jennison 1927; McGrew, Tutin & Midgett 1975; Menzel, Davenport, & Rogers 1970; Schastnyi 1963, 1972; Temerlin 1975",10,"170, 190",sequential use of keys to open locked boxes. One captive detached splinters to use as lock pick.
+great apes,Pan troglodytes,chimpanzee,experimental,insert,"insert a stick/pole to push food out of a tube (""tube task"" / ""box-and-stick problem"")",tooling,allocentric,1,stick to food,dynamic,,yes,1,no,,"Bania et al. 2009; Bard, Fragaszy & Visalberghi 1995; Birch 1945; Greenfield & Savage-Rumbaugh 1984; Haggerty 1910; Hayes & Hayes 1952; Hayes & Nissen 1971; Hobhouse 1926; Hopper et al. 2007; Horner & Whiten 2005, 2007; Ladygina-Kohts 1959; Ladygina-Kohts & Dembovskii 1969; Khroustov 1964; Limongelli, Boysen & Visalberghi 1995; Martin-Ordas, Call & Colmenares 2008; Marshall-Pescini & Whiten 2008; Mulcahy & Call 2006; Osvath & Osvath 2008; Pescetta et al. 2008; Povinelli et al. 2000; Savage-Rumbaugh, Rumbaugh & Boysen 1978; Savage-Rumbaugh 1986; Savage-Rumbaugh, Rumbaugh & Boysen 1978; Seed et al 2009; Tonooka, Tomonaga & Matsuzawa 1997; Visalberghi, Fragaszy, and Savage-Rumbaugh 1995; Whiten, Horner & de Waal 2005; Whiten et al. 2007; Yerkes 1943; Yerkes & Learned 1925; Yerkes & Yerkes 1929",32,"170-171, 192, 195","Modified tools including removing leaves, removing crosspieces and bending/unbending wires. One captive broke pieces of wood along grain to create tools. Did not include trap-tube (included in reach)"
+great apes,Pan troglodytes,chimpanzee,observational,scratch,tickle self with stones/sticks/objects,tooling,egocentric,1,stick to self,dynamic,,no,,no,,Goodall 1986; Sanz & Morgan 2007,2,171,
+great apes,Pan troglodytes,chimpanzee,observational,scratch,groom/scratch self with sticks/straw,tooling,egocentric,1,stick to self,dynamic,,yes,1,no,,"Gaspar & Reis 1993; Goodall 1986; King, Stevens & Mellen 1980; Köhler 1925; Kummer 1971",5,"171-172, 189, 193",Sometimes detach tools for use. One chimp bit the end of a straw to make a sharp point.
+great apes,Pan troglodytes,chimpanzee,anecdotal,scratch,rub clitoris with pencil,tooling,egocentric,1,pencil to clitoris,dynamic,,no,,no,,Temerlin 1975,1,172,
+great apes,Pan troglodytes,chimpanzee,anecdotal,cut,cut own hair with scissors,tooling,egocentric,1,scissors to hair,dynamic,,no,,no,,Hayes & Hayes 1952,1,172,Seen in only one experimental animal (Viki)
+great apes,Pan troglodytes,chimpanzee,anecdotal,cut,cut a string with scissors to e ble opening a box,tooling,allocentric,1,scissors to string,dynamic,,no,,no,,Hayes & Nissen 1971,1,172,Seen in only one experimental animal (Viki)
+great apes,Pan troglodytes,chimpanzee,anecdotal,cut,burn through a string with a cande to open a box,tooling,allocentric,1,candle to string,dynamic,,no,,no,,Hayes & Hayes 1952,1,172,Seen in only one experimental animal (Viki).
+great apes,Pan troglodytes,chimpanzee,anecdotal,cut,cut through hide with bone fragments to access bottle opening,tooling,allocentric,1,bone to hide,dynamic,,no,,no,,"Kitahara-Frisch, Norikoshi & Hara 1987",1,172,Cannot find report for more details. Occurred with captive chimpanzees.
+great apes,Pan troglodytes,chimpanzee,,block,leave stick in termite mounds as stopper,IOU,,,,,,,,,,,,172,
+great apes,Pan troglodytes,chimpanzee,,prop,prop logs/ladders/other objects to climb,IOU,,,,,,,,,,,,172-173,
+great apes,Pan troglodytes,chimpanzee,,prop,insert sticks/branches into fencing as pitons to climb,IOU,,,,,,,,,,,,172,
+great apes,Pan troglodytes,chimpanzee,,prop,balance poles to climb/jump,IOU,,,,,,,,,,,,173,
+great apes,Pan troglodytes,chimpanzee,,prop,"hold branch in place so infant can cross (""bridging')",IOU,,,,,,,,,,,,173,
+great apes,Pan troglodytes,chimpanzee,,prop,place boxes/objects under out of reach rewards,IOU,,,,,,,,,,,,173,
+great apes,Pan troglodytes,chimpanzee,,prop,reposition conspecifics to climb on them,IOU,,,,,,,,,,,,173,
+great apes,Pan troglodytes,chimpanzee,,prop,use tire as support for body,IOU,,,,,,,,,,,,173,
+great apes,Pan troglodytes,chimpanzee,,prop,place pole between barges to travel across,IOU,,,,,,,,,,,,173-174,
+great apes,Pan troglodytes,chimpanzee,,hang,hang cloth from bar to swing on,IOU,,,,,,,,,,,,174,
+great apes,Pan troglodytes,chimpanzee,,prop,stack boxes to reach out of reach reward,IOU,,,,,,,,,,,,174,
+great apes,Pan troglodytes,chimpanzee,,contain,dip leaf into water and lick off,IOU,,,,,,,,,,,,174,Borderline case (aim is unclear).
+great apes,Pan troglodytes,chimpanzee,observational,contain, scoop water with folded leaf,tooling,allocentric,1,cup to water,dynamic,,yes,2,no,,"Biro, Sousa & Matsuzawa 2006; Tonooka 1995, 2001; Tonooka & Inoue-Nakamura 1993; Tonooka, Inoue-Nakamura, & Matsuzawa 1994",5,"174, 195",Deatch leaves and fold in mouth into pleats.
+great apes,Pan troglodytes,chimpanzee,,contain,Poop into leaf and remove meat to eat,IOU,,,,,,,,,,,,174,
+great apes,Pan troglodytes,chimpanzee,,contain,place parasite on leaf to inspect,IOU,,,,,,,,,,,,174,
+great apes,Pan troglodytes,chimpanzee,observational,contain,use spoon/cups/objects to eat/drink,tooling,allocentric,1,spoon to food,dynamic,,yes,1,no,,"Bettinger & Carter 1991; Brewer 1978; Fletcher & Weghorst 2005; Fouts 1997; Furness 1916; Gaspar 1993; Hayes 1951; Ladygina-Kohts 2002; McGrew & Tutin in McGrew 1992; Takeshita & van Hooff 1996, 2001; Temerlin 1975; Tonooka, Tomonaga & Matsuzawa 1997; van Hooff 1973",14,"174-175, 190",Captive chimpanzees only. One captive made cup by deatching side of plastic brick.
+great apes,Pan troglodytes,chimpanzee,,contain,carry water in containers,IOU,,,,,,,,,,,,175,
+great apes,Pan troglodytes,chimpanzee,,contain,carry food in leaves,IOU,,,,,,,,,,,,175,
+great apes,Pan troglodytes,chimpanzee,,absorb,place vegetation/objects in liquids to suck,IOU,,,,,,,,,,,,175-176,
+great apes,Pan troglodytes,chimpanzee,observational_experimental,absorb,"use chewed/crumped vegetation (""leaf sponge"") to reach water/palm juice/liquid in hole",tooling,allocentric,1,sponge to water,dynamic,,yes,1-2,no,,"Bettinger & Carter 1991; Biro, Sousa & Matsuzawa 2006; Boesch & Boesch 1990; Brewer 1978; Goodall 1964, 1986; Hunt & McGrew 2002; Lanjouw 2002; Marchant, McGrew & Hunt 2007; McGrew 1977; Norikoshi & Kitahara 1979; Parker 1968, 1969; Sanz & Morgan 2007; Sousa & Matsuzawa 2004; Sugiyama 1989, 1995; Tonooka 2001; Tonooka, Tomonaga & Matsuzawa 1997; Matsusaka & Kutsukake 2002; Matsusaka et al. 2006; Ohashi 2006; Quiatt 2001, 2006; Reynolds 2005; Sugiyama 1994; Takasaki 1992; Takasaki & Tsukahara in Nishida 1990; Teleki 1973b, 1973c; Tutin, Ham & Wrogemann 1995; van Lawick-Goodall 1965, 1968, 1970, 1971, 1973; Watts 2008; Whiten et al. 1999; Wrangham 1975, 1977",41,"175-176, 190, 195",Detached leaves/collect moss for use/break stick in half. Chew into sponge. See pound for associative tool use involving reaching juice after pounding hole in palm.
+great apes,Pan troglodytes,chimpanzee,,absorb,dip fruit/food in water,IOU,,,,,,,,,,,,175,
+great apes,Pan troglodytes,chimpanzee,observational,wipe,"wipe materials from body with leaf/object (""leaf- pkins"")",tooling,egocentric,1,leaf to body,dynamic,,yes,1,no,,"Baldwin 1979; Bernstein 1962; Boesch 1995; Boesch & Boesch-Achermann 2000; Corp et al 2009; Fletcher & Weghorst 2005; Goodall 1964, 1986; Hayes 1951; King, Stevens & Mellen 1980; Köhler 1925; Kortlandt & Kooij 1963; Kuroda 1991; Nishida 1973, 1977; Nishida, Matsusaka & McGrew 2009; McGrew et al. 2009; Nishida et al. 1999; Nishida 2003; Quiatt 2006; Sanz & Morgan 2007; van Lawick–Goodall 1965, 1968, 1970, 1971, 1973; Watts 2008; Wrangham in O'Hara & Lee 2006",28,"176-177, 190",Detached leaves for use.
+great apes,Pan troglodytes,chimpanzee,,wipe,"touch wounds with leaves (""leaf dab"")",IOU,,,,,,,,,,,,177,Borderline case (aim is unclear)
+great apes,Pan troglodytes,chimpanzee,anecdotal,wipe,"brush insects away with leaf (""leaf brush"")",tooling,allocentric,1,leaf to insect,dynamic,,yes,1,no,,Goodall 1986; Nishida 1973; Whiten et al. 1999,3,177,Seen in two wild adults. One crumpled leaves before use.
+great apes,Pan troglodytes,chimpanzee,observational,wipe,wipe out the inside of fruits/skulls with leaves for food rem nts,tooling,allocentric,1,leaf to fruit,dynamic,,no,,no,,"Boesch & Boesch 1990; Teleki 1973b, 1973c; Wrangham 1977",4,177,"Sometimes wipe with pre-chewed leaf with meat (""wadge""), borderline tool manufacture."
+great apes,Pan troglodytes,chimpanzee,observational,wipe,wipe cages/surroundings with cloth/objects,tooling,allocentric,1,cloth to cage,dynamic,,no,,no,,"Bernstein 1962; Fouts & Fouts 1989; Grzimek 1941; Hayes 1951; King, Stevens & Mellen 1980; Kollar 1972; Temerlin 1975; Terrace 1979",8,177,"Captive chimpanzees only, likely imitating caretakers."
+great apes,Pan troglodytes,chimpanzee,,affix,use branches as rain cover,IOU,,,,,,,,,,,,177,
+great apes,Pan troglodytes,chimpanzee,,affix,place branches/objects on selves (in play/ adornment),IOU,,,,,,,,,,,,177-178,
+great apes,Pan troglodytes,chimpanzee,,affix,cover insect in cloth before smashing,IOU,,,,,,,,,,,,178,
+great apes,Pan troglodytes,chimpanzee,,affix,"place vegetation/boxes to sit on (to avoid uncomfortable surfaces) (""seat sticks"" / ""leaf cushions"" / "" seat vegetation"")",IOU,,,,,,,,,,,,178-179,
+great apes,Pan troglodytes,chimpanzee,,affix,line surface of nests with leafy twigs/leaves,IOU,,,,,,,,,,,,178-179,
+great apes,Pan troglodytes,chimpanzee,,affix,"grasp sticks by feet during locomotion (as protection) (""stepping sticks"")",IOU,,,,,,,,,,,,179,
+great apes,Pan troglodytes,chimpanzee,,affix,prop up anvil with small stone wedge,IOU,,,,,,,,,,,,179,
+great apes,Pan troglodytes,chimpanzee,,affix,"place parasite on leaf to squash (""leaf-squash"")",IOU,,,,,,,,,,,,179,
+great apes,Pan troglodytes,chimpanzee,anecdotal,affix,use suction hose vacuum cleaner to masturbate,tooling,egocentric,1,vacuum to genitals,dynamic,,no,,no,,Temerlin 1975,1,179,Seen in only one experimental animal (Lucy).
+great apes,Pan troglodytes,chimpanzee,anecdotal,affix,sand furniture with sandpaper,tooling,allocentric,1,sandpaper to furniture,dynamic,,no,,no,,Hayes 1951; Hayes & Hayes 1952,2,179,Seen in only one experimental animal (Viki). Imitating caretakers.
+great apes,Pan troglodytes,chimpanzee,anecdotal,affix,light cigarette with another lit cigarette,tooling,allocentric,1,cigarette to cigarette,dynamic,,no,,no,,Brink 1957,1,179,Seen in two captive animals.
+great apes,Pan troglodytes,chimpanzee,,symbolize,carry logs/dead animals/dolls (for psychological security),IOU,,,,,,,,,,,,179,
+great apes,Pan troglodytes,chimpanzee,,symbolize,Exchange tokens for reward,IOU,,,,,,,,,,,,179-180,
+great apes,Pan troglodytes,chimpanzee,,symbolize,use language chIOU to communicate,IOU,,,,,,,,,,,,180,
+prosimians,Lemur catta,Ring-tailed lemur,,brandish,use tail to wave own scent around,IOU,,,,,,,,,,,,73,
+prosimians,Lemur catta,Ring-tailed lemur,,reach,pull in food with pre-positioned cane,IOU,,,,,,,,,,,,73,"Shumaker et al. Say this does not conform to their def of tool use, as tool was pre-positioned"
+prosimians,Eulemur fulvus,Common brown lemur,,reach,pull in food with pre-positioned cane,IOU,,,,,,,,,,,,73,"Shumaker et al. Say this does not conform to their def of tool use, as tool was pre-positioned"
+prosimians,Varecia rubra,Red-ruffed lemur,,reach,pull in food with pre-positioned cane,IOU,,,,,,,,,,,,73,"Shumaker et al. Say this does not conform to their def of tool use, as tool was pre-positioned"
+prosimians,Daubentonia madagascariensis,Aye-aye,,prop,move vine to climb and access food,IOU,,,,,,,,,,,,74,
+prosimians,Eulemur macaco,Black lemur,,affix,annoint with insect,IOU,,,,,,,,,,,,74,
+prosimians,Galagonidae spp.,Galago,,affix,apply urine to hands and feet,IOU,,,,,,,,,,,,74,
+prosimians,Loridae spp.,Loris,,affix,apply urine to hands and feet,IOU,,,,,,,,,,,,74,
+prosimians,Microcebus murinus,Mouse lemur,,affix,apply urine to hands and feet,IOU,,,,,,,,,,,,74,
+nw_monkeys,Cebus spp.,Capuchin monkeys,,drop,break and drop branches/objects on threats,IOU,,,,,,,,,,,,74,
+nw_monkeys,Pithecia spp.,Saki monkeys,,drop,drop branches on pursuing humans,IOU,,,,,,,,,,,,74,
+nw_monkeys,Saimiri spp.,Squirrel monkeys,,drop,drop branches on pursuing humans,IOU,,,,,,,,,,,,74,
+nw_monkeys,Alouatta spp.,Howler monkeys,,drop,drop branches on pursuing humans,IOU,,,,,,,,,,,,74,
+nw_monkeys,Ateles spp.,Spider monkeys,,drop,drop branches and fruits on intruders,IOU,,,,,,,,,,,,74,
+nw_monkeys,Lagothrix lagotricha,Woolly monkey,,throw,throw excreta at humans,IOU,,,,,,,,,,,,74,
+nw_monkeys,Cebinae spp.,Tufted capuchin,,throw,throw excreta at humans,IOU,,,,,,,,,,,,74,
+nw_monkeys,Cebinae spp.,Capuchin monkeys,,throw,throw objects at agents (agonistic and play context),IOU,,,,,,,,,,,,75,
+nw_monkeys,Cebinae spp.,Capuchin monkeys,,throw,throw objects at food,IOU,,,,,,,,,,,,75,
+nw_monkeys,Cebinae spp.,Capuchin monkeys,,throw,throw food to conspecifics/humans,IOU,,,,,,,,,,,,75,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,drag,push dead tree over at human,IOU,,,,,,,,,,,,76,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,brandish,shake branches at humans,IOU,,,,,,,,,,,,76,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,, bait,bait prey with food,IOU,,,,,,,,,,,,76,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,, bait,bait kitten with object (play),IOU,,,,,,,,,,,,76,
+nw_monkeys,Cebus apella,Tufted capuchin,, bait,exchange tokens for food,IOU,,,,,,,,,,,,76,
+nw_monkeys,Alouatta seniculus,Red howler monkey,anecdotal,club,hit sloth with branch,tooling,allocentric,1,branch to sloth,dynamic,,no,,no,,"Richard-Hansen, Bello, and Vie 1998",1,76,
+nw_monkeys,Cebus spp.,Capuchin monkey,observational,club,club threats with objects,tooling,allocentric,1,object to threat,dynamic,,no,,no,,Chippendale (in Kortlandt and Kooij 1963); Boinski 1988; Giudice and Pavé 2007; Mannu and Ottoni 2009; Chevalier-Skolnikoff 1990; Romanes 1892; Cooper and Harlow 1961; Chevalier-Skolnikoff 1989,8,76,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational/experimental,pound,use stone hammer to open nuts,tooling,allocentric,1,hammer to nut,dynamic,,no,,no,,"Bandres, Campos, and Llavona 1989; Urbani 1998",2,77,Many of the following could be combined into one row
+nw_monkeys,Cebinae spp.,Capuchin monkey,observational/experimental,pound,hammer nut/seed on anvil,tooling,allocentric,2,1) nut to anvil 2) hammer to nut,static,dynamic,no,,no,,"Canale et al. 2009; de Resende and Ottoni 2002; Alonso 2006; Fragaszy et al. 2004; Langguth and Alonso 2006; Fragaszy et al. 2004; Langguth and Alonso 1997; Mannu and Ottoni 1999; Ottoni, de Resende, Resende, and Izar 2005; Ottoni and Mannu 2001, 2003; Ottoni, Mannu, and de Resende 2002; Souza, Mendes, and da Silva 2002; Visalberghi 2004, 2006; Visalberghi et al. 2004, 2006; Rocha, dos Reis, and Sekiama 1998",18,77,note: The above and this one could be supplemented with a whole paragraph from page 79 describing the same thing but all in captivity
+nw_monkeys,Cebinae spp.,Capuchin monkey,observational,pound,use nuts as hammer to open nuts,tooling,allocentric,1,hammer to nut,dynamic,,no,,no,,Visalberghi et al. 2009a; Struhsaker and Leland 1977,2,77,
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,observational,pound,use sticks as hammer to open nuts,tooling,allocentric,1,hammer to nut,dynamic,,no,,no,,Ottoni and Mannu 2001,1,77,
+nw_monkeys,Cebus [Sapajus] spp.,Capuchin monkey,observational,pound,"use stones to hammer open tough skinned-fruit, seeds, dry tubers and branches",tooling,allocentric,1,hammer to food,dynamic,,no,,no,,"Boinski, Quatrone, and Swartz 2000; Mannu and Ottoni 2005, 2009; Moura 2002; Waga et al. 2006; Moura 2003; Moura and Lee 2004a, 2004b, 2004c",9,77,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational,pound,hammer oyster open with stone,tooling,allocentric,1,hammer to oyster,dynamic,,no,,no,,Dampier (in Hill 1960); Jennison 1927; Romanes 1892; Fernandes 1991,4,78,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational,pound,bang stones or hard fruits on surfaces in acoustic displays,tooling,allocentric,1,object to surface,dynamic,,no,,no,,"Moura 2007; J. D. Anderson, Owren, and Boinski 2007",2,78,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational,pound,"use hard objects (bone fragments, stone or branch) as hammer and chisel to process food",tooling,allocentric,2,1) chisel to target 2) hammer to chisel,static,dynamic,no,,yes,concurrent,"Westergaard and Suomi 1994d, 1994e; Westergaard et al. 1996",3,"80, 81",
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,anecdotal,pound,pound encased food on hard surface,tooling?,allocentric,1,nut to surface,dynamic,,no,,no,,Garner 1892,1,80,Single case
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational,pry,pry box lids open with spoon or stick,tooling,allocentric,1,spoon/stick to lid,dynamic,,no,,no,,Rengger 1830; Romanes 1892; Jalles-Filho 1995; Fredman and Whiten 2008,4,80,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,anecdotal,pry,use stick to roll over piece of wood,tooling,allocentric,1,stick to wood,dynamic,,no,,no,,Rengger 1830,1,80,Single subject
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,anecdotal,pry,use racket handle to dislodge food container,tooling,allocentric,1,handle to container,dynamic,,no,,no,,Rensch 1973,1,80,Single subject
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,anecdotal,pry,use stick to dislodge box with predator inside,tooling,allocentric,1,stick to box,dynamic,,no,,no,,"Vitale, Visalberghi, and DeLillo 1991",1,80,Single subject
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,anecdotal,pry,pry open enclosure door with stick,tooling,allocentric,1,stick to door,dynamic,,no,,no,,Sutton 1982,1,80,Single subject
+nw_monkeys,Sapajus cay [Cebus paraguayanus],Hooded capuchin,anecdotal,pry,pry mesh from wall with stick,tooling,allocentric,1,stick to mesh,dynamic,,no,,no,,Giudice and Pav. 2007,1,80,Single subject
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,anecdotal,pry,remove sutures with stick,tooling,egocentric,1,stick to sutures,dynamic,,no,,no,,Westergaard and Fragaszy 1987b,1,80,Single subject
+nw_monkeys,Cebinae spp.,Capuchin monkey,observational_experimental,dig,dig up food with stones/sticks,tooling,allocentric,1,stone/stick to earth,dynamic,,no,,no,,"Mannu and Ottoni 2009; Moura 2002, 2003; Moura and Lee 2004a, 2004b, 2004c; Giudice and Pavé 2007; Westergaard and Suomi 1995b; Chevalier-Skolnikoff 1989",9,80-81,"All Cebus apella, except cannot find species for Chevalier ref"
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,,jab,attempted stabbing of possum (no contact made),IOU,,,,,,,,,,,,81,no contact made with possum; single subject
+nw_monkeys,Cebus capucinus imitator,White-faced capuchin,anecdotal,jab,jab at conspecific during play,tooling,allocentric,1,stick to conspecific,dynamic,,no,,no,,Chevalier-Skolnikoff 1990,1,81,Single subject; degree of contact unclear
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,anecdotal,jab,jab at cage mate aggressively,tooling,allocentric,1,stick to conspecific,dynamic,,no,,no,,Cooper and Harlow 1961,1,81,Single subject; degree of contact unclear
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,anecdotal,jab,jab at dog,tooling,allocentric,1,stick to dog,dynamic,,no,,no,,Romanes 1892,1,81,Single subject; degree of contact unclear
+nw_monkeys,Leontopithecus rosalia rosalia,Golden lion tamarin,observational,reach,use sticks/radio antennae to groom self,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Stoinski and Beck 2001,1,81,
+nw_monkeys,Leontopithecus rosalia rosalia,Golden lion tamarin,observational,reach,use sticks/radio antennae to groom partner,tooling,allocentric,1,stick to partner,dynamic,,no,,no,,Stoinski and Beck 2001,1,81,
+nw_monkeys,Leontopithecus rosalia rosalia,Golden lion tamarin,observational,reach,use sticks/radio antennae to extract insects from tree bark,tooling,allocentric,1,stick to bark,dynamic,,no,,no,,Stoinski and Beck 2001,1,81-82,
+nw_monkeys,Saimiri sciureus,Squirrel monkey,anecdotal,reach,sweep food across ground with stick to dislodge ants from food,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Kortlandt and Kooij 1963,1,82,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,anecdotal,reach,reach for objects outside cage with cloth towel,tooling,allocentric,1,towel to object,dynamic,,no,,no,,Gibson 1990,1,82,Single subject
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational,reach,use sticks to assess pool depth,IOU,,,,,,,,,,,,82,
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,anecdotal,reach,use stick to groom self,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Westergaard and Fragaszy 1987b,1,82,Single subject
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,anecdotal,reach,use stick to treat conspecific wounds,tooling,allocentric,1,stick to conspecific,dynamic,,no,,no,,Westergaard and Fragaszy 1987b; Ritchie and Fragaszy 1988,2,82,Single subject (x2 reports)
+nw_monkeys,Sapajus cay [Cebus paraguayanus],Hooded capuchin,anecdotal,reach,use straw to remove splinter,tooling,egocentric,1,Straw to embedded splinter,dynamic,,no,,no,,Giudice and Pav. 2007,1,82,Single subject
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational_experimental,reach,use variety of objects to reach/rake in inaccessible reward,tooling,allocentric,1,object to target,dynamic,,no,,no,,"Anderson and Henneman 1994; Bates in Hobhouse 1926; Belt 1874; Belt in Romanes 1892; Bierens de Haan 1931; Chevalier-Skolnikoff 1989; Cooper and Harlow 1961; Cope in Bierens de Haan 1931; Eisentraut 1933; Garner 1892; Giudice and Pav. 2007; Harlow 1951; Johnson 1996; Klu?ver 1933, 1937; Krieg 1930; Romanes 1892; Warden, Koch, and Fjeld 1940; Potì et al. 1990, 1991; Byrne and Suomi 2004; Bierens
+ de Haan 1931; Harlow 1951; Klu?ver 1933",24,82-83,
+nw_monkeys,Cebinae spp.,Capuchin monkey,observational_experimental,insert,"probe for food/water with plant parts (vines, branches, sticks)",tooling,allocentric,1,object to target,dynamic,,no,,no,,"Jay 1968; Chevalier-Skolnikoff 1990; Mannu and Ottoni 2005, 2009; Moura 2002, 2003; Moura and Lee 2004a, 2004b, 2004c; Mannu and Ottoni 2009; J. R. Anderson and Henneman 1994; J. R. Anderson, Lamarque, and Fagot 1996; Bortolini and Bicca-Marques 2007; Cleveland et al. 2004; Costello 1987; M. Dubois 2001; M. Dubois et al. 2001; T. Evans and Westergaard 2006; Flemming, Rattermann, and Thompson 2006; Fragaszy and Adams-Curtis 1991; Fragaszy, Vitale, and Ritchie 1994; Lavallee 1999; Westergaard 1991; Westergaard and Fragaszy 1987a, 1987b; Westergaard, Kuhn, and Suomi 1998a, 1998b; Westergaard and Suomi 1994b, 1994c, 1994g, 1995a; Westergaard et al. 1997, 1998c; Wojciechowski 2007; Harlow 1951; Klu?ver 1933, 1937; Visalberghi and Limongelli 1991, 1992, 1994; Visalberghi and Trinca 1989, 1990; Visalberghi and Trinca 1989",43,83,
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,experimental,insert,crack nut with stone and use stick to extract from the shell,tooling,allocentric,2,1) stone to nut 2) stick to nut,dynamic,dynamic,no,,yes,sequential,Westergaard and Suomi 1993b,1,83,
+nw_monkeys,Ateles geoffroyi,Spider monkey,observational,scratch,scratch self with stick,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Lindshield and Rodrigues 2009,1,83,
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,observational,cut,cut food with flattened stones,tooling,allocentric,1,stone to food,dynamic,,no,,no,,Mannu and Ottoni 2009,1,83,
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,observational_experimental,cut,use stones and other objects to access encased food,tooling,allocentric,1,object to casing,dynamic,,no,,no,,"Westergaard et al. 1997; Westergaard and Suomi 1994d, 1994e, 1994f, 1995a, 1995d, 1997a, 1997c; Jalles-Filho 1995",9,84,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,block,use cloth towel as shield,IOU,,,,,,,,,,,,85,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,prop,balance and climb sticks/boxes to reach food,IOU,,,,,,,,,,,,85,
+nw_monkeys,Lagothrix lagotricha,Woolly monkey,,hang,use rope as swing,IOU,,,,,,,,,,,,85,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational,contain,use leaves as cups,tooling,allocentric,1,leaf to water,dynamic,,no,,no,,Phillips 1998,1,85,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,contain,use bread or leaf to avoid touching sticky banana,IOU,,,,,,,,,,,,85-86,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational,contain,place water/objects into containers for transport,tooling,allocentric,1,container to water,dynamic,,no,,no,,Westergaard and Fragaszy 1985; Urbani 1999; Chevalier-Skolnikoff 1989,3,86,Separate objects and water on 2 lines?
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,contain,conceal preferred food/objects with towels,IOU,,,,,,,,,,,,86,
+nw_monkeys,Saimiri sciureus,Squirrel monkey,,contain,use PVC caps to contain water or pieces of food,IOU,,,,,,,,,,,,86,Unclear if they used to  scoop up water
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,absorb,use crumpled leaf to absorb water from tree cavity,IOU,,,,,,,,,,,,86,
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,observational,absorb,use vines to collect water from inaccessible tree cavities,tooling,allocentric,1,Vine to water,dynamic,,,,,,Mannu and Ottoni 2005,1,86,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,absorb,lick water from leaf,IOU,,,,,,,,,,,,86,
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,,absorb,"absorb liquids (water, juice, runny eggs) with material",IOU,,,,,,,,,,,,86,
+nw_monkeys,Alouatta spp.,Howler monkeys,anecdotal,wipe,wipe wounds with leaves,tooling,egocentric,1,leaf to wound,dynamic,,no,,no,,Carpenter 1934,1,86,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,wipe,use cloth to sweep debris from cage,IOU,,,,,,,,,,,,86,
+nw_monkeys,Ateles spp.,Spider monkey,,affix,place leaves in wounds,IOU,,,,,,,,,,,,86,
+nw_monkeys,Alouatta spp.,Howler monkeys,,affix,use small sticks and fruits as toilet aids,IOU,,,,,,,,,,,,86,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,observational,affix,wrap caterpillars or fruits in leaves before rubbing on substrate,tooling,allocentric,1,leaf to object,static,,no,,no,,Panger et al. 2002,1,86,??
+nw_monkeys,Ateles geoffroyi,Spider monkey,,affix,"annoint with food, chewed leaves",IOU,,,,,,,,,,,,87,
+nw_monkeys,Cebinae spp.,Capuchin monkey,,affix,annoint with odorous objects/substances,IOU,,,,,,,,,,,,87,
+nw_monkeys,Aotus spp.,Owl monkey,,affix,"annoint with food, insects",IOU,,,,,,,,,,,,87,
+nw_monkeys,Alouatta spp.,Howler monkeys,,affix,urine washing,IOU,,,,,,,,,,,,87,
+nw_monkeys,Saimiri sciureus,Squirrel monkey,,affix,urine washing,IOU,,,,,,,,,,,,87,
+nw_monkeys,Cebus [Sapajus] apella,Tufted capuchin,,affix,activate watering device by placing stones against drinking tube,IOU,,,,,,,,,,,,88,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,affix,drape cloth around neck in palyful self-decoration,IOU,,,,,,,,,,,,88,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,affix,place bucket on head during play,IOU,,,,,,,,,,,,88,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,affix,apply bits of bark to infant's head wound,IOU,,,,,,,,,,,,88,
+nw_monkeys,Cebinae (unspecified),Capuchin monkey,,symbolize,use tokens in exchange for food or tools,IOU,,,,,,,,,,,,88,
+ow_monkeys,Colobus spp.,Colobus monkeys,,drop,drop branches/twigs on humans,IOU,,,,,,,,,,,,89,
+ow_monkeys,Erythrocebus patas,Patas monkey,,drop,drop sticks/stones/debris on humans,IOU,,,,,,,,,,,,89,
+ow_monkeys,Macaca spp.,Macaques,,drop,drop objects on humans,IOU,,,,,,,,,,,,89,
+ow_monkeys,Cercopithecus spp.,Guenons,,drop,drop branches on humans,IOU,,,,,,,,,,,,89,
+ow_monkeys,Macaca cyclopis,Formosan rock macaque,,drop,drop objects on predators,IOU,,,,,,,,,,,,89,
+ow_monkeys,Piliocolobus spp.,Red colobus monkeys,,drop,drop branches/twigs on humans,IOU,,,,,,,,,,,,89,
+ow_monkeys,Papio spp.,Baboons,,drop,drop objects at humans,IOU,,,,,,,,,,,,89,
+ow_monkeys,Papio ursinus,Chacma baboon,,drop,drop stones at humans,IOU,,,,,,,,,,,,89,
+ow_monkeys,Papio papio,Guinea baboon,,drop,drop stones onto hole in concrete,IOU,,,,,,,,,,,,89,
+ow_monkeys,Macaca nemestrina,Pig-tailed macaque,,drop,drop rod tool to scare conspecifics,IOU,,,,,,,,,,,,89,
+ow_monkeys,Trachypithecus cristatus,Silvery leaf monkey,,throw,break and throw branches at humans,IOU,,,,,,,,,,,,89,
+ow_monkeys,Nasalis larvatus,Proboscis monkey,,throw,break and throw branches at humans,IOU,,,,,,,,,,,,89,
+ow_monkeys,Semnopithecus entellus,northern Plains gray langurs,,throw,throw stones at humans,IOU,,,,,,,,,,,,90,
+ow_monkeys,Cercocebus spp.,Mangabeys,,throw,throw objects,IOU,,,,,,,,,,,,90,
+ow_monkeys,Mandrillus leucophaeus,Drill,,throw,throw stones/objects at humans,IOU,,,,,,,,,,,,90,
+ow_monkeys,Mandrillus sphinx,Mandrill,,throw,throw sand at humans,IOU,,,,,,,,,,,,90,
+ow_monkeys,Cercopithecus spp.,Guenons,,throw,throw sand at humans,IOU,,,,,,,,,,,,90,
+ow_monkeys,Erythrocebus patas,Patas monkey,,throw,throw objects,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca fuscata,Japanese macaque,,throw,throw stones/sticks to acquire reward,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca spp.,Macaques,,throw,throw objects,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca sylvanus,Barbary macaque,,throw,throw roof tiles at humans,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca mulatta,Rhesus macaque,,throw,throw roof tiles at humans,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca nigra,Sulawesi macaque,,throw,throw rocks in agonistic display,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca nemestrina,Pig-tailed macaque,,throw,throw rocks in agonistic display,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca tonkeana,Tonkean macaque,,throw,throw objects,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca speciosa,Stump-tailed macaque,,throw,throw sand/stones at humans,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca cyclopis,Formosan rock macaque,,throw,throw rocks at humans,IOU,,,,,,,,,,,,90,
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,,throw,throw sand/rocks/objects at humans,IOU,,,,,,,,,,,,90,
+ow_monkeys,Papio spp.,Baboons,,throw,throw sand/stones at humans/predators,IOU,,,,,,,,,,,,90-91,
+ow_monkeys,Papio ursinus,Chacma baboon,,throw,throw objects,IOU,,,,,,,,,,,,90-91,
+ow_monkeys,Papio anubis,Olive baboons,,throw,throw stones at humans,IOU,,,,,,,,,,,,91,
+ow_monkeys,Papio hamadryas,Hamadryas baboon,,throw,throw sand at predators/ rod at target,IOU,,,,,,,,,,,,91,
+ow_monkeys,Macaca nemestrina,Pig-tailed macaque,experimental,throw,throw a rod on a chain at food to pull it in,tooling,allocentric,1,rod to food,dynamic,,no,,no,,Beck 1976,1,90,
+ow_monkeys,Macaca mulatta,Rhesus macaque,experimental,throw,throw a stick at food and pull in,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Hobbhouse 1926,2,90,Seen in only one experimental animal.
+ow_monkeys,Papio hamadryas,Hamadryas baboon,experimental,throw,throw a rod on a chain at food to pull it in,tooling,allocentric,1,rod to food,dynamic,,no,,no,,"Beck 1972, 1973a",2,91,Seen in only one experimental animal.
+ow_monkeys,Papio papio,Guinea baboon,experimental,throw,throw a rod on a chain at food to pull it in,tooling,allocentric,1,rod to food,dynamic,,no,,no,,Beck 1973b,1,91,Seen in only one experimental animal.
+ow_monkeys,Papio ursinus,Chacma baboon,experimental,throw,throw a rod on a chain at food to pull it in,tooling,allocentric,1,rod to food,dynamic,,no,,no,,Bolwig 1963,1,91,Seen in only one experimental animal.
+ow_monkeys,Macaca spp.,Macaques,,drag,roll stones at humans,IOU,,,,,,,,,,,,91,
+ow_monkeys,Papio ursinus,Chacma baboon,,drag,roll stones at humans,IOU,,,,,,,,,,,,91-92,
+ow_monkeys,Theropithecus gelada,Gelada baboon,,drag,roll stones at other baboons,IOU,,,,,,,,,,,,92,
+ow_monkeys,Papio hamadryas,Hamadryas baboon,,drag,roll stones at other baboons,IOU,,,,,,,,,,,,92,
+ow_monkeys,Papio anubis,Olive baboon,,drag,slap dish at experimenter,IOU,,,,,,,,,,,,92,
+ow_monkeys,Macaca sylvanus,Barbary macaque,,brandish,shake branches at conspecifics,IOU,,,,,,,,,,,,92,
+ow_monkeys,Macaca fuscata,Japanese macaque,,brandish,shake branches at conspecifics (may entice females),IOU,,,,,,,,,,,,92,
+ow_monkeys,Macaca cyclopis,Formosan rock macaque,,brandish,shake branches at conspecifics,IOU,,,,,,,,,,,,92,
+ow_monkeys,Piliocolobus badius,Western red colobus monkey,,brandish,wave long leaf during social play,IOU,,,,,,,,,,,,92,
+ow_monkeys,Macaca sylvanus,Barbary macaque,,brandish,"present infants (to inhibit aggression - ""agonistic buffering"")",IOU,,,,,,,,,,,,92,
+ow_monkeys,Macaca fuscata,Japanese macaque,,brandish,"present infants (to inhibit aggression - ""agonistic buffering"")",IOU,,,,,,,,,,,,92,
+ow_monkeys,Papio anubis,Olive baboon,,brandish,"present infants (to inhibit aggression - ""agonistic buffering"" or solicit grooming)",IOU,,,,,,,,,,,,92,
+ow_monkeys,Papio hamadryas,Hamadryas baboon,,brandish,"present infants (to inhibit aggression - ""agonistic buffering"")",IOU,,,,,,,,,,,,92,
+ow_monkeys,Papio papio,Guinea baboon,,brandish,"present infants (to inhibit aggression - ""agonistic buffering"")",IOU,,,,,,,,,,,,92,
+ow_monkeys,Papio ursinus,Chacma baboon,,brandish,"present infants (to inhibit aggression - ""agonistic buffering"")",IOU,,,,,,,,,,,,92,
+ow_monkeys,Piliocolobus badius,Western red colobus monkey,,bait,manipulate vegetation as play invitation,IOU,,,,,,,,,,,,92,
+ow_monkeys,Piliocolobus badius,Western red colobus monkey,,bait,challenge males with detached branch and engage in tug of war with it,IOU,,,,,,,,,,,,92-93,
+ow_monkeys,Cercopithecus spp.,Guenons,,bait,bait dog with piece of bread,IOU,,,,,,,,,,,,93,
+ow_monkeys,Piliocolobus badius,Western red colobus monkey,anecdotal,club,hit each other with detached long leaves (in play),tooling,allocentric,1,leaf to monkey,dynamic,,yes,,no,,Pers. comm. D. Starin,1,93,Pers. comm.
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,observational,pound,hammer oysters/gastropods/bivalves/crabs with stones,,allocentric,1,rock to oyster,dynamic,,no,,no,,"Carpenter 1887; Fooden 1995; Gumert, Kluck, and Malaivijitnond 2009; Malaivijitnond et al. 2007",4,93,transport stones. Chose different stones for horizontal and vertical substrates.
+ow_monkeys,Papio ursinus,Chacma baboon,anecdotal,pound,hammer fruit skin with stones,tooling,allocentric,1,stone to fruit,dynamic,,no,,no,,Marais 1969,1,93,
+ow_monkeys,Macaca sylvanus,Barbary macaque,anecdotal,pound,pound scorpions to immobilize,tooling,allocentric,1,stone to scorpion,dynamic,,no,,no,,Davison in Kortlandt and Kooij 1963; deTurckheim and Vachon in Hladik 1973; Watson in Oakley 1961,3,93,
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,anecdotal,pound,pound nails/lock with sitck/hammer,tooling,allocentric,1,stick to nail,dynamic,,no,,no,,Yerkes 1916,1,93,Seen in only one captive animal.
+ow_monkeys,Papio papio,Guinea baboon,anecdotal,pound,pound edge of concrete hole with stone,tooling,allocentric,1,stone to concrete,dynamic,,no,,no,,Petit & Thierry 1993,1,93,Seen in only one captive animal.
+ow_monkeys,Papio anubis,Olive baboon,anecdotal,pry / dig,dig/ pry pebbles from clay with stick (to ingest),tooling,allocentric,1,stick to pebble,dynamic,,no,,no,,Oyen 1978,1,93-94,Seen in only one wild animal. Also used stick to sort small stones (considered by Shumaker as a multi-function tool)
+ow_monkeys,Papio hamadryas,Hamadryas baboon,anecdotal,pry,pry with steel bars in crevice (goal unclear),tooling,allocentric,1,rod to crevice,dynamic,,no,,no,,Beck pers. obs.,1,94,
+ow_monkeys,Cercocebus spp.,Mangabeys,anecdotal,dig,dig insect nest entrance with stick,tooling,allocentric,1,stick to nest,dynamic,,no,,no,,Jobaert in Kortlandt & Kooij 1963,1,94,
+ow_monkeys,Colobus spp.,Colobus monkeys,anecdotal,dig,dig insect nest entrance with stick,tooling,allocentric,1,stick to nest,dynamic,,no,,no,,Jobaert in Kortlandt & Kooij 1963,1,94,
+ow_monkeys,Lophocebus spp.,Mangabeys,anecdotal,dig,dig insect nest entrance with stick,tooling,allocentric,1,stick to nest,dynamic,,no,,no,,Jobaert in Kortlandt & Kooij 1963,1,94,
+ow_monkeys,Papio spp.,Baboons,anecdotal,dig,dig insect nest entrance with stick,tooling,allocentric,1,stick to nest,dynamic,,no,,no,,Jobaert in Kortlandt & Kooij 1963,1,94,
+ow_monkeys,Papio cynocephalus,Yellow baboon,anecdotal,dig,dig crabs out of sand with cuttlefish bone,tooling,allocentric,1,bone to sand,dynamic,,no,,no,,Messeri 1978,1,94,Never actually saw tool in use (found in sand)
+ow_monkeys,Papio ursinus,Chacma baboon,anecdotal,dig,dig with stick (context unclear),tooling,allocentric,1,stick to dirt,dynamic,,no,,no,,Bolwig 1963,1,94,Seen in only one captive animal.
+ow_monkeys,Papio papio,Guinea baboon,anecdotal,dig,dig in hole with branch,tooling,allocentric,1,branch to soil,dynamic,,no,,no,,Artaud & Bertrand 1984,1,94,Seen in only one captive animal.
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,anecdotal,dig,dig in sand with objects,tooling,allocentric,1,object to sand,dynamic,,yes,1-2,no,,Artaud & Bertrand 1984,1,94,Seen in only one captive animal. Detached branch then removed leaves/bark before digging.
+ow_monkeys,Macaca silenus,Lion-tailed macaque,anecdotal,jab,puncture ant nest with stick,tooling,allocentric,1,stick to nest,static,,no,,no,,Bhat 1990,1,94,Report of observation by Sadananda
+ow_monkeys,Papio spp.,Baboons,anecdotal,reach,reach with sticks under stones to flush out insects,tooling,allocentric,1,stick to stone,dynamic,,no,,no,,Roth in Kortlandt & Kooij 1963,1,94,
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,,reach,socially groom using leaves,IOU,,,,,,,,,,,,94,
+ow_monkeys,Cercocebus agilis,Agile mangabey,anecdotal,reach,reach food with stick,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Guillaume & Meyerson 1934,1,94,Seen in only one captive animal.
+ow_monkeys,Chlorocebus aethiops,Grivet monkey,anecdotal,reach,reach food using sticks/tools,tooling,allocentric,1,stick to grass,dynamic,,no,,no,,Horwich pers. comm; Pollack 1998,2,94,
+ow_monkeys,Erythrocebus patas,Patas monkey,anecdotal_experimental,reach,reach food with stick,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Gatinot 1974,1,94,Seen in only one captive animal. Simple experiments conducted with it after ability shown.
+ow_monkeys,Papio hamadryas,Hamadryas baboon,experimental,reach,reach food with stick,tooling,allocentric,1,stick to food,dynamic,,no,,no,,"Beck 1972, 1973a; Kats 1972b",3,94,Cooperation seen in Beck 1973a (female gave tool to male)
+ow_monkeys,Papio ursinus,Chacma baboon,experimental,reach,reach food with stick,tooling,allocentric,1,stick to food,dynamic,,no,,yes,no,"Bolwig 1961, 1963; Hall 1961",3,94,Seen in only one captive animal. used short stick to get longer sticks (sequential)
+ow_monkeys,Papio papio,Guinea baboon,experimental,reach,reach food with stick,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Beck 1973b; Guillaume & Meyerson 1934,2,94-95,
+ow_monkeys,Papio cynocephalus,Yellow baboon,anecdotal,reach,reach food with stick,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Guillaume & Meyerson 1934,1,,Seen in only one animal.
+ow_monkeys,Papio anubis,Olive baboon,anecdotal,reach,reach food with stick,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Choudhury pers. Comm.,1,94,Pers. comm. Seen in only one animal.
+ow_monkeys,Papio spp.,Baboons,anecdotal,reach,reach food with stick/rod,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Protopopov in Klu?ver 1937; Rushkevich in Ladygina-Kohts & Dembrovskii 1969,2,94,
+ow_monkeys,Papio anubis,Olive baboon,experimental,reach,reach food with rod,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Benhar & Samuel 1978,1,95,Seen in two captive animals.
+ow_monkeys,Papio papio,Guinea baboon,anecdotal,reach,reach food by pushing infant through bars to grab food,tooling,allocentric,1,infant to food,dynamic,,no,,no,,Garvey pers comm,1,95,Pers. comm. Seen in only one animal.
+ow_monkeys,Macaca mulatta,Rhesus macaque,anecdotal,reach,reach food by pushing infant through bars to grab food,tooling,allocentric,1,infant to food,dynamic,,no,,no,,Watson 1908,1,95,Seen in only one animal.
+ow_monkeys,Macaca silenus,Lion-tailed macaque,anecdotal,reach,reach frogs with stick,tooling,allocentric,1,stick to frog,dynamic,,no,,no,,Pietsch pers. comm.,1,95,Pers. comm.
+ow_monkeys,Macaca tonkeana,Tonkean macaque,experimental,reach,reach reward with rod/stalk,tooling,allocentric,1,rod to honey,dynamic,,no,,no,,Anderson 1985; Ueno & Fujita 1998,2,95,Seen in only two captive animals in the group.
+ow_monkeys,Macaca mulatta,Rhesus macaque,experimental,reach,push reward through tube with pipe,tooling,allocentric,1,pipe to tube,dynamic,,no,,no,,"Veino & Movak, 2003",1,95,Seen in only one/four captive animals. transported tool betweeen locations.
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,experimental,reach,reach reward/objects with rake/stick,tooling,allocentric,1,rake to reward,dynamic,,no,,no,,Artaud & Bertrand 1984; Klüver 1937 (actually 1933); Zuberbühler et al. 1996,3,95,Seen in two captive animals (in separate studies).
+ow_monkeys,Macaca nemestrina,Pig-tailed macaque,experimental,reach,reach food with rod,tooling,allocentric,1,rod to food,dynamic,,no,,no,,Beck 1976,1,95,"Social learning. Two studies with negative results (Ferrari et al 2004; Fornalé, Spiezio, and grassi 2008)"
+ow_monkeys,Macaca mulatta,Rhesus macaque,experimental,reach,reach reward with sticks/objects,tooling,allocentric,1,rake to reward,dynamic,,no,,yes,no,"Hobhouse 1926; Klüver 1937 (actually 1933); Metevier, Stonemetz & Novak 2006; Schulman 1973; Shepherd 1910; Shurcliff, Brown & Stollnitz 1971; Warden 1940; Warden, Koch & Fjeld 1940",8,95-96,"sequential tool use up to 7 steps (one individual). Shaping necessary to learn use of raking tool. Five studies with negative results even with shaping (Buytendijk in Nellman and Trendelenburg 1926; Drescher & Trendelenburg 1927; Nellman & Trendelenburg 1926, Watson 1908; Yerkes 1916)."
+ow_monkeys,Macaca fuscata,Japanese macaque,experimental,reach,reach reward with rakes,tooling,allocentric,1,rake to reward,dynamic,,no,,no,,"Hihara et al. 2003a, 2003b, 2003c, 2006; Iriki, Tanaka, & Iwamura 1996b; Ishibashi, Hihara, &Iriki 2000; Ishibashi et al. 1999, 2001, 2002; Maravita, & Iriki 2004; Mariyama et al. 2002; Obayashi et al. 2001b, 2002a, 2002b, 2002c, 2003; Yamazaki, Namba, and Iriki 2009",17,96,"sequential use of a short rake to reach a longer rake. One study with negative results (Natale, Potì & Spinozzi 1988)"
+ow_monkeys,Macaca (unspecified),Macaque,experimental,reach,reach reward with rakes,tooling,allocentric,1,rake to reward,dynamic,,yes,1,no,,"Escola et al. 2004a, 2004b; Iriki, Tanaka, &Iwamura 1996a; Obayashi et al. 2000, 2001a; Verlaine& Gallis (in Hooton 1942 and in Spence 1937)",6,95-96,Various studies with unspecified macaque species. One unidentified macaque studied by Verlaine & Gallis is said to have deatched branches for use as reaching tool (anecdotal)
+ow_monkeys,Papio cynocephalus,Yellow baboon,anecdotal,probe,probe termite nest with branch for insects,tooling,allocentric,1,branch to nest,dynamic,,no,,no,,Broda pers comm,1,97,Pers. comm. Seen in only one animal.
+ow_monkeys,Papio ursinus,Chacma baboon,anecdotal,probe,probe inside pipe with grass stem for oils,tooling,allocentric,1,grass to pipe,dynamic,,no,,no,,Marais 1969,1,97,Seen in only one captive animal.
+ow_monkeys,Mandrillus sphinx,Mandrill,anecdotal,probe,probe inside infected ear with sticks/stems,tooling,egocentric,1,stick to ear,dynamic,,yes,1,no,,Vincent 1973,1,97,Seen in only one captive animal. Detached straws/twigs.
+ow_monkeys,Macaca tonkeana,Tonkean macaque,anecdotal,probe,probe nostrils with stems,tooling,egocentric,1,stem to nostril,dynamic,,yes,1,no,,Bayart 1982/ Bayart & Anderson 1985; Thierry 1991 in Thierry et al 1994,2,97,Seen in two captive animals (in separate studies). One macaque stripped/shortened stem before use (Thierry).
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,anecdotal,probe,probe nostrils with sticks,tooling,egocentric,1,stick to nostril,dynamic,,no,,no,,Fuentes et al 2001,1,97,
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,observational_experimental,probe,floss teeth with human hair/coconut fibers,tooling,egocentric,1,hair to teeth,dynamic,,yes,1,no,,"Masataka et al. 2009; Matheson et al. 2008; Nonaka 2000; Watanabe, Urasopon & Malaivijitnond 2007",4,97-98,"Widespead in specific area, considered socially learned and possibly a cultural behaviour. pulled hair from women's heads."
+ow_monkeys,Macaca fuscata,Japanese macaque,anecdotal,probe,floss teeth with macaque hair,tooling,egocentric,1,hair to teeth,dynamic,,no,,no,,"Leca, Gunst & Huffman 2009",1,98,Seen in only one animal (out of 145 studied)
+ow_monkeys,Macaca silenus,Lion-tailed macaque,anecdotal,probe,probe inside log with stick for peanut butter,tooling,allocentric,1,stick to log,dynamic,,no,,no,,Pietsch 1989,1,98,Seen in several captive animals (unclear how many; source is a newsletter)
+ow_monkeys,Macaca nemestrina,Pig-tailed macaque,anecdotal,probe,probe cage crevice with wire for mouse,tooling,allocentric,1,wire to crevice,dynamic,,no,,no,,Beck 1980,1,98,Seen in one captive animal.
+ow_monkeys,Macaca mulatta,Rhesus macaque,experimental,probe,probe tube with stick/rod to get reward,tooling,allocentric,1,stick to tube,dynamic,,no,,no,,"Veino & Novak, 2004",1,98,Seen in only one experimental animal (of 4). One study with negative results (Watson 1908). Mentions the macaque would combine tools to achieve a certain length but no details provided.
+ow_monkeys,Macaca fuscata,Japanese macaque,experimental,probe,probe tube with tool for reward,tooling,allocentric,1,tool to tube,dynamic,,yes,1-2,no,,Tanaka et al 2001; Tokida et al 1994,2,98,"Trained free ranging macaques through shaping. One female used her babies as tools. One female shortened sticks by biting, and detached shrub and removed leaves before using."
+ow_monkeys,Papio cynocephalus,Yellow baboon,experimental,probe,probe tube with dipping tool for sticky food reward,tooling,allocentric,1,tool to tube,dynamic,,no,,no,,"Westergaard 1992, 1993",2,98,
+ow_monkeys,Macaca nigra,Sulawesi macaque,experimental,probe,probe tube with dipping tool for sticky food reward,tooling,allocentric,1,tool to tube,dynamic,,yes,1,no,,Babitz 2000,1,98,Seen in only one experimental animal (of 7). Modified branches to make dipping tool (no more details on how)
+ow_monkeys,Macaca silenus,Lion-tailed macaque,experimental,probe,probe tube with stick for syrup,tooling,allocentric,1,stick to tube,dynamic,,yes,1-2,no,,"Westergaard 1988, 1991",2,98,"Seen in 4/9 experimental animals. Detached twigs from large branches, removed tiwgs/leaves. used modified tools longer than non-modified."
+ow_monkeys,Chlorocebus aethiops,Grivet monkey,anecdotal,scratch,scratch self with stick,tooling,egocentric,1,stick to self,dynamic,,no,,no,,Galat-Luong 1984,1,98,Seen in one captive animal. May have learned from observing another captive animal (Campbell's mona monkey)
+ow_monkeys,Ceropithecus campbelli,Campbell's mona monkey,anecdotal,scratch,scratch self with stick/other objects,tooling,egocentric,1,stick to self,dynamic,,yes,1,no,,Galat-Luong 1984,1,98,Seen in only one captive animal.
+ow_monkeys,Mandrillus leucophaeus,Drill,,scratch,rub self against chain,IOU,,,,,,,,,,,,98,
+ow_monkeys,Cercocebus atys,Sooty mangabey,anecdotal,scratch,scratch self with stick,tooling,egocentric,1,stick to self,dynamic,,yes,1-2,yes,yes,Galat-Luong 1984,1,98,Remove leaves from stick and/or break if too long. scratched with stick in each hand at same time (head and back) - photo of this.
+ow_monkeys,Macaca radiata,Bonnet macaque,anecdotal,scratch,scratch vagina with stick/leaf,tooling,egocentric,1,stick to vagina,dynamic,,yes,1-2,no,,Sinha 1997,1,98-99,"Seen in only one wild animal. Removed laminae of dry leaves, then shortened, or broke sticks into pieces."
+ow_monkeys,Macaca fuscata,Japanese macaque,anecdotal,scratch,rub stone/stick/food around infant's eye,tooling,egocentric,1,stone to infant,dynamic,,no,,no,,Weinberg & Candland 1981,1,99,Seen in only one captive animal.
+ow_monkeys,Cercocebus atys,Sooty mangabey,anecdotal,scratch,rub stone/twig/objects to groom infant/conspecific,tooling,egocentric,1,stone to infant,dynamic,,no,,no,,Kyes 1988,1,99,Seen in three captive animals in same group - possibly cultural.
+ow_monkeys,Piliocolobus badius,Western red colobus monkey,,prop,place branch across gap so infant can cross,IOU,,,,,,,,,,,,99,
+ow_monkeys,Papio ursinus,Chacma baboon,,prop,position sticks/box to reach food/play,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca nigra,Sulawesi macaque,,prop,place branches into fence to sit on,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca nemestrina,Pig-tailed macaque,,prop,place branches into fence to sit on,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca silenus,Lion-tailed macaque,,prop,place branches into fence to sit on,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca silenus,Lion-tailed macaque,,prop,prop branches against enclosure to climb,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca fuscata,Japanese macaque,,prop,prop branches against enclosure to climb,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca tonkeana,Tonkean macaque,,prop,prop branches against enclosure to climb,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca fuscata,Japanese macaque,,hang,hang rod/chains and swing on them,IOU,,,,,,,,,,,,99,
+ow_monkeys,Chlorocebus sabaeus,Green monkey,,contain,use peanut shells as water containers,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,,contain,shake tumbler with objects inside to make noise,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,,contain,carry objects in pieces of cloth,IOU,,,,,,,,,,,,99,
+ow_monkeys,Macaca mulatta,Rhesus macaque,experimental,contain,scoop water to drink with objects,tooling,allocentric,1,object to water,dynamic,,no,,no,,Parks & Novak 1993,1,99,Seen in three captive animals.
+ow_monkeys,Macaca silenus,Lion-tailed macaque,experimental,contain,scoop water to drink with objects,tooling,allocentric,1,object to water,dynamic,,no,,no,,"Kumar, Kumara & Singh 2008",1,99-100,Example of social transmission.
+ow_monkeys,Papio cynocephalus,Yellow baboon,experimental,contain,scoop water to drink with cups,tooling,allocentric,1,cup to water,dynamic,,no,,no,,"Westergaard 1992, 1993",2,100,Seen in two captive animals.
+ow_monkeys,Macaca silenus,Lion-tailed macaque,anecdotal,absorb,reach water by dipping leaves inside tree cavity,tooling,allocentric,1,leaf to water,dynamic,,no,,no,,Fitch-Snyder & Carter 1993,1,100,Published in newsletter. Borderline case.
+ow_monkeys,Chlorocebus aethiops,Grivet monkey,,absorb,place plant pods into cavities to absorb moisture,IOU,,,,,,,,,,,,100,
+ow_monkeys,Papio cynocephalus,Yellow baboon,experimental,absorb,dip papertowels inside apparatus reach juice,tooling,allocentric,1,papertowel to juice,dynamic,,no,,no,,"Westergaard 1992, 1993a, 1993b",3,100,Borderline case.
+ow_monkeys,Papio anubis,Olive baboon,anecdotal,wipe,wipe fluid from face using object,tooling,egocentric,1,object to face,dynamic,,no,,no,,"van Lawick–Goodall, van Lawick & Packer 1973",1,100,Borderline case.
+ow_monkeys,Cercopithecus ascanius,Red-tailed monkey,,wipe,wipe fingers against leaf,IOU,,,,,,,,,,,,100,
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,,wipe,wrap food items in leaves then rubbed,IOU,,,,,,,,,,,,100,
+ow_monkeys,Papio ursinus,Chacma baboon,,affix,place plam frond on stump,IOU,,,,,,,,,,,,100,
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,,affix,place leaves on insects before rubbing them,IOU,,,,,,,,,,,,101,
+ow_monkeys,Macaca silenus,Lion-tailed macaque,,affix,place leaves on insects before rubbing them,IOU,,,,,,,,,,,,101,
+ow_monkeys,Macaca mulatta,Rhesus macaque,,affix,place cloth on face,IOU,,,,,,,,,,,,101,
+ow_monkeys,Macaca fascicularis,Long-tailed macaque,,affix,place cloth over teeth before making contact with hard objects,IOU,,,,,,,,,,,,101,
+ow_monkeys,Mandrillus leucophaeus,Drill,,affix,wipe branches/oranges on face,IOU,,,,,,,,,,,,101,
+ow_monkeys,Trachypithecus cristatus,Silvery leaf monkey,,brandish,display with dead branches,IOU,,,,,,,,,,,,105,
+mammals,Otospermophilus beecheyi,California ground squirrel,,throw,throw substrate at predators,IOU,,,,,,,,,,,,59,
+mammals,Spermophilus beecheyi,Rock squirrel,,throw,throw substrate at predators,IOU,,,,,,,,,,,,59,
+mammals,Otospermophilus beecheyi,California ground squirrel,,drag,kick sand at predators,IOU,,,,,,,,,,,,59,
+mammals,Castor fiber,Eurasian beaver,,brandish,brandish sticks in agonistic displays,IOU,,,,,,,,,,,,60,
+mammals,Thomomys bottae,Pocket gopher,observational,dig,dig in soil with stones and hard food,tooling,allocentric,1,object to substrate,dynamic,,no,,no,,"S. Katz 1975, 1980",2,60,"I think Alice mentioned she is not convinced about digging with the food, but what about stones? Separate on two lines and keep stones as tooling, or switch both to IOU because no clear goal?"
+mammals,Octodon degus,Degu,experimental,reach,trained to rake in food,tooling,allocentric,1,rake to food,dynamic,,no,,no,,Okanoya et al. 2008,1,60,
+mammals,Urocitellus columbianus,Ground squirrel,,block,plug burrow opening,IOU,,,,,,,,,,,,60,
+mammals,Ictidomys tridecemlineatus,Ground squirrel,,block,plug burrow opening,IOU,,,,,,,,,,,,60,
+mammals,Ictidomys mexicanus,Ground squirrel,,block,plug burrow opening,IOU,,,,,,,,,,,,60,
+mammals,Castor canadensis,North American Beaver,,block,plug overflow drain,IOU,,,,,,,,,,,,60,
+mammals,Heterocephalus glaber,Naked mole-rat,,block,block throat with bark or husk while digging,IOU,,,,,,,,,,,,60,
+mammals,Micromys minutus,Harvest mouse,,prop,prop structure to climb,IOU,,,,,,,,,,,,60,
+mammals,Castor canadensis,north American Beaver,,prop,prop structure to climb,IOU,,,,,,,,,,,,60,
+mammals,Apodemus sylvaticus,wood mouse,,affix,place objects as landmarks,IOU,,,,,,,,,,,,61,
+mammals,Rattus rattoides,Rice-field rat,,affix,annoint with predator secretions,IOU,,,,,,,,,,,,61,
+mammals,Spermophilus beecheyi,Rock Squirrel,,affix,annoint with predator secretions,IOU,,,,,,,,,,,,61,
+mammals,Otospermophilus beecheyi,California ground squirrel,,affix,annoint with predator secretions,IOU,,,,,,,,,,,,61,
+mammals,Eutamias sibiricus,Siberian chipmunk,,affix,annoint with predator secretions,IOU,,,,,,,,,,,,61,
+mammals,Thalarctos maritimus,Polar bears,,throw,throw ice or rocks at prey,IOU,,,,,,,,,,,,61,
+mammals,Thalarctos maritimus,Polar bears,,throw,throw horse femur at mate,IOU,,,,,,,,,,,,61,
+mammals,Mungos mungo,Banded mongoose,,throw,throw stones at ostrich egg,IOU,,,,,,,,,,,,61,
+mammals,Thalarctos maritimus,Polar bears,, bait,lure prey with young,IOU,,,,,,,,,,,,61,
+mammals,Canis lupus,Wolf,, bait,lure competitor with food,IOU,,,,,,,,,,,,61,
+mammals,Enhydra lutris,Sea otter,observational_experimental,pound,pound food on anvils,tooling,allocentric,1,food to anvil,static,,no,,no,,E. Fisher 1939; Hall and Schaller 1964,2,61,
+mammals,Enhydra lutris,Sea otter,observational,pound,hammer food on anvil with stone,tooling,allocentric,2,"(1) food to anvil, (2) hammer to food",static,static,no,,yes,concurrent,Riedman and Estes 1990,1,63,
+mammals,Enhydra lutris,Sea otter,observational,pound,hammer abalone to remove from substrate,tooling,allocentric,1,hammer to abalone,static,,no,,no,,Houk and Geibel 1974,1,64,
+mammals,Enhydra lutris,Sea otter,anecdotal,pound,loosen drain cover with rock,tooling,allocentric,1,rock to drain cover,dynamic,,no,,no,,Kenyon 1969,1,64,
+mammals,Enhydra lutris,Sea otter,anecdotal,pry,use objects to pry oysters from rocks,tooling,allocentric,1,object to oyster,dynamic,,no,,no,,Riedman and Estes 1990,1,64,
+mammals,Tremarctos ornatus,Spectacled bear,anecdotal,reach,use sticks to reach food,tooling,allocentric,1,stick to food,dynamic,,no,,no,,Lang 1974,1,64,
+mammals,Panthera leo,Lion,anecdotal,scratch,use thorn to dislodge thorn,tooling,egocentric,1,Thorn to thorn,dynamic,,no,,no,,H. Bauer 2001,1,64,
+mammals,Canis familiaris,Dog,anecdotal,scratch,use objects to groom,tooling,egocentric,1,object to body,dynamic,,no,,no,,van Lawick–Goodall 1970,1,64,
+mammals,Ailuropoda melanoleuca,Giant panda,anecdotal,scratch,rub body with soil clods,tooling,egocentric,1,soil to body,dynamic,,no,,no,,Eisenberg and Kleiman 1977,1,64,
+mammals,Taxidea taxus,North American Badger,,block,block prey burrows with substrate,IOU,,,,,,,,,,,,64,
+mammals,Ursus arctos,Brown bear,,prop,prop structure to climb,IOU,,,,,,,,,,,,64,
+mammals,Enhydra lutris,Sea otter,,contain,immobilize crabs in kelp,IOU,,,,,,,,,,,,65,
+mammals,Canis familiaris,Dog,,contain,use frisbee to carry item,IOU,,,,,,,,,,,,65,
+mammals,Erinaceus europaeus,European hedgehog,,affix,annoint with saliva,IOU,,,,,,,,,,,,65,
+mammals,Echinops telfairi,Tenrec,,affix,annoint with saliva,IOU,,,,,,,,,,,,65,
+mammals,Nasua nasua,Coati,,affix,annoint with plant resin,IOU,,,,,,,,,,,,65,
+mammals,Enhydra lutris,Sea otter,,affix,apply strands of kelp for buoyancy,IOU,,,,,,,,,,,,65,
+mammals,Herpestes edwardsi,Mongoose,,affix,put paper bag on head during play,IOU,,,,,,,,,,,,65,
+mammals,Loxodonta africana,African elephant,,drop,drop logs/rocks on electric fence,IOU,,,,,,,,,,,,65,
+mammals,Loxodonta africana,African elephant,,throw,"throw objects/substrate at threats (i.e., humans, competitors, predators)",IOU,,,,,,,,,,,,66,
+mammals,Elephas maximus,Asian elephant,,throw,"throw objects/substrate at threats (i.e., humans, competitors, predators)",IOU,,,,,,,,,,,,66,
+mammals,Loxodonta africana,African elephant,,throw,throw conspecific onto electric fence,IOU,,,,,,,,,,,,66,
+mammals,Loxodonta africana,African elephant,,drag,"kick soil toward rats, dogs humans",IOU,,,,,,,,,,,,67,
+mammals,Loxodonta africana,African elephant,,drag,roll objects at small animals,IOU,,,,,,,,,,,,67,
+mammals,Elephas maximus,Asian elephant,,drag,roll objects at small animals,IOU,,,,,,,,,,,,67,
+mammals,Elephas maximus,Asian elephant,,brandish,brandish sticks to swat flies,IOU,,,,,,,,,,,,67,
+mammals,Loxodonta africana,African elephant,,brandish,brandish sticks to swat flies,IOU,,,,,,,,,,,,67,
+mammals,Elephas maximus,Asian elephant,,brandish,brandish objects at small animals,IOU,,,,,,,,,,,,67,
+mammals,Loxodonta africana,African elephant,,brandish,"brandish objects at nuisance (small animals, automobiles)",IOU,,,,,,,,,,,,67,
+mammals,Loxodonta africana,African elephant,,brandish,shake branches to loosen fruit,IOU,,,,,,,,,,,,67,
+mammals,Equus ferus,Wild horse,,brandish,brandish sagebrush in agonistc display,IOU,,,,,,,,,,,,67,
+mammals,Elephas maximus,Asian elephant,,club,club conspecifics with chain,IOU,,,,,,,,,,,,67,
+mammals,Loxodonta africana,African elephant,anecdotal,club,hit human with stick,tooling,allocentric,1,stick to human,dynamic,,no,,no,,Chevalier-Skolnikoff and Liska 1993,1,67,
+mammals,Equus caballus,Horse,anecdotal,dig,rake snow,tooling,allocentric,1,rake to snow,dynamic,,no,,no,,Campbell (in Boswall 1977b),1,67,
+mammals,Unspecified,Elephant,observational,reach,scratch with sticks,tooling,egocentric,1,stick to body,dynamic,,no,,no,,"Peal 1879; Shoshani and Eisenberg 2000, 136; Chevalier-Skolnikoff and Liska 1993; Kurt and Hartl 1995; Williams 1950 (in Holdrege 2001)",5,67,
+mammals,Loxodonta africana,African elephant,,reach,reach toward food wtih stick (uncontacted),IOU,,,,,,,,,,,,67,
+mammals,Elephas maximus,Asian elephant,,reach,blow or suck food out of tube,IOU,,,,,,,,,,,,67,
+mammals,Loxodonta africana,African elephant,anecdotal,insert,probe temporal gland with stick,tooling,egocentric,1,stick to body,static,,no,,no,,Laursen 1975; Chevalier-Skolnikoff and Liska 1993,2,68,
+mammals,Loxodonta africana,African elephant,observational,scratch,scratch with stick,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Douglas-Hamilton and Douglas-Hamilton 1975; Moss 1988; Poole 1996 (in Holdrege 2001); Hall 1963; van Lawick–Goodall 1970; McKay 1973,6,68,
+mammals,Capra hircus,Domestic goat,anecdotal,scratch,scratch with straw,tooling,egocentric,1,straw to body,dynamic,,no,,no,,W. Thorpe 1963,1,68,
+mammals,Equus ferus caballus,Domestic horse,anecdotal,scratch,scratch with stick,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Van Lawick–Goodall 1970,1,68,
+mammals,Bubalus bubalis,Water buffalo,anecdotal,scratch,scratch with stick,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Grummt 1963; Lau 1965,2,68,
+mammals,Taurotragus oryx,Eland,anecdotal,scratch,scratch with stick,tooling,egocentric,1,stick to body,dynamic,,no,,no,,"D. Anderson, pers. comm",1,68,
+mammals,Loxodonta africana,African elephant,,block,block water flow with debris,IOU,,,,,,,,,,,,68,
+mammals,Elephas maximus,Asian elephant,,block,block bell with debris,IOU,,,,,,,,,,,,68,
+mammals,Elephas maximus,Asian elephant,,block,block rolling logs with wedge,IOU,,,,,,,,,,,,68,
+mammals,Unspecified,Elephant,,prop,stack logs to reach,IOU,,,,,,,,,,,,68,
+mammals,Loxodonta africana,African elephant,anecdotal,wipe,wipe wound with grass,tooling,egocentric,1,grass to wound,dynamic,,no,,no,NA,Douglas-Hamilton and Douglas-Hamilton 1975,1,69,
+mammals,Loxodonta africana,African elephant,anecdotal,wipe,wipe ground or walls with vegatation,tooling,allocentric,1,vegatation to surface,dynamic,,no,,no,NA,Chevalier-Skolnikoff and Liska 1993,1,69,
+mammals,Loxodonta africana,African elephant,,wipe,wipe debris from body by blowing air,IOU,,,,,,,,,,,,69,
+mammals,Loxodonta africana,African elephant,,affix,drape objects over corpses,IOU,,,,,,,,,,,,69,
+mammals,Loxodonta africana,African elephant,,affix,apply mud to conspecific wound,IOU,,,,,,,,,,,,69,
+mammals,Loxodonta africana,African elephant,,affix,place logs on wire fence,IOU,,,,,,,,,,,,69,
+mammals,Loxodonta africana,African elephant,,affix,block road with logs,IOU,,,,,,,,,,,,69,
+mammals,Elephas maximus,Asian elephant,,affix,cover open water hole,IOU,,,,,,,,,,,,69,
+mammals,Loxodonta africana,African elephant,,affix,apply substrate to body,IOU,,,,,,,,,,,,69,
+mammals,Elephas maximus,Asian elephant,,affix,apply substrate to body,IOU,,,,,,,,,,,,69,
+mammals,Elephas maximus,Asian elephant,,affix,apply scented marked-mud to structures,IOU,,,,,,,,,,,,69,
+mammals,Tragelaphus strepsiceros,Greater kudu,,affix,apply substrate to horns,IOU,,,,,,,,,,,,70,
+mammals,Elaphurus davidianus,P.re David’s deer,,affix,apply substrate to antlers,IOU,,,,,,,,,,,,70,
+mammals,Odocoileus virginianus,Whitetail deer,,affix,throw soil on back,IOU,,,,,,,,,,,,70,
+mammals,Cervus duvauceli,Barasingha,,affix,adorn antlers with grass,IOU,,,,,,,,,,,,70,
+mammals,Cervus elaphus,Red deer,,affix,adorn antlers with mud/vegetation,IOU,,,,,,,,,,,,70,
+mammals,Cervus nippon,Sika deer,,affix,adorn antlers with mud/vegetation,IOU,,,,,,,,,,,,70,
+mammals,Cervus nannodes,Tule elk,,affix,adorn antlers with debris,IOU,,,,,,,,,,,,70,
+mammals,Sousa chinensis,Indo-Pacific humpback dolphin,,throw,throw shells during social play,IOU,,,,,,,,,,,,70,
+mammals,Tursiops aduncus,Indo-Pacific bottlenose dolphin,, bait,bait humans with objects,IOU,,,,,,,,,,,,71,
+mammals,Inia geoffrensis,Amazon river dolphins,, bait,carry/throw objects,IOU,,,,,,,,,,,,71,
+mammals,Echinodictyum mesenterinum,Bottlenose dolphins,,dig,protect rostra with sponge,IOU,,,,,,,,,,,,71,
+mammals,Sousa chinensis,Indo-Pacific humpback dolphin,,dig,protect rostra with sponge,IOU,,,,,,,,,,,,71,
+mammals,Tursiops truncatus,Bottlenose dolphin,,prop,use basketball as raft,IOU,,,,,,,,,,,,71,
+mammals,Megaptera novaeangliae,Humpback whales,,contain,use bubbles to entrap fish,IOU,,,,,,,,,,,,71,
+mammals,Tursiops aduncus,Indo-Pacific bottlenose dolphin,anecdotal,wipe,wipe surface with object,IOU,,,,,,,,,,,,72,
+mammals,Tursiops aduncus,Indo-Pacific bottlenose dolphin,anecdotal,wipe,detach seaweed with sharp object,tooling,allocentric,1,object to seaweed,dynamic,,no,,no,,Tayler and Saayman 1973,1,72,
+fish,Toxotes jaculatrix,Banded archerfish,,throw,shoot water at prey,IOU,,,,,,,,,,,,35,
+fish,Toxotes chatareus,Sevenspot archerfish,,throw,shoot water at prey,IOU,,,,,,,,,,,,35,
+fish,Colisa chuna,Honey gourami,,throw,shoot water at prey,IOU,,,,,,,,,,,,35,
+fish,Colisa fasciata,Striped gourami,,throw,shoot water at prey,IOU,,,,,,,,,,,,35,
+fish,Colisa lalia,Dwarf gourami,,throw,shoot water at prey,IOU,,,,,,,,,,,,35,
+fish,Trichogaster trichopterus,Three spot gourami,,throw,shoot water at prey,IOU,,,,,,,,,,,,35,
+fish,Colisa fasciata × lalia,Striped X Dwarf gourami,,throw,shoot water at prey,IOU,,,,,,,,,,,,35,
+fish,Potamotrygon castexi,Vermiculate river stingray,,throw,make a water current to force food out,IOU,,,,,,,,,,,,36,
+fish,Selachimorpha spp.,Sharks,,throw,use water jets to reveal prey in sand,IOU,,,,,,,,,,,,36,
+fish,Myliobatoidei spp.,Stingrays,,throw,use water jets to reveal prey in sand,IOU,,,,,,,,,,,,36,
+fish,Aequidens paraguayensis,Cichlid,,contain,transport eggs on leaves,IOU,,,,,,,,,,,,36,
+fish,Hoplosternum thoracatum,Brown hoplo catfish,,contain,transport eggs on leaves,IOU,,,,,,,,,,,,36,
+amphibians,Ceratophrys spp.,Horned frogs,,affix,bury selves with dirt,IOU,,,,,,,,,,,,36,
+reptiles,Crocodylus porosus,Saltwater crocodile,, bait,leave fish on water surface as  bait for fish,IOU,,,,,,,,,,,,36-37,Shumaker acknolwedges that this only counts as tool use if it can be established that the crocodiles were doing this purposefully.
+birds,Accipitridae sp.,Eagle,,drop,drop sticks at intruders,IOU,,,,,,,,,,,,37,
+birds,Buteo regalis,Ferruginous hawk,,drop,drop stones at intruders,IOU,,,,,,,,,,,,37,
+birds,Aquila audax,Wedge-tailed eagle,,drop,drop objects on caretakers,IOU,,,,,,,,,,,,37,
+birds,Hamirostra melanosternon,Black-breasted buzzard,,drop,drop stones to break emu eggs,IOU,,,,,,,,,,,,37,
+birds,Neophron percnopterus,Egyptian vulture,,drop,drop stones to break ostrich eggs,IOU,,,,,,,,,,,,37,
+birds,Milvus migrans,Black kite/ Fire hawk,,drop,drop burning sticks to spread fire,IOU,,,,,,,,,,,,37,
+birds,Pandion haliaetus,Osprey,,drop,drop stones on intruders,IOU,,,,,,,,,,,,37,
+birds,Cacatua galerita,Sulphur-crested cockatoo,,drop,drop twigs on intruders,IOU,,,,,,,,,,,,37,
+birds,Corvus albus,Pied crow,,drop,drop stones to break ostrich eggs,IOU,,,,,,,,,,,,37,
+birds,Corvus cornix,Hooded crow,,drop,drop twigs on intruders,IOU,,,,,,,,,,,,37,
+birds,Corvus brachyrhynchos,American crow,,drop,drop objects on intruders (or as play),IOU,,,,,,,,,,,,38,
+birds,Corvus corax,Northern raven,,drop,drop/throw stones on intruders,IOU,,,,,,,,,,,,38,
+birds,Corvus ossifragus,Fish crow,,drop,drop grass on nesting birds (to harrass to access eggs?),IOU,,,,,,,,,,,,38,
+birds,Corvus corax,northern raven,,drop,drop grass on nesting birds (to harrass to access eggs?),IOU,,,,,,,,,,,,38,
+birds,Corvus frugilegus,Rook,,drop,drop stones/sticks to collapse platform to access reward,IOU,,,,,,,,,,,,38,Can do so sequentially in the lab (considered by Shumaker sequential tool use)
+birds,Corvus frugilegus,Rook,,drop,drop stones to raise water level to access floating reward,IOU,,,,,,,,,,,,38,
+birds,Cyanocitta cristata,Blue jay,,drop,drop debris to raise water to drinking level,IOU,,,,,,,,,,,,38,
+birds,Haliaeetus leucocephalus,Bald eagle,,throw,throw stone at prey/objects,IOU,,,,,,,,,,,,38,
+birds,Hamirostra melanosternon,Black-breasted buzzard,,throw,throw stones to break eggs,IOU,,,,,,,,,,,,38,
+birds,Neophron percnopterus,Egyptian vulture,,throw,throw stones to break eggs,IOU,,,,,,,,,,,,38-39,
+birds,Numenius tahitiensis,Bristle-thighed curlew,,throw,throw coral at eggs,IOU,,,,,,,,,,,,39,
+birds,Corcorax melanorhamphos,White-winged chough,,throw,drop mussels to break open other mussels,IOU,,,,,,,,,,,,39,
+birds,Alectura lathami,Australian brush turkey,,drag,kick debris at predators/intruders,IOU,,,,,,,,,,,,39,
+birds,Rynchops niger,Black skimmer,,drag,kick sand to dig hole and camouflage,IOU,,,,,,,,,,,,39,
+birds,Corvus rhipidurus,Fan-tailed raven,,drag,"flip a stone over an ""egg"" (actually a ping pong ball)",IOU,,,,,,,,,,,,39,
+birds,Butorides virescens,Green heron,, bait,place food/debris on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Butorides striata,Striated heron,, bait,place food/debris on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Ardeola ralloides,Squacco heron,, bait,place food on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Nycticorax nycticorax,Black-crowned night heron,, bait,place food on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Ardea goliath,Goliath heron,, bait,place debris on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Milvus migrans,Black kite/ Fire hawk,, bait,place food on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Eurypyga helias,Sunbittern,, bait,place food on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Larus fuscus,Lesser black-backed gull,, bait,place food on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Larus argentatus,Herring gull,, bait,place food on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Ceryle rudis,Pied kingfisher,, bait,place food on water as  bait for fish,IOU,,,,,,,,,,,,40,
+birds,Athene cunicularia,Burrowing owl,, bait,place dung near nest (to attract dung beetles as prey and/or signal occupation),IOU,,,,,,,,,,,,40-41,
+birds,Avian spp.,Birds,, bait,present gifts during courtship,IOU,,,,,,,,,,,,41,
+birds,Eurystomus glaucurus,Broad-billed roller,, bait,use objects (typically used as gizzard stones) as a courtship display,IOU,,,,,,,,,,,,41,
+birds,Sericulus spp.,Bowerbirds,, bait,hold bower decorations in bill and toss at females,IOU,,,,,,,,,,,,41,
+birds,Ptilonorhynchus spp.,Bowerbirds,, bait,hold bower decorations in bill and toss at females,IOU,,,,,,,,,,,,41,
+birds,Chlamydera spp.,Bowerbirds,, bait,hold bower decorations in bill and toss at females,IOU,,,,,,,,,,,,41,
+birds,Haliaeetus leucocephalus,Bald eagle,anecdotal,club,club turtle with stick in beak,tooling,allocentric,1,stick to turtle,dynamic,,no,,no,,Bindner 1968,1,41,Seen in only one captive animal
+birds,Neophron percnopterus,Egyptian vulture,anecdotal,club,beat lizard with rock in beak,tooling,allocentric,1,rock to lizard,dynamic,,no,,no,,Boswall 1983; Ilany 1982,2,41,Anonymous report (relayed by Boswall); seen in only one wild animal
+birds,Haliaeetus leucocephalus,Bald eagle,anecdotal,pound,hammer prey with rock,tooling,allocentric,1,rock to prey,dynamic,,no,,no,,Bindner 1968,1,41,Seen in only one captive animal
+birds,Neophron percnopterus,Egyptian vulture,anecdotal,pound,hammer egg with rock,tooling,allocentric,1,rock to egg,dynamic,,no,,no,,Myers in Boswall 1977,1,41,
+birds,Corvus brachyrhynchos,American crow,anecdotal,pound,hammer acorn with rock,tooling,allocentric,1,rock to acorn,dynamic,,no,,no,,Boswall 1977,1,41,Pers. comm. by F. Duvall (relayed by Boswall)
+birds,Corcorax melanorhamphos,White-winged chough,anecdotal,pound,hammer on mussel with mussel whole/piece,tooling,allocentric,1,mussel to mussel,dynamic,,no,,no,,Hobbs 1971,1,41,
+birds,Corvus rhipidurus,Fan-tailed raven,anecdotal,pound,"hammer on ""egg"" with rock (actually a ping pong ball)",tooling,allocentric,1,"rock to ""egg""",dynamic,,no,,no,,Andersson 1989,1,41,Seen in only one animal
+birds,Probosciger aterrimus,Palm cockatoo,anecdotal,pound,drum on tree with stick (as a display),tooling,allocentric,1,stick to tree trunk,dynamic,,yes,,no,,Wood 1984,1,41,**Supported by additional research after Shumaker
+birds,Cacatua goffiniana,Goffin cockatoo/Tanimbar corella,anecdotal,pound,hit bell with container held in foot,tooling,allocentric,1,container to bell,dynamic,,no,,no,,Boswall 1983,1,42,Unclear if action is intentional; seen in only one captive animal
+birds,Camarhynchus pallidus,woodpecker finch,observational,pry,pry out insects with twigs/cactus spines,tooling,allocentric,1,twig to insect,dynamic,,yes,1,no,,"Bowman 1961; Eibl-Eibesfeldt 1961; Hundley 1963; Lack 1947, 1953",5,42,
+birds,Camarhynchus pallidus,woodpecker finch,anecdotal,pry,flip over branch epiphyte with bark piece (to search for insects),tooling,allocentric,1,bark to epiphyte,dynamic,,no,,no,,Greenhood & Norton 1999,1,42,Seen in only one wild animal
+birds,Corvus brachyrhynchos,American crow,experimental,pry,use rod/matchstick as lever between panel and key (to operate panel more efficiently),tooling,allocentric,1,rod to panel,dynamic,,no,,no,,Powell & Kelly 1975,1,42,Considered innovative behaviour
+birds,Cyanocorax luxuosus,Green jay,anecdotal,pry,pry off pieces of bark with twig (to consume insects),tooling,allocentric,1,twig to bark,dynamic,,no,,no,,Gayou 1982,1,42,Seen in only one animal
+birds,Corvus caurinus,Northwestern crow,anecdotal,pry,pry peanut from crack with stick in perch,tooling,allocentric,1,stick to peanut,dynamic,,no,,no,,Jewett 1924,1,42,Report of King's observations. Seen in only one captive animal
+birds,Sitta pusilla,Brown-headed nuthatch,observational,pry,pry bark from tree with bark scale (to expose prey),tooling,allocentric,1,bark to bark,dynamic,,yes,1,no,,Morse 1968; Pranty 1995; Withgott & Smith (in Kingery & Ghalambor 2010,3,42,"Carried tools from tree to tree. used only on pine species with flaky bark, and most common when their common food (pine seeds) not abundant."
+birds,Sitta carolinensis,White-breasted nuthatch,anecdotal,pry,pry bark from tree with bark scale (to expose prey),tooling,allocentric,1,bark to bark,dynamic,,no,,no,,Mitchel 1993,1,42,Seen in only one animal
+birds,Poecile rufescens,Chestnut-backed chickadee,anecdotal,pry,pry seeds from suet feeder with stick,tooling,allocentric,1,stick to seeds,dynamic,,no,,no,,Salmons & Gough 2007,1,42,Seen in only one wild animal
+birds,Camarhynchus pallidus,Woodpecker finch,anecdotal,pry,pry bark/camera buttons/human toes with twigs,tooling,allocentric,1,stick to bark,dynamic,,no,,no,,Merlen & Davis-Merlen 2000,1,42,Seen in only one captive animal
+birds,Eclectus roratus,Eclectus parrot,anecdotal,dig,excavate sand-gravel with palm frond for burrow,tooling,allocentric,1,frond to sand,dynamic,,no,,no,,DeCourcey (pers. Comm),1,42,Seen in only one captive animal
+birds,Cacatua galerita,Sulphur-crested cockatoo,anecdotal,dig,scrape floor soil with rock (possibly to loosen for gizzard grit),tooling,allocentric,1,rock to soil,dynamic,,no,,no,,Boswall 1983,1,42,Report of Kawata's observation. Seen in only one captive animal.
+birds,Merops ornatus,Rainbow bee-eater,anecdotal,dig,excavate sand with stick for burrow,tooling,allocentric,1,stick to sand,dynamic,,yes,1,no,,Chisholm 1954,1,42,Second-hand observation. Seen in only one animal.
+birds,Corvus moneduloides,New Caledonian crow,observational,dig,probe through loose substrate with stems,tooling,allocentric,1,stem to substrate,dynamic,,no,,no,,Rutz et al. 2007,1,42,Travel with/re-use tools
+birds,Turdus migratorius,American robin,anecdotal,dig,dig through leaves with twig for ants to rub into plumage,tooling,allocentric,1,twig to leaves,dynamic,,no,,no,,Potter 1970,1,42,Seen in only one animal
+birds,Turdus merula,Common blackbird,anecdotal,dig,dig through snow with twig (for food),tooling,allocentric,1,twig to snow,dynamic,,no,,no,,Priddey 1977,1,42,Seen in only one animal
+birds,Sturnus vulgaris,Starling,anecdotal,dig,rake through grass/dirt with twig (to forage),tooling,allocentric,1,twig to grass,dynamic,,no,,no,,Niemeyer & Kingery 2003,1,42,Seen in only one animal
+birds,Camarhynchus pallidus,Woodpecker finch,observational,jab,impale insects inside holes with twigs/cactus spines,tooling,allocentric,1,twig to insect,dynamic,,yes,1,no,,"Bowman 1961; Eibl-Eibesfeldt 1961; Hundley 1963; Lack 1947, 1953",5,,
+birds,Camarhynchus pallidus,Woodpecker finch,anecdotal,jab,prod conspecific aggressively,tooling,allocentric,1,twig to conspecific,dynamic,,no,,no,,Millikan & Bowman 1967,1,43,Seen in only one captive animal (part of experimental group held in captivity)
+birds,Cyanocitta stelleri,Steller’s jay,anecdotal,jab,thrust at at crow with stick,tooling,allocentric,1,stick to crow,dynamic,,yes,1,no,,Balda 2007,1,43,Seen in only one animal
+birds,Corvus brachyrhynchos,American crow,anecdotal,jab,thrust at jay with stick,tooling,allocentric,1,stick to jay,dynamic,,no,,no,,Balda 2007,1,43,Seen in only one animal
+birds,Columba livia,Rock pigeon,anecdotal_experimental,reach,push box to touch plate,tooling,allocentric,1,Box to plate,dynamic,,no,,no,,Epstein & Medalie 1983,1,43,"Seen in only one captive animal. Pigeon trained separately to push box, and to touch plate."
+birds,Cyanoramphus auriceps,Yellow-crowned parakeets,experimental,reach,rake in seeds with twig,tooling,allocentric,1,twig to seeds,dynamic,,no,,no,,Funk 2002,1,43,Performed poorly when rake not already positioned with the reward inside
+birds,Cyanocitta cristata,Blue jay,experimental,reach,rake in pellets with paper/other objects,tooling,allocentric,1,Paper to pellet,dynamic,,yes,1,no,,Jones & Kamil 1973,1,43,"Authors believe only one jay spontaneously innovated tool use, and that the others tested afteward learned by observation."
+birds,Corvus brachyrhynchos,American crow,experimental,reach, reach food with sticks/hooks,tooling,allocentric,1,stick/hook to food,dynamic,,no,,no,,MacDonell 2000,1,43,placement of food reward in respect to stick/hook unknown (paper inaccessible)
+birds,Corvus brachyrhynchos,American crow,experimental,reach,push out of reach key with object,tooling,allocentric,1,object to key,dynamic,,no,,no,,Powell & Kelly 1975,1,43,"Crows were trained with matchsticks or rods, but behaviour generalized to other objects"
+birds,Camarhynchus pallidus,Woodpecker finch,observational_experimental,probe,probe in holes with sticks/cactus spines for prey,tooling,allocentric,1,stick to hole,dynamic,,yes,1-2,no,,"Bowman 1961; Eibl-Eibesfeldt 1961; Eibl- Eibesfeldt & Sielmann 1962; Gifford 1919; Hundley 1963; Lack 1947, 1953; Merlen & Davis-Merlen 2000; Millikan & Bowman 1967; Tebbich et al. 2001; Tebbich et al. 2002; Tebbich & Bshary 2004",12,43-44,"carry tools from tree to tree. Adjust posture/manipulation for optimal use. no evidence for social learning of tool use. May not only detach stick and adjust its length by subtraction, but may also remove twiglet protrusions (but do not plan this ahead)"
+birds,Geospiza conirostris,Española cactus finch,anecdotal_experimental,probe,probe in cracks with twig,tooling,allocentric,1,twig to crack,dynamic,,no,,no,,Millikan & Bowman 1967,1,43,Seen in only one captive animal; caged next to woodpecker finches where able to observe their tool use
+birds,Camarhynchus heliobates,Mangrove finch,anecdotal,probe,probe in holes with sticks for prey,tooling,allocentric,1,stick to hole,dynamic,,yes,1,no,,Curio & Kramer 1964,1,44,Seen in only one wild animal (multiple times by same male; over several days only one to do so of six finches)
+birds,Certhidea olivacea,Green warbler-finch,anecdotal,probe,probe in crack with stem,tooling,allocentric,1,stem to crack,dynamic,,no,,no,,Hundley 1963,1,44,Seen in only one wild animal. Unsuccessful at securing an insect.
+birds,Leptoptilos crumeniferus,Marabou stork,anecdotal,probe,probe in tree hole with stick,tooling,allocentric,1,stick to hole,dynamic,,no,,no,,Marshall 1982,1,44,Seen in only one wild animal. Did not extract any insects.
+birds,Falcunculus frontatus,Crested shriketit,anecdotal,probe,probe in crevice with twig,tooling,allocentric,1,twig to crevice,dynamic,,yes,1,no,,Noske 1985; Richards 1971,2,44,Seen in only one animal in each report (two total)
+birds,Cyanistes caeruleus,Blue tit,anecdotal,probe,probe nut hopper with twig,tooling,allocentric,1,twig to nut hopper,dynamic,,no,,no,,Boswall 1977 (pers. Comm),1,44,Pers. comm by M. Coombes. Seen in only one animal.
+birds,Parus major,Great tit,anecdotal,probe,probe bark crevices with pine needle for insect larvae,tooling,allocentric,1,needle to bark,dynamic,,no,,no,,Duyck & Duyck 1984,1,44,Seen in only one animal
+birds,Colluricincla harmonica,Grey shrikethrush,anecdotal,probe,probe hole with twig,tooling,allocentric,1,twig to hole,dynamic,,no,,no,,Mitchell 1972,1,44,Seen in only one animal.
+birds,Haematopus ostralegus,Eurasian oystercatcher,anecdotal,probe,probe crevice with stick,tooling,allocentric,1,stick to crevice,dynamic,,no,,no,,Olney in Boswall 1978,1,44,Seen in only one captive (zoo) animal on multiple occasions.
+birds,Pteroglossus erythropygius,Pale-mandibled aracari,anecdotal,probe,probe crevice with twig,tooling,allocentric,1,twig to crevice,dynamic,,yes,1-2,no,,Berg in Skutch 1996,1,44,"Seen in only one animal. In addition to detaching, removed twiglet protrusions."
+birds,Corvus moneduloides,New Caledonian crow,observational_experimental,probe,probe holes/crevices/under debris with sticks/stems/Pandanus hook tools,tooling,allocentric,1,stick to hole,dynamic,,yes,1-3,yes,,"Chappell & Kacelnik 2002; Cunisset 1909 in Hunt 2000; Hanne?cart and Le?tocart 1980 in Hunt 2000; Holzhaider et al. 2008; Hunt 1996, 2000a, 2000b; Hunt & Gray 2002, 2003, 2004a, 2004b, 2006, 2007; Hunt, Lambert & Gray, 2007; Hunt, Rutledge & Gray 2006; Kenward et al. 2005, 2006; Le Goupils 1928 in Hunt 2000; Orenstein 1972; Rutledge & Hunt 2004; Taylor et al. 2009; Troscianko, Bluff & Rutz 2008; Weir, Chappell & Kacelnik, 2002; Weir et al. 2004",24,44-47,"carry tools from stop to stop. Selective in tool material selection. Hook tools multiple manufacture steps (detach at fork, sculpt, remove any leaves and sharpen hook; qualify as ""tool Crafting"" by Shumaker), Pandanus tools multiple steps as well (detach, then cut w/ steps to a point; fold into ""boomerang"" shape); also remove twiglet protrusions after detaching a stick. Evidence that disposition, social learning and trial-and-error learning are important. tool manufacture/innovation seen in the lab. sequential tool use seen in lab."
+birds,Corvus splendens,Indian house crow,anecdotal,probe,probe cavity with leaf to extract ants,tooling,allocentric,1,leaf to cavity,dynamic,,no,,no,,Rajan & Balasubramanian 1989,1,47,Seen in only one animal
+birds,Corvus brachyrhynchos,American crow,anecdotal,probe,probe hole with wood piece,tooling,allocentric,1,wood to hole,dynamic,,yes,1-2,no,,Caffrey 2000,1,47,"Seen in only one animal. Detached piece from fence rail, used its beak to create a tapered end and used to investigate hole in same fence."
+birds,Cyanocorax luxuosus,Green jay,anecdotal,probe,probe under bark with twig,tooling,allocentric,1,twig to bark,dynamic,,no,,no,,Gayou 1982,1,47,Seen in 2/14 animals.
+birds,Corvus frugilegus,Rook,experimental,probe,probe into tube with twig/hook for reward in bucket,tooling,allocentric,1,stick/hook to reward,dynamic,,yes,1,no,,Bird & Emery 2009,1,47,Bent wire into hooks.
+birds,Bradornis microrhynchus,African grey flycatcher,anecdotal,probe,probe holes with stems for termites,tooling,allocentric,1,stem to hole,dynamic,,no,,no,,Boswall 1983,1,47,Seen in only one animal
+birds,Sitta pygmaea,Pygmy nuthatch,anecdotal,probe,probe crevice with twig,tooling,allocentric,1,twig to crevice,dynamic,,no,,no,,Pranty 1995,1,47,Seen in only one animal. Pers. comm from S. Russell et al.
+birds,Daphoenositta chrysoptera,Varied sittellas,anecdotal,probe,probe cavity with wood strip for larvae,tooling,allocentric,1,wood to cavity,dynamic,,no,,no,,Green 1972,1,47,Seen in only one animal.
+birds,Poecile gambeli,Mountain chickadee,anecdotal,probe,probe tree crack with wood splinter,tooling,allocentric,1,wood to crack,dynamic,,yes,1,no,,Gaddis 1981,1,47,Seen in only one animal. Did not appear to succeed in acquiring insect.
+birds,Cacatua sanguinea,Little corella,anecdotal,scratch,scratch self with matchstick,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Smith 1970,1,47,Seen in only one captive animal
+birds,Cacatua sulphurea,Sulphur-crested cockatoo,anecdotal,scratch,scratch self with stick,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Smith 1971,1,47,Seen in two separate captive animals. Accounts reported from R. Low (unclear if her own obervations related).
+birds,Psittacus erithacus,African grey parrot,observational,scratch,scratch self with stick/other objects,tooling,egocentric,1,stick to body,dynamic,,yes,1,no,,"Smith 1971; Boswall 1977b, 1978, 1983a, 1983b; Janzen, Janzen & Pond 1976",6,47-48,"Manufacture seen in two different animals (one tore splinters off posts in cage, another removed bark from twig)"
+birds,Amazona aestiva,Blue-fronted Amazon parrot,anecdotal,scratch,scratch self with stick,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Boswall 1977,1,,Report of Blanden's observation.
+birds,Cacatua moluccensis,Salmon-crested cockatoo,anecdotal,scratch,scratch self with stick/feather/wire,tooling,egocentric,1,stick to body,dynamic,,yes,1,no,,Boswall 1983,1,48,Seen in only one captive animal. Pers comm. by K. J. Bell. Bent detached feathers before using to scratch.
+birds,Cacatua sulphurea citrinocristata),Citron-crested cockatoo,anecdotal,scratch,scratch self with spoon,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Boswall 1983,1,48,Seen in only one captive animal. Pers comm. by B. Hoad.
+birds,Amazona sp.,Amazon parrot,anecdotal,scratch,scratch self with spoon,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Boswall 1983,1,48,Seen in only one captive animal. Pers comm. by G. Cashin
+birds,Ara ararauna,Blue-and-yellow macaw,anecdotal,scratch,scratch self with bone,tooling,egocentric,1,stick to body,dynamic,,no,,no,,Boswall 1983,1,48,Seen in only one captive animal. Pers comm. by B. Hoad.
+birds,Corvus brachyrhynchos,American crow,anecdotal,scratch,scratch self with toy,tooling,egocentric,1,toy to body,dynamic,,no,,no,,Cole 2004,1,48,Seen in only one captive animal
+birds,Ptilonorhynchus violaceus,Satin bowerbird,,block,use wad of bark as a stopper for fluid in beak,IOU,,,,,,,,,,,,48,
+birds,Corvus frugilegus,Rook,,block,put plug in drain hole,IOU,,,,,,,,,,,,48-49,
+birds,Columba livia,Rock pigeon,,prop,push box to climb up and reach banana,IOU,,,,,,,,,,,,49,
+birds,Corvus brachyrhynchos,American crow,,prop,reposition perch to reach object,IOU,,,,,,,,,,,,49,
+birds,Ciconia ciconia,White stork,,contain,wring water from wet moss,IOU,,,,,,,,,,,,49,
+birds,Psittacus erithacus,African grey parrot,,contain, scoop water out with tobacco pipe,IOU,,,,,,,,,,,,,Borderline (goal unclear)
+birds,Cacatua sulphurea,Sulphur-crested cockatoo,anecdotal,contain, scoop water to drink with nutshell/bottle top,tooling,egocentric,1,shell to water,dynamic,,no,,no,,Boswall 1983; Smith 1971,2,49,Seen in two separate captive animals.
+birds,Amazona ochrocephala,Yellow-crowned amazon,anecdotal,contain, scoop seeds/water to eat/drink with toy,tooling,egocentric,1,toy to seed,dynamic,,no,,no,,Boswall 1983,1,49,Seen in only one captive animal
+birds,Psittacus erithacus,African grey parrot,anecdotal,contain, scoop water to drink with bottle top,tooling,egocentric,1,top to water,dynamic,,no,,no,,Pepperberg & Shive 2001,1,49,Seen in only one experimental captive animal.
+birds,Nestor notabilis,Kea,,contain, scoop water out with cans/cups,IOU,,,,,,,,,,,,49,Borderline (goal unclear)
+birds,Cacatua (unspecified),Cockatoo,,contain, scoop water with walnut shell,IOU,,,,,,,,,,,,49,Borderline (goal unclear)
+birds,Corvus brachyrhynchos,American crow,anecdotal,contain, scoop water with cup to wet mash,tooling,allocentric,1,cup to mash,dynamic,,no,,no,,Beck pers obs; Hess pers. Comm,2,49,Seen in only one experimental captive animal. Pers comm/pers obs
+birds,Corvus brachyrhynchos,American crow,,contain, scoop food/water/items to transport with cup/nozzle/toy,IOU,,,,,,,,,,,,49,Seen in only one captive animal. Unclear if goal directed.
+birds,Poecile palustris,Marsh tit,anecdotal,contain,dip sticker into food to acquire and store,tooling,allocentric,1,sticker to food,dynamic,,yes,1,no,,Clayton & Jolliffe 1996,1,49,"Seen in one captive animal, then learned by the bird in the cage next to it"
+birds,Melanerpes uropygialis,Gila woodpecker,,absorb,dip bark to absorb honey to feed fledglings,IOU,,,,,,,,,,,,49,
+birds,Euphagus cyanocephalus,Brewer’s blackbird,,absorb,dip grasshoppers to absorb water to feed nestlings,IOU,,,,,,,,,,,,50,
+birds,Grus canadensis,Sandhill crane,anecdotal,wipe,wipe with towel to dry after swimming,tooling,egocentric,1,towel to body,dynamic,,no,,no,,Bartlett & Bartlett 1973,1,50,Seen in only one captive animal
+birds,Pseudoscops clamator,Striped owl,anecdotal,wipe,wipe residue off chicks with leaves,tooling,allocentric,1,leaf to chick,dynamic,,no,,no,,Goodman & Fisk 1973,1,50,Seen in only one captive animal
+birds,Cyanocitta cristata,Blue jay,anecdotal,wipe,wipe food bowl with wetted paper,tooling,allocentric,1,Paper to bowl,dynamic,,yes,1,no,,Jones & Kamil 1973,1,50,Seen in only one captive animal
+birds,Leiothrix lutea,Red-billed leiothrix,anecdotal,wipe,wipe self with leaves after bathing,tooling,egocentric,1,leaf to body,dynamic,,yes,1,no,,Boswall 1978,1,50,Seen in only one captive animal. Pers comm by Gibson.
+birds,Passerine spp.,Songbirds,,affix,"apply ants to plumage (""anting"")",IOU,,,,,,,,,,,,50,
+birds,Galliform spp.,Gamefowl,,affix,"apply ants to plumage (""anting"")",IOU,,,,,,,,,,,,50,
+birds,Psittaciform spp.,Parrots,,affix,"apply ants to plumage (""anting"")",IOU,,,,,,,,,,,,50,
+birds,Piciform spp.,woodpeckers,,affix,"apply ants to plumage (""anting"")",IOU,,,,,,,,,,,,50,
+birds,Corvus frugilegus,Rook,,affix,"apply smoke/embers to plumage (a type of ""anting""?)",IOU,,,,,,,,,,,,50-51,
+birds,Garrulus glandarius,Eurasian jay,,affix,"apply smoke/embers to plumage (a type of ""anting""?)",IOU,,,,,,,,,,,,51,
+birds,Corvid spp.,Crows,,affix,"apply smoke/embers to plumage (a type of ""anting""?)",IOU,,,,,,,,,,,,51,
+birds,Phalacrocorax auritus,Double-crested cormorant,anecdotal,affix,apply preen oil using a molted feather,tooling,,2,1) feather to gland 2) feather to body,dynamic,,no,,no,,Meyerriecks 1972,1,51,Seen in only one animal.
+birds,Probosciger aterrimus,Palm cockatoo,,affix,place leaf in between nut and mandible (to keep nut from slipping),IOU,,,,,,,,,,,,51,
+birds,Anodorhynchus hyacinthinus,Hyacinth macaw,,affix,place objects in beak to prevent slipping during extraction,IOU,,,,,,,,,,,,51,
+birds,Sericulus spp.,Bowerbirds,,affix,"""paint"" bower by applying various items (e.g. masticated charcoal, mud etc)",IOU,,,,,,,,,,,,51,
+birds,Ptilonorhynchus violaceus,Satin bowerbird,,affix,"""paint"" bower by applying various items (e.g. masticated charcoal, mud etc)",IOU,,,,,,,,,,,,51,
+birds,Chlamydera spp.,Bowerbirds,,affix,"""paint"" bower by applying various items (e.g. masticated charcoal, mud etc)",IOU,,,,,,,,,,,,51,
+birds,Ptilonorhynchus violaceus,Satin bowerbird,observational,affix,"""paint"" bower using wadded bark as brush",tooling,allocentric,2,"1) bark to ""paint"" 2) bark to bower ",dynamic,,yes,1-2,no,,Chaffer 1931; Frith and Frith 2004; Gannon 1930; Marshall 1954,4,51-52,"not certain if wad of bark functions only to hold more paint in the beak, or if it is also used to apply paint. Detach fibers from bark then form into pellets"
+birds,Sitta carolinensis,White-breasted nuthatches,,affix,"""sweep"" nest with crushed insects held in beak",IOU,,,,,,,,,,,,52,
+birds,Corvus brachyrhynchos,American crow,,affix,place paper towel over container,IOU,,,,,,,,,,,,52,
+birds,Corvus corax,Raven,,affix,cover stored food with debris,IOU,,,,,,,,,,,,52,
+birds,Sitta spp.,Nuthatches,,affix,cover stored food with bark,IOU,,,,,,,,,,,,52,
+birds,Pica hudsonia,Black-billed magpie,,affix,cover dead magpie with grass,IOU,,,,,,,,,,,,52,
+birds,Laridae spp.,Gulls/ terns,,affix,place stone in nest (when only two eggs instead of three - to make incubation more comfortable?),IOU,,,,,,,,,,,,52,
+invertebrates,Tetramorium caepitum,Pavement ant,,drop,drop soil onto bees,IOU,,,,,,,,,,,,23,
+invertebrates,Conomyrma bicolor,Dolichoderine ant,,drop,drop stones onto ant nest entrances,IOU,,,,,,,,,,,,23,
+invertebrates,Podium (unspecified),Wasp,,drop,drop water from mouth (to soften earth for excavation),IOU,,,,,,,,,,,,23,
+invertebrates,Myrmeleon spp.,Ant-lion (larvae),,throw,throw sand (to keep prey in pit),IOU,,,,,,,,,,,,23,
+invertebrates,Vermileo spp.,Worm-lion (larvae),,throw,throws sand at prey (to prevent escape or knock into pit),IOU,,,,,,,,,,,,23,
+invertebrates,Salyavata variegata,Assassin bug,observational_experimental, bait,lure termites by holding termite carcasses by nest hole (to fish),tooling,egocentric,1,carcass to termite,dynamic,,no,,no,,"McMahan 1982, 1983a, 1983b",3,24,
+invertebrates,Empididae spp.,Empid flies,, bait,present a cocooned insect as a nuptial gift,IOU,,,,,,,,,,,,24,
+invertebrates,Ammophila spp.,Digger wasp,observational,pound,pound burrow shut with object in mandibles,tooling,allocentric,1,object to burrow,dynamic,,no,,no,,"Armbruster 1921; Berland in Thorpe 1963; Evans 1959, 1965; Evans & Eberhard 1970; Frisch 1940; Haeseler 1985; Hartman 1905; Hungerford & Williams 1912; Iwata 1976; Minckiewicz in Thorpe 1963; Molitor 1931; Peckham & Peckham 1898; Rayment in Frisch 1940; Tilden 1953; Tsuneki 1968; Wheeler & Wheeler 1924; Williston 1892",18,24,
+invertebrates,Sphex spp.,Digger wasp,observational,pound,pound burrow shut with object in mandibles,tooling,allocentric,1,object to burrow,dynamic,,no,,no,,"Brockmann 1985; Hicks 1932a, 1932b; Iwata 1976;  Rau & Rau 1918; Wheeler & Wheeler 1924",6,24,
+invertebrates,Ammophila procera,Digger wasp,anecdotal,insert,probe nest burrows with small twigs to pack soil,tooling,allocentric,1,probe to burrow,dynamic,,no,,no,,Brockmann pers comm to Beck 1977; Hartman 1905,2,24,
+invertebrates,Aphaenogaster spp.,Funnel ant,,contain,transport food on objects,IOU,,,,,,,,,,,,24,
+invertebrates,Solenopsis invicta,Fire ant,,contain,transport food on objects,IOU,,,,,,,,,,,,24,
+invertebrates,novomessor albisetosus,Desert harvester ant,,contain,transport food on soil,IOU,,,,,,,,,,,,24,
+invertebrates,Pogonomyrmex badius,Florida harvester ant,,contain,transport food on sand,IOU,,,,,,,,,,,,24,
+invertebrates,Chrysopidae spp.,Lacewing (larvae),,affix,cover self in debris,IOU,,,,,,,,,,,,25,
+invertebrates,Chrysomelidae spp.,leaf beetle (larvae),,affix,cover self in shed skin and faeces,IOU,,,,,,,,,,,,25,
+invertebrates,Reduviidae spp.,Assassin bug (larvae),,affix,"carry ""backpacks"" of organic parts (as camouflage)",IOU,,,,,,,,,,,,25,
+invertebrates,Vermileo spp.,Worm-lion (larvae),,affix,shed liquid from final larval cuticle so sand adheres and anchors the pupal cuticle,IOU,,,,,,,,,,,,25,
+invertebrates,Ascalaphidae spp.,none,,affix,cover self with camouflage,IOU,,,,,,,,,,,,25,
+invertebrates,Derodontidae spp.,none (larvae),,affix,flakes of wool/bark stuck to self with secretions,IOU,,,,,,,,,,,,25,
+invertebrates,Geometridae spp.,none,,affix,cover self with camouflage,IOU,,,,,,,,,,,,25,
+invertebrates,Eurysphindus hirtus,none (larvae),,affix,cover self in slime mold,IOU,,,,,,,,,,,,25,
+invertebrates,Bystus decorator,none (larvae),,affix,cover self in debris,IOU,,,,,,,,,,,,25,
+invertebrates,Oecophylla spp.,Weaver ant,,affix,hold larvae producing silk secretions against nest to bind it together,IOU,,,,,,,,,,,,25,Borderline case.
+invertebrates,Polyrhachis spp.,Weaver ant,,affix,hold larvae producing silk secretions against nest to bind it together,IOU,,,,,,,,,,,,25,Borderline case.
+invertebrates,Dendromyrmex spp.,Weaver ant,,affix,hold larvae producing silk secretions against nest to bind it together,IOU,,,,,,,,,,,,25,Borderline case.
+invertebrates,Hydroptilidae spp.,Microcaddisflies (larvae),,affix,spin a casing to which debris is attached,IOU,,,,,,,,,,,,26,
+invertebrates,Gerris remigis,Water strider (females),,affix,females carry a copulating male (to allow foraging without harrassment by other males),IOU,,,,,,,,,,,,26,
+invertebrates,Sphecidae spp. (Ammophila & Sphex),Digger wasp,,affix,place debris over nest entrance (to camouflage),IOU,,,,,,,,,,,,26,
+invertebrates,Apiomerus flaviventris,Bee assassin bug,,affix,apply plant resin to egg masses,IOU,,,,,,,,,,,,26,
+invertebrates,Lytechinus variegatus,Green sea urchin,,affix,cover self with debris (as light protection),IOU,,,,,,,,,,,,26,
+invertebrates,Evechinus chlorticus,Kina,,affix,cover self with debris (as food source),IOU,,,,,,,,,,,,26,
+invertebrates,Sterechinus neumayeri,Antarctic sea urchins,,affix,cover self with debris (as predator protection),IOU,,,,,,,,,,,,26,
+invertebrates,Cystechinus loveni,Heart urchin,,affix,cover self with debris (as camouflage),IOU,,,,,,,,,,,,26,
+invertebrates,Strongylocentrotus droebachiensis,Green sea urchin,,affix,cover self with debris (as enviro. Protection),IOU,,,,,,,,,,,,26-27,
+invertebrates,Lybia spp. (tessalata & edmondsoni),Boxer crab,,brandish,waves anemone (as protection; also eats food found on anemone),IOU,,,,,,,,,,,,27,Borderline case.
+invertebrates,Diogenes edwardsi,Hermit crab,,block,carry anemone to block shell opening,IOU,,,,,,,,,,,,27,
+invertebrates,Paguridea spp.,Hermit crab,,affix,occupy/carry shell (as protection),IOU,,,,,,,,,,,,27-28,
+invertebrates,Paguirdea spp.,Hermit crab,,affix,attach anemone to shell (as protection),IOU,,,,,,,,,,,,28,
+invertebrates,Paguropsis typica,Blanket hermit crab,,affix,hold anemone to body,IOU,,,,,,,,,,,,28,
+invertebrates,Dromiidae spp.,Sponge crab,,affix,cut sponge and hold over carapace (as shelter/defence),IOU,,,,,,,,,,,,28,
+invertebrates,Homolidae spp.,Carrier crab,,affix,carry organisms/debris (as defense),IOU,,,,,,,,,,,,28,Borderline case. Actual active use against predators not confirmed.
+invertebrates,Majidae spp.,Decorator crab,,affix,cover self in other organisms (as camouflage/ food store),IOU,,,,,,,,,,,,28-29,
+invertebrates,Tymolidae spp.,Crab,,affix,carry other organisms,IOU,,,,,,,,,,,,28,
+invertebrates,droppidae spp.,Crab,,affix,carry other organisms,IOU,,,,,,,,,,,,28,
+invertebrates,Latreillidae spp.,Crab,,affix,carry other organisms,IOU,,,,,,,,,,,,28,
+invertebrates,Deinopidae spp.,Net-casting spiders,,throw,throw part of web at prey,IOU,,,,,,,,,,,,29,
+invertebrates,Mastophora spp.,Bolas spiders,,throw,swing a sticky ball of secretions on a thread at prey,IOU,,,,,,,,,,,,29,Borderline case.
+invertebrates,Pisaura spp.,Nursery web spiders,, bait,present flies as gift,IOU,,,,,,,,,,,,29,
+invertebrates,Ariadna spp.,Corolla spiders,,affix,place and affix stones in circle at burrow entrance,IOU,,,,,,,,,,,,29,
+invertebrates,Homalonychidae theologus,Wandering spiders,,affix,cover bodies in fine soil,IOU,,,,,,,,,,,,30,
+invertebrates,Homalonychus theologus,Wandering spiders,,affix,incorporate sand into eggs sace (as camouflage and/or dessication prevention),IOU,,,,,,,,,,,,30,
+invertebrates,Sicarius spp.,Recluse spiders,,affix,cover bodies in soil/sand (as camouflage),IOU,,,,,,,,,,,,30,
+invertebrates,Cryptothele spp.,none,,affix,cover bodies in soil/sand (as camouflage),IOU,,,,,,,,,,,,30,
+invertebrates,Paratropis spp.,Bald legged spiders,,affix,cover bodies in soil/sand (as camouflage),IOU,,,,,,,,,,,,30,
+invertebrates,Microstigmata spp.,none,,affix,cover bodies in soil/sand (as camouflage),IOU,,,,,,,,,,,,30,
+invertebrates,Bradystichus spp.,Nursery web spiders,,affix,cover bodies in soil/sand (as camouflage),IOU,,,,,,,,,,,,30,
+invertebrates,Trogulus spp.,Daddy long legs,,affix,cover bodies in soil/sand (as camouflage),IOU,,,,,,,,,,,,30,
+invertebrates,Rhechostica hentzi,Texas brown tarantula,,affix,bind soil in burrow with silk to carry away,IOU,,,,,,,,,,,,30,
+invertebrates,Lycosa spp.,Wolf spiders,,affix,bind soil in burrow with silk to carry away,IOU,,,,,,,,,,,,30,
+invertebrates,Cerbalus psammodes,Huntsman spider,,affix,bind soil in burrow with silk to carry away,IOU,,,,,,,,,,,,30,
+invertebrates,Latrodectus hesperus,Black widow spider,,affix,place/drop web on predator,IOU,,,,,,,,,,,,30,
+invertebrates,Octopus spp.,Octopus,,throw,shoot jets of water at other animals,IOU,,,,,,,,,,,,30,
+invertebrates,Octopus spp.,Octopus,,dig,shoot jets of water to excavate shelters,IOU,,,,,,,,,,,,30,
+invertebrates,Octopus spp.,Octopus,,block,use stones/oysters to prop open shells,IOU,,,,,,,,,,,,30-31,
+invertebrates,Octopus digueti,Paroctopus,,block,use clamshell as a lid for shell shelter,IOU,,,,,,,,,,,,30,
+invertebrates,Octopus spp.,Octopus,,block,place objects to conceal shelter entrance,IOU,,,,,,,,,,,,31,
+invertebrates,Rossia pacifica,Stubby squid,,affix,throw sand onto its body (as camouflage),IOU,,,,,,,,,,,,31,
+invertebrates,Amphioctopus marginatus,Veined octopus,,affix,carry coconut shells to use as shelter,IOU,,,,,,,,,,,,31,Construction.
+invertebrates,Tegula brunnea,Brown turban snail,,pry,grab pebbles to right itself,IOU,,,,,,,,,,,,32,
+invertebrates,Tegula funebralis,Black turban snail,,pry,grab pebbles to right itself,IOU,,,,,,,,,,,,32,
+invertebrates,Xenophora conchyliophora,Carrier shell,,affix,affixes empty shells/debris to own shell (as protection/camouflage),IOU,,,,,,,,,,,,33,
+invertebrates,Unknown gastropod sp.,Aquatic snail,anecdotal,affix,grab two rocks with foot and place on either side of shell fragment to break it free,tooling,egocentric,1,rock to self,dynamic,,no,,no,,Hobbie 1993,1,33,Account published in creationist journal

@@ -1,0 +1,312 @@
+---
+title: "Tooling review"
+author: "Christoph Voelter"
+date: "10/12/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+rm(list = ls())
+library(tidyverse)
+library(ggthemes)
+library(summarytools)
+library("ggsci")
+library("viridis") 
+
+```
+
+Read data
+```{r}
+all.data<-read.csv(file = "data/Tooling_Table_V5.csv", stringsAsFactors=FALSE)%>%
+  filter(tooling_or_IOU!="")%>%
+  mutate(tooling=ifelse(tooling_or_IOU=="tooling", 1, ifelse(tooling_or_IOU=="IOU",0,NA)))%>%
+  mutate(group=fct_relevel(group, "great apes", "lesser apes", "ow_monkeys", "nw_monkeys", "prosimians", "mammals", "birds", "reptiles", "amphibians","fish", "invertebrates"))
+
+
+tooling.data<-all.data%>%
+  filter(tooling_or_IOU=="tooling")%>%
+  mutate(mode2=fct_recode(mode, "bait"=" bait", "pry"="pry/dig", "pound"= "pound/cut"))%>%
+  droplevels()
+
+#checks:
+view(dfSummary(all.data))
+
+view(dfSummary(tooling.data))
+
+levels(tooling.data$group)
+
+levels(tooling.data$mode)
+levels(tooling.data$mode2)
+
+table(all.data$tooling, all.data$total_references)
+table(all.data$tooling, all.data$manufacture)
+table(all.data$tooling, all.data$associative)
+
+```
+Phylogenetic distribution of tooling
+```{r}
+tooling.group.data<-tooling.data%>%
+    group_by(group)%>%
+  summarise(mean_tooling=mean(tooling, na.rm = TRUE), sd_tooling=sd(tooling , na.rm = TRUE), count_tool_use=length(tooling), sum_tooling=sum(tooling, na.rm = TRUE), prop=sum_tooling/381)%>%
+  mutate(group=fct_recode(group, "old world monkeys"="ow_monkeys", "new world monkeys"="nw_monkeys", "non-primate mammals"="mammals", "gibbons"="lesser apes"))%>%
+  ungroup()%>%
+  arrange(desc(group))
+
+tooling.group.data%>%summarise(sum(sum_tooling))
+
+```
+
+```{r}
+
+tooling.group.data$label <- scales::percent(tooling.group.data$prop,  accuracy=0.1)
+
+tooling.group.plot<- ggplot(tooling.group.data, aes(x="", y=prop, fill=group))+
+geom_bar(width = 1, stat = "identity") + 
+   coord_polar("y", start=0)+
+  theme_void()+ # remove background, grid, numeric labels
+  scale_fill_manual(values=c("#011638","royalblue4","#016FB9","#56B4E9","#D95F02","#66A61E","#E69F00"))+
+  #scale_fill_brewer(palette = "Dark2")+
+   theme(legend.title = element_blank()) +
+  geom_text(aes(x=1.7, y = cumsum(prop) - prop/2, label=label, show.legend = FALSE))+
+  scale_colour_manual(values=c("#000000"))
+tooling.group.plot
+
+
+ggsave(tooling.group.plot, filename="graphs/tooling_pie_chart.png", width=6, height=4, scale=0.8)
+
+```
+
+
+```{r}
+tooling.group.data2<-all.data%>%
+    group_by(group)%>%
+  summarise(Tooling=sum(tooling, na.rm = TRUE), No.Tooling=sum(tooling==0, na.rm = TRUE))%>%
+  gather(tool_use_type,value, Tooling, No.Tooling)%>%
+  mutate(group=fct_recode(group, "old world monkeys"="ow_monkeys", "new world monkeys"="nw_monkeys", "non-primate mammals"="mammals","gibbons"="lesser apes"), tool_use_type=fct_recode(tool_use_type, "Tool-use"="No.Tooling"))
+
+```
+
+```{r}
+
+tooling.group.plot2<- ggplot(tooling.group.data2, aes(x=group, y=value, fill=tool_use_type))+
+geom_col(position = "stack")+
+  #geom_bar(stat = "identity") + 
+    coord_flip()+
+#  theme_void()+ # remove background, grid, numeric labels
+  #scale_fill_manual(values=c("#2E282A","#FFC914"))+
+  scale_fill_brewer(name="Dark3")+
+  theme_bw()+
+   theme(legend.title = element_blank(), legend.position = c(0.8, 0.8), panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+  ylab("Number of tool use cases")+
+  xlab("")
+  
+tooling.group.plot2
+
+ggsave(tooling.group.plot2, filename = "graphs/tooling_by_group.png", height=6, width = 8, scale=0.55)
+```
+
+```{r}
+tooling.group.data.unique<-all.data%>%
+  mutate(mode2=fct_recode(mode, "bait"=" bait", "pry"="pry/dig", "pound"= "pound/cut"))%>%
+  droplevels()%>%
+  group_by(group, tooling_or_IOU)%>%
+  summarise(mode.unique=length(unique(mode2, na.rm = TRUE)))%>%
+  mutate(group=fct_recode(group, "old world monkeys"="ow_monkeys", "new world monkeys"="nw_monkeys", "non-primate mammals"="mammals", "gibbons"="lesser apes"))
+
+```
+```{r}
+
+tooling.group.plot.unique<- ggplot(tooling.group.data.unique, aes(x=group, y=mode.unique, fill=tooling_or_IOU))+
+geom_col(position = "stack")+
+  #geom_bar(stat = "identity") + 
+    coord_flip()+
+#  theme_void()+ # remove background, grid, numeric labels
+  #scale_fill_manual(values=c("#2E282A","#FFC914"))+
+  scale_fill_brewer(name="Dark3")+
+  theme_bw()+
+   theme(legend.title = element_blank(), legend.position = c(0.8, 0.8), panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+  ylab("Number of tool use modes")+
+  xlab("")
+  
+tooling.group.plot.unique
+```
+
+
+
+
+### Tool-use vs tooling
+
+
+
+```{r}
+tooling.group.data3<-all.data%>%
+  mutate(support2=ifelse(support=="anecdotal", support, ifelse(support=="", NA, "observational/experimental")))%>%
+  mutate(tooling_ane=ifelse(support2=="anecdotal"& tooling==1,1, 0), tooling_obs=ifelse(support2=="observational/experimental"& tooling==1,1, 0))%>%
+    group_by(group)%>%
+  summarise(Tooling_anecdotal=sum(tooling_ane, na.rm = TRUE), Tooling_observational=sum(tooling_obs, na.rm = TRUE), No.Tooling=sum(tooling==0, na.rm = TRUE))%>%
+  gather(tool_use_type,value, Tooling_observational, Tooling_anecdotal, No.Tooling)%>%
+  mutate(group=fct_recode(group, "old world monkeys"="ow_monkeys", "new world monkeys"="nw_monkeys", "non-primate mammals"="mammals", "gibbons"="lesser apes"), tool_use_type=fct_recode(tool_use_type, "Tool-use"="No.Tooling", "Tooling"="Tooling_observational", "Tooling (anecdotal)"="Tooling_anecdotal"))
+
+```
+```{r}
+
+tooling.group.plot3<- ggplot(tooling.group.data3, aes(x=group, y=value, fill=tool_use_type))+
+geom_col(position = "stack")+
+  #geom_bar(stat = "identity") + 
+    coord_flip()+
+#  theme_void()+ # remove background, grid, numeric labels
+  scale_fill_manual(values=c("lightgrey","#A1D99B","#66A61E" ))+
+ # scale_fill_brewer(palette="Paired")+
+  theme_bw()+
+   theme(legend.title = element_blank(), legend.position = c(0.65, 0.76), panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+  ylab("Number of tool use cases")+
+  xlab("")+
+  ylim(0, 370)
+  
+tooling.group.plot3
+
+ggsave(tooling.group.plot3, filename = "graphs/tooling_by_group_support.png", height=6, width = 8, scale=0.65)
+```
+
+Tool manufacturing
+
+```{r}
+tooling.group.data.manu<-all.data%>%
+  mutate(support2=ifelse(support=="anecdotal", support, ifelse(support=="", NA, "observational/experimental")))%>%
+  mutate(manufacture_ane=ifelse(support2=="anecdotal"& tooling==1 & manufacture=="yes",1, ifelse(support2=="anecdotal"& tooling==1 & manufacture=="no",0,NA)),                              manufacture_obs=ifelse(support2=="observational/experimental"& tooling==1 & manufacture=="yes",1, ifelse(support2=="observational/experimental"& tooling==1 & manufacture=="no",0,NA)),
+  tooling_no.manu=ifelse(tooling==1 & manufacture=="no",1, ifelse( tooling==1 & manufacture=="yes",0,NA)))%>%
+    group_by(group)%>%
+  summarise(Manufacture_anecdotal=sum(manufacture_ane, na.rm = TRUE), Manufacture_observational=sum(manufacture_obs, na.rm = TRUE), Tooling=sum(tooling_no.manu, na.rm = TRUE))%>%
+  gather(tool_use_type,value, Manufacture_observational, Manufacture_anecdotal, Tooling)%>%
+  mutate(group=fct_recode(group, "old world monkeys"="ow_monkeys", "new world monkeys"="nw_monkeys", "non-primate mammals"="mammals","gibbons"="lesser apes"), tool_use_type=fct_recode(tool_use_type, "Manufacture"="Manufacture_observational", "Manufacture (anecdotal)"="Manufacture_anecdotal"))%>%
+  mutate(tool_use_type=relevel(tool_use_type,  "Tooling", "Manufacture (anecdotal)","Manufacture"  ))
+
+```
+
+```{r}
+
+tooling.group.manu.plot<- ggplot(tooling.group.data.manu, aes(x=group, y=value, fill=tool_use_type))+
+geom_col(position = "stack")+
+  #geom_bar(stat = "identity") + 
+    coord_flip()+
+#  theme_void()+ # remove background, grid, numeric labels
+  scale_fill_manual(values=c("#A1D99B" ,"#9ECAE1","#4292C6" ))+
+ # scale_fill_brewer(palette="Paired")+
+  theme_bw()+
+   theme(legend.title = element_blank(), legend.position = c(0.65, 0.76), panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+  ylab("Number of tool manufacture cases")+
+  xlab("")+
+  ylim(0, 370)
+  
+tooling.group.manu.plot
+
+ggsave(tooling.group.manu.plot, filename = "graphs/tool_manufacturing_by_group_support.png", height=6, width = 8, scale=0.65)
+```
+
+Associative tool use
+
+
+```{r}
+tooling.group.data.associative<-all.data%>%
+  mutate(support2=ifelse(support=="anecdotal", support, ifelse(support=="", NA, "observational/experimental")))%>%
+         mutate(associative_ane=ifelse(support2=="anecdotal"& tooling==1 & associative=="yes",1, ifelse(support2=="anecdotal"& tooling==1 & associative=="no",0,NA)),
+        associative_obs=ifelse(support2=="observational/experimental"& tooling==1 & associative=="yes",1, ifelse(support2=="observational/experimental"& tooling==1 & associative=="no",0,NA)),
+  tooling_no.assoc=ifelse(tooling==1 & associative=="no",1, ifelse( tooling==1 & associative=="yes",0,NA))) %>%
+    group_by(group)%>%
+  summarise(Associative_anecdotal=sum(associative_ane, na.rm = TRUE), Associative_observational=sum(associative_obs, na.rm = TRUE), Tooling=sum(tooling_no.assoc, na.rm = TRUE))%>%
+  gather(tool_use_type,value, Associative_observational, Associative_anecdotal, Tooling)%>%
+  mutate(group=fct_recode(group, "old world monkeys"="ow_monkeys", "new world monkeys"="nw_monkeys", "non-primate mammals"="mammals", "gibbons"="lesser apes"), tool_use_type=fct_recode(tool_use_type, "Associative Tooling"="Associative_observational", "Associative Tooling (anecdotal)"="Associative_anecdotal"))%>%
+  mutate(tool_use_type=relevel(tool_use_type,  "Tooling", "Manufacture (anecdotal)","Manufacture"  ))
+
+```
+
+```{r}
+
+tooling.group.assoc.plot<- ggplot(tooling.group.data.associative, aes(x=group, y=value, fill=tool_use_type))+
+geom_col(position = "stack")+
+  #geom_bar(stat = "identity") + 
+    coord_flip()+
+#  theme_void()+ # remove background, grid, numeric labels
+  scale_fill_manual(values=c("#A1D99B" ,"#FDD0A2","#F16913" ))+
+ # scale_fill_brewer(palette="Paired")+
+  theme_bw()+
+   theme(legend.title = element_blank(), legend.position = c(0.65, 0.76), panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+  ylab("Number of associative tooling cases")+
+  xlab("")+
+  ylim(0, 370)
+  
+tooling.group.assoc.plot
+
+ggsave(tooling.group.assoc.plot, filename = "graphs/tool_associative_by_group_support.png", height=6, width = 8, scale=0.65)
+```
+Combine plots
+```{r}
+library(cowplot)
+pg<-plot_grid(tooling.group.plot3, tooling.group.manu.plot, tooling.group.assoc.plot, nrow=3, labels = c("A", "B", "C"))
+
+ggsave(pg, filename="graphs/tooling_by_group_plot_grid.png", width = 6, height=10, scale=0.8)
+
+```
+
+
+
+
+           
+Mode distribution
+```{r}
+tooling.mode.data<-tooling.data%>%
+  mutate(group=fct_recode(group, "old world monkeys"="ow_monkeys", "new world monkeys"="nw_monkeys", "non-primate mammals"="mammals","gibbons"="lesser apes"))%>%
+    group_by(mode2, group)%>%
+  summarise( sum_tooling=sum(tooling, na.rm = TRUE), sum_studies=sum(total_references, na.rm = TRUE))
+
+```
+
+```{r}
+
+tooling.mode.plot<- ggplot(tooling.mode.data%>%filter(group!="invertebrates"), aes(x=mode2, y=sum_tooling, fill=mode2))+
+geom_bar(width = 1, stat = "identity") + 
+  #coord_polar("y", start=0)+
+  theme_bw()+ # remove background, grid, numeric labels
+  coord_flip()+
+  #scale_fill_manual(values=c("#011638","#003249","#016FB9","#56B4E9","#007EA7","#CDCDCD","#E69F00","#212922","#294936","#999999", "#E69F00"))+
+   theme(legend.position="none", panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+  facet_wrap(~group) +
+  ylab("Number of tooling cases")+
+  xlab("")+
+   scale_fill_viridis(discrete = TRUE)
+
+tooling.mode.plot
+
+ggsave(tooling.mode.plot, filename = "graphs/tooling_mode_by_group.png", height=7, width = 10, scale=0.66)
+```
+
+
+Mode distribution (number of references)
+
+```{r}
+
+tooling.mode.plot_refs<- ggplot(tooling.mode.data%>%filter(group!="invertebrates"), aes(x=mode2, y=sum_studies, fill=mode2))+
+geom_bar(width = 1, stat = "identity") + 
+  #coord_polar("y", start=0)+
+  theme_bw()+ # remove background, grid, numeric labels
+  coord_flip()+
+  #scale_fill_manual(values=c("#011638","#003249","#016FB9","#56B4E9","#007EA7","#CDCDCD","#E69F00","#212922","#294936","#999999", "#E69F00"))+
+   theme(legend.position="none", panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
+  facet_wrap(~group) +
+  ylab("Number of references")+
+  xlab("")+
+   scale_fill_viridis(discrete = TRUE)
+
+tooling.mode.plot_refs
+
+ggsave(tooling.mode.plot_refs, filename = "graphs/tooling_mode_by_group_number_references.png", height=7, width = 10, scale=0.66)
+```
